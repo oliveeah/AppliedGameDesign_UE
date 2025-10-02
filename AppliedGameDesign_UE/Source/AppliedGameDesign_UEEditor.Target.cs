@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class AppliedGameDesign_UEEditorTarget : TargetRules
 {
-	public AppliedGameDesign_UEEditorTarget(TargetInfo Target) : base(Target)
+	public AppliedGameDesign_UEEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;

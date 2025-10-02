@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\linda\\documents\\github\\appliedgamedesign_ue\\appliedgamedesign_ue\\source\\appliedgamedesign_ue\\appliedgamedesign_ue.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\linda\\documents\\github\\appliedgamedesign_ue\\appliedgamedesign_ue\\intermediate\\build\\win64\\x64\\appliedgamedesign_ueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\linda\\documents\\github\\appliedgamedesign_ue\\appliedgamedesign_ue\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\appliedgamedesign_ue\\definitions.appliedgamedesign_ue.h",
+            "c:\\users\\linda\\documents\\github\\appliedgamedesign_ue\\appliedgamedesign_ue\\source\\appliedgamedesign_ue\\appliedgamedesign_ue.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

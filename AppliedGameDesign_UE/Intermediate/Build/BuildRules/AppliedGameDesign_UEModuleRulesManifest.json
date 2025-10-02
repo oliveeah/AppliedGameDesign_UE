@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\linda\\Documents\\GitHub\\AppliedGameDesign_UE\\AppliedGameDesign_UE\\Source\\AppliedGameDesign_UE\\AppliedGameDesign_UE.Build.cs",
+		"C:\\Users\\linda\\Documents\\GitHub\\AppliedGameDesign_UE\\AppliedGameDesign_UE\\Source\\AppliedGameDesign_UE.Target.cs",
+		"C:\\Users\\linda\\Documents\\GitHub\\AppliedGameDesign_UE\\AppliedGameDesign_UE\\Source\\AppliedGameDesign_UEEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

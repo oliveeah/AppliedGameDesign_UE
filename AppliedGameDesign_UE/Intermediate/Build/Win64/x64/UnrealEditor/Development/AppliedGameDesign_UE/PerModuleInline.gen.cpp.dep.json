@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\linda\\documents\\github\\appliedgamedesign_ue\\appliedgamedesign_ue\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\appliedgamedesign_ue\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\linda\\documents\\github\\appliedgamedesign_ue\\appliedgamedesign_ue\\intermediate\\build\\win64\\x64\\appliedgamedesign_ueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\linda\\documents\\github\\appliedgamedesign_ue\\appliedgamedesign_ue\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\appliedgamedesign_ue\\definitions.appliedgamedesign_ue.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

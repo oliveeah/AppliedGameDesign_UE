@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AppliedGameDesign_UE",
+			"Path": "..\\Source\\AppliedGameDesign_UE.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AppliedGameDesign_UEEditor",
+			"Path": "..\\Source\\AppliedGameDesign_UEEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AppliedGameDesign_UE.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AppliedGameDesign_UE.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AppliedGameDesign_UEEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AppliedGameDesign_UE">
+      <UniqueIdentifier>{BB875C8B-37AF-30FD-9E2A-DFAA2C6784CB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AppliedGameDesign_UE\AppliedGameDesign_UE.Build.cs">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\AppliedGameDesign_UE.cpp">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\AppliedGameDesign_UE.h">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
