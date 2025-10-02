@@ -1,5 +1,10 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.AppliedGameDesign_UE.gen.cpp.obj": [
+			"AppliedGameDesign_UE.init.gen.cpp.obj",
+			"playerActor.gen.cpp.obj",
+			"TouchGameMode.gen.cpp.obj"
+		]
 	}
 }

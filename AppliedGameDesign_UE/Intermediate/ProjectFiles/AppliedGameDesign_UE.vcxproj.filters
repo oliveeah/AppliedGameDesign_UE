@@ -11,6 +11,8 @@
     <None Include="..\..\Source\AppliedGameDesign_UEEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -36,6 +38,18 @@
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AppliedGameDesign_UE\AppliedGameDesign_UE.h">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\playerActor.cpp">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\playerActor.h">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\TouchGameMode.cpp">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\TouchGameMode.h">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClInclude>
   </ItemGroup>
