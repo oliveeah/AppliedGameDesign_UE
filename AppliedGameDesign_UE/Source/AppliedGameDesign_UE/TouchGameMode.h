@@ -20,4 +20,5 @@ public:
 	
 	ATouchGameMode();
 
+//	ACameraActor* cameraActor;
 };
