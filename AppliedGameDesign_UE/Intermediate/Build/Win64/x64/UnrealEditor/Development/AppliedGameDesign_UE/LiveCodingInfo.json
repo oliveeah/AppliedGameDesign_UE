@@ -3,9 +3,8 @@
 	{
 		"Module.AppliedGameDesign_UE.gen.cpp.obj": [
 			"AppliedGameDesign_UE.init.gen.cpp.obj",
-			"MyCameraActor.gen.cpp.obj",
 			"MyPlayerController.gen.cpp.obj",
-			"MySpectatorPawn.gen.cpp.obj",
+			"playerPawn.gen.cpp.obj",
 			"TouchGameMode.gen.cpp.obj"
 		]
 	}

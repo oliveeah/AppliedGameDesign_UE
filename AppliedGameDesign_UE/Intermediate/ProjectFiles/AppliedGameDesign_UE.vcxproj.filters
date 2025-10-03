@@ -40,22 +40,16 @@
     <ClInclude Include="..\..\Source\AppliedGameDesign_UE\AppliedGameDesign_UE.h">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\MyCameraActor.cpp">
-      <Filter>Source\AppliedGameDesign_UE</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\MyCameraActor.h">
-      <Filter>Source\AppliedGameDesign_UE</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\AppliedGameDesign_UE\MyPlayerController.cpp">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AppliedGameDesign_UE\MyPlayerController.h">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\MySpectatorPawn.cpp">
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\playerPawn.cpp">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\MySpectatorPawn.h">
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\playerPawn.h">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AppliedGameDesign_UE\TouchGameMode.cpp">
