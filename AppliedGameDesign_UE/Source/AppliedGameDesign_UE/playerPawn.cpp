@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "Components/StaticMeshComponent.h"
+#include "Camera/CameraComponent.h"
 #include "playerPawn.h"
 
 // Sets default values
