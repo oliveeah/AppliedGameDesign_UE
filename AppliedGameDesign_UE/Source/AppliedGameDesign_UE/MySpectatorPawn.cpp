@@ -2,4 +2,9 @@
 
 
 #include "MySpectatorPawn.h"
+#include "Camera/CameraComponent.h"
 
+AMySpectatorPawn::AMySpectatorPawn()
+{
+
+}

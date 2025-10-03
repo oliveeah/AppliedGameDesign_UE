@@ -6,7 +6,7 @@
 
 ATouchGameMode::ATouchGameMode()
 {
-	ConstructorHelpers::FClassFinder<APawn> defaultPawn(TEXT("/Game/blueprints/MySpectatorPawn_BP.MySpectatorPawn_BP"));
+	ConstructorHelpers::FClassFinder<APawn> defaultPawn(TEXT("/Game/blueprints/BP_MySpectatorPawn.BP_MySpectatorPawn"));
 	DefaultPawnClass = defaultPawn.Class;
 
 	if (GEngine)
@@ -14,6 +14,6 @@ ATouchGameMode::ATouchGameMode()
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Gamemode is constructing"));
 	}
 
-	//ConstructorHelpers::FClassFinder<ACameraActor> defaultCamera(TEXT())
-		//DefaultCameraClass
+	//ConstructorHelpers::FClassFinder<ASpectatorPawn> defaultCamera(TEXT("/Game/blueprints/MySpectatorPawn_BP.MySpectatorPawn_BP"));
+		//SpectatorClass = defaultCamera.Class;
 }

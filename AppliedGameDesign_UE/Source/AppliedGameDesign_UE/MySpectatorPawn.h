@@ -13,7 +13,9 @@ UCLASS()
 class APPLIEDGAMEDESIGN_UE_API AMySpectatorPawn : public ASpectatorPawn
 {
 	GENERATED_BODY()
+	AMySpectatorPawn();
 
-	
-	
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
+	class UCameraComponent* sceneCamera;
 };
