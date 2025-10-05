@@ -11,6 +11,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
+
 // Sets default values
 AplayerPawn::AplayerPawn()
 {
@@ -74,8 +75,8 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
-		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Triggered, this, &AplayerPawn::interactCallback);
-		UE_LOG(LogTemp, Warning, TEXT("enhanced input detected"));
+		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Started, this, &AplayerPawn::interactCallback);
+
 
 	}
 	else
@@ -91,12 +92,23 @@ void AplayerPawn::interactCallback()
 	//FVector forwardVector = camera->GetForwardVector();
 	//UE_LOG(LogTemp, Display, TEXT("fvector %s"), *forwardVector.ToString());
 	
+	APlayerController* playerController = GetWorld()->GetFirstPlayerController();
+	if (!playerController) { return; }
 
+	FHitResult hit;
+
+	bool hasHit = playerController->GetHitResultUnderCursor(ECC_Visibility, false, hit);
+
+	if(hasHit)
+	{
+		DrawDebugSphere(GetWorld(), hit.ImpactPoint, 10.0f, 12, FColor::Red, false, 2.0f);
+	}
 }
 
 void AplayerPawn::getMouseLocation(float mouseX, float mouseY)
 {
-
+	UE_LOG(LogTemp, Display, TEXT("x: %f, y: %f"), mouseX, mouseY);
+	
 }
 
 
