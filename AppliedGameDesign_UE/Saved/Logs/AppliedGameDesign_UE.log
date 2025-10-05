@@ -1312,3 +1312,249 @@ FPackageName: Skipped package /Game/assets/FarmAnimals_v1/Material_008 has a val
 [2025.10.05-22.41.36:315][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
 [2025.10.05-22.41.36:349][815]LogPlayLevel: Display: Destroying online subsystem :Context_5
 [2025.10.05-22.42.30:462][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.10.05-22.43.19:252][406]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 343.940521
+[2025.10.05-22.43.20:239][409]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.05-22.43.20:239][410]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 344.602875, Update Interval: 316.047852
+[2025.10.05-22.43.37:380][537]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.05-22.43.37:390][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.05-22.43.37:390][537]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-22.43.37:394][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003106s)
+[2025.10.05-22.43.37:394][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.003156s)
+[2025.10.05-22.43.37:430][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.05-22.43.37:432][537]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.05-22.43.37:434][537]LogPlayLevel: PIE: World Init took: (0.002352s)
+[2025.10.05-22.43.37:435][537]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.05-22.43.37:435][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.05-22.43.37:435][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.05-22.43.37:435][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.05-22.43.37:435][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.05-22.43.37:435][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.05-22.43.37:435][537]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.05-22.43.37:435][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.05-22.43.37:435][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.05-22.43.37:435][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.05-22.43.37:435][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.05-22.43.37:435][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.05-22.43.37:438][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.05-22.43.37:553][537]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.05-22.43.37:554][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.05-22.43.37:554][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.05-22.43.37:554][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.05-22.43.37:555][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.05-22.43.37:555][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.05-22.43.37:559][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.05-22.43.37:559][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.05-22.43.37:559][537]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.05-22.43.37:559][537]LogAudio: Display: Audio Device (ID: 3) registered with world 'testLevel'.
+[2025.10.05-22.43.37:559][537]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.05-22.43.37:565][537]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.05-22.43.37:565][537]LogStreaming: Display: FlushAsyncLoading(531): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.05-22.43.37:565][537]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.05-22.43.37:565][537]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.05-22.43.37:566][537]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=18.625 Y=18.625 Z=0.000
+[2025.10.05-22.43.37:566][537]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.05-22.43.37
+[2025.10.05-22.43.37:566][537]LogWorld: Bringing up level for play took: 0.001228
+[2025.10.05-22.43.37:569][537]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2025.10.05-22.43.37:569][537]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.05-22.43.37:571][537]LogTemp: Warning: Mapping context added.
+[2025.10.05-22.43.37:572][537]PIE: Server logged in
+[2025.10.05-22.43.37:576][537]PIE: Play in editor total start time 0.185 seconds.
+[2025.10.05-22.43.37:722][538]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.05-22.43.38:202][560]LogTemp: Warning: input callback called
+[2025.10.05-22.43.38:202][560]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.38:500][578]LogTemp: Warning: input callback called
+[2025.10.05-22.43.38:501][578]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.38:822][597]LogTemp: Warning: input callback called
+[2025.10.05-22.43.38:822][597]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.39:406][632]LogTemp: Warning: input callback called
+[2025.10.05-22.43.40:089][673]LogTemp: Warning: input callback called
+[2025.10.05-22.43.41:039][730]LogTemp: Warning: input callback called
+[2025.10.05-22.43.41:489][757]LogTemp: Warning: input callback called
+[2025.10.05-22.43.41:489][757]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.42:005][788]LogTemp: Warning: input callback called
+[2025.10.05-22.43.42:005][788]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.42:423][813]LogTemp: Warning: input callback called
+[2025.10.05-22.43.42:423][813]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.42:738][832]LogTemp: Warning: input callback called
+[2025.10.05-22.43.42:738][832]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.43:105][854]LogTemp: Warning: input callback called
+[2025.10.05-22.43.43:105][854]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.43:639][886]LogTemp: Warning: input callback called
+[2025.10.05-22.43.43:639][886]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.43:939][904]LogTemp: Warning: input callback called
+[2025.10.05-22.43.43:939][904]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.44:288][925]LogTemp: Warning: input callback called
+[2025.10.05-22.43.44:288][925]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.44:722][951]LogTemp: Warning: input callback called
+[2025.10.05-22.43.44:723][951]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.46:123][ 35]LogTemp: Warning: input callback called
+[2025.10.05-22.43.46:123][ 35]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.46:788][ 75]LogTemp: Warning: input callback called
+[2025.10.05-22.43.46:788][ 75]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.47:873][140]LogTemp: Warning: input callback called
+[2025.10.05-22.43.48:692][189]LogTemp: Warning: input callback called
+[2025.10.05-22.43.49:226][221]LogTemp: Warning: input callback called
+[2025.10.05-22.43.49:226][221]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.49:795][255]LogTemp: Warning: input callback called
+[2025.10.05-22.43.49:795][255]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.50:341][285]LogTemp: Warning: input callback called
+[2025.10.05-22.43.50:342][285]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.51:701][351]LogTemp: Warning: input callback called
+[2025.10.05-22.43.51:701][351]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.54:354][485]LogTemp: Warning: input callback called
+[2025.10.05-22.43.54:354][485]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.55:633][542]LogTemp: Warning: input callback called
+[2025.10.05-22.43.56:126][565]LogTemp: Warning: input callback called
+[2025.10.05-22.43.56:834][598]LogTemp: Warning: input callback called
+[2025.10.05-22.43.56:834][598]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.57:404][620]LogTemp: Warning: input callback called
+[2025.10.05-22.43.57:405][620]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.57:858][637]LogTemp: Warning: input callback called
+[2025.10.05-22.43.57:858][637]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.58:296][659]LogTemp: Warning: input callback called
+[2025.10.05-22.43.58:296][659]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.58:734][681]LogTemp: Warning: input callback called
+[2025.10.05-22.43.58:734][681]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.59:213][702]LogTemp: Warning: input callback called
+[2025.10.05-22.43.59:213][702]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.43.59:938][743]LogTemp: Warning: input callback called
+[2025.10.05-22.43.59:938][743]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.44.00:828][789]LogTemp: Warning: input callback called
+[2025.10.05-22.44.00:828][789]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.44.01:559][823]LogTemp: Warning: input callback called
+[2025.10.05-22.44.01:560][823]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.44.02:299][859]LogTemp: Warning: input callback called
+[2025.10.05-22.44.02:299][859]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.44.05:290][ 13]LogTemp: Warning: input callback called
+[2025.10.05-22.44.05:291][ 13]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.44.12:320][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-22.44.12:320][358]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-22.44.12:320][358]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.05-22.44.12:320][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-22.44.12:332][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.05-22.44.12:336][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-22.44.12:369][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-22.44.12:370][358]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.05-22.44.12:370][358]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.10.05-22.44.12:373][358]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.10.05-22.44.12:385][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.10.05-22.44.12:426][359]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2025.10.05-22.44.20:964][690]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.05-22.44.25:622][912]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.10.05-22.44.25:831][912]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.05-22.44.25:832][912]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.05-22.44.25:832][912]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_1
+[2025.10.05-22.44.25:835][912]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_1
+[2025.10.05-22.44.27:031][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.10.05-22.44.27:035][968]LogEditorActor: Deleted 0 Actors (0.044 secs)
+[2025.10.05-22.44.27:042][968]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.05-22.44.27:042][968]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.05-22.44.27:044][968]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_2
+[2025.10.05-22.44.27:045][968]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_2
+[2025.10.05-22.44.36:705][364]Cmd: TRANSACTION UNDO
+[2025.10.05-22.44.36:706][364]LogEditorTransaction: Undo Move Elements
+[2025.10.05-22.45.12:299][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.05-22.45.12:311][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.05-22.45.12:312][913]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-22.45.12:316][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004133s)
+[2025.10.05-22.45.12:316][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.004200s)
+[2025.10.05-22.45.12:345][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.10.05-22.45.12:348][913]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.05-22.45.12:351][913]LogPlayLevel: PIE: World Init took: (0.003182s)
+[2025.10.05-22.45.12:353][913]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.05-22.45.12:353][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.05-22.45.12:353][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.05-22.45.12:353][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.05-22.45.12:353][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.05-22.45.12:353][913]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.05-22.45.12:353][913]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.05-22.45.12:353][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.05-22.45.12:353][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.05-22.45.12:353][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.05-22.45.12:353][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.05-22.45.12:353][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.05-22.45.12:356][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.05-22.45.12:500][913]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.05-22.45.12:501][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.05-22.45.12:501][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.05-22.45.12:501][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.05-22.45.12:502][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.05-22.45.12:502][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.05-22.45.12:507][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.05-22.45.12:508][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.05-22.45.12:508][913]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.05-22.45.12:508][913]LogAudio: Display: Audio Device (ID: 4) registered with world 'testLevel'.
+[2025.10.05-22.45.12:508][913]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.05-22.45.12:515][913]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.05-22.45.12:515][913]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.05-22.45.12:515][913]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.05-22.45.12:516][913]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.05-22.45.12:516][913]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=18.625 Y=18.625 Z=0.000
+[2025.10.05-22.45.12:517][913]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.05-22.45.12
+[2025.10.05-22.45.12:517][913]LogWorld: Bringing up level for play took: 0.001793
+[2025.10.05-22.45.12:521][913]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.10.05-22.45.12:521][913]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.05-22.45.12:523][913]LogTemp: Warning: Mapping context added.
+[2025.10.05-22.45.12:524][913]PIE: Server logged in
+[2025.10.05-22.45.12:529][913]PIE: Play in editor total start time 0.218 seconds.
+[2025.10.05-22.45.12:685][914]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.05-22.45.13:436][954]LogTemp: Warning: input callback called
+[2025.10.05-22.45.13:436][954]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.14:098][982]LogTemp: Warning: input callback called
+[2025.10.05-22.45.14:098][982]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.14:756][ 16]LogTemp: Warning: input callback called
+[2025.10.05-22.45.14:758][ 16]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.15:230][ 40]LogTemp: Warning: input callback called
+[2025.10.05-22.45.15:230][ 40]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.15:568][ 60]LogTemp: Warning: input callback called
+[2025.10.05-22.45.15:568][ 60]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.15:901][ 77]LogTemp: Warning: input callback called
+[2025.10.05-22.45.15:901][ 77]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.16:264][ 94]LogTemp: Warning: input callback called
+[2025.10.05-22.45.16:264][ 94]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.16:876][125]LogTemp: Warning: input callback called
+[2025.10.05-22.45.16:877][125]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.17:255][146]LogTemp: Warning: input callback called
+[2025.10.05-22.45.17:256][146]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.17:656][169]LogTemp: Warning: input callback called
+[2025.10.05-22.45.17:656][169]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.18:055][190]LogTemp: Warning: input callback called
+[2025.10.05-22.45.18:055][190]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.18:388][207]LogTemp: Warning: input callback called
+[2025.10.05-22.45.18:388][207]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.18:771][227]LogTemp: Warning: input callback called
+[2025.10.05-22.45.18:771][227]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.19:182][249]LogTemp: Warning: input callback called
+[2025.10.05-22.45.19:182][249]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.19:558][269]LogTemp: Warning: input callback called
+[2025.10.05-22.45.19:559][269]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.20:020][290]LogTemp: Warning: input callback called
+[2025.10.05-22.45.20:020][290]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.20:469][315]LogTemp: Warning: input callback called
+[2025.10.05-22.45.20:469][315]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.20:913][340]LogTemp: Warning: input callback called
+[2025.10.05-22.45.20:913][340]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.21:350][363]LogTemp: Warning: input callback called
+[2025.10.05-22.45.21:350][363]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.21:608][376]LogTemp: Warning: input callback called
+[2025.10.05-22.45.21:608][376]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.21:772][384]LogTemp: Warning: input callback called
+[2025.10.05-22.45.21:772][384]LogTemp: Display: object cannot be grabbed
+[2025.10.05-22.45.22:421][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-22.45.22:422][410]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-22.45.22:422][410]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.05-22.45.22:422][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-22.45.22:426][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.05-22.45.22:432][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-22.45.22:475][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-22.45.22:476][410]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.05-22.45.22:476][410]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.10.05-22.45.22:480][410]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.10.05-22.45.22:500][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.10.05-22.45.22:603][411]LogPlayLevel: Display: Destroying online subsystem :Context_8
