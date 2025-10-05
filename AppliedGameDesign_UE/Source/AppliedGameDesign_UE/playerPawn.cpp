@@ -77,7 +77,6 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	{
 		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Started, this, &AplayerPawn::interactCallback);
 
-		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Ongoing, this, &AplayerPawn::interactCallback);
 	}
 	else
 	{
@@ -86,38 +85,33 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	}
 }
 
-void AplayerPawn::interactCallback(const FInputActionInstance& instance)
+void AplayerPawn::interactCallback()
 {
 	UE_LOG(LogTemp, Warning, TEXT("input callback called"));
-
-	ETriggerEvent trigger = instance.GetTriggerEvent();
-
-	switch (trigger)
-	{
-		case ETriggerEvent::Started:
-			UE_LOG(LogTemp, Warning, TEXT("started"));
-
-			break;
-
-		case ETriggerEvent::Ongoing:
-			UE_LOG(LogTemp, Warning, TEXT("holding"));
-
-			break;
-	}
-
 	
-	APlayerController* playerController = GetWorld()->GetFirstPlayerController();
+	APlayerController* playerController = GetWorld()->GetFirstPlayerController();//get player controller and check ptr
 	if (!playerController) { return; }
 
 	FHitResult hit;
 
-	bool hasHit = playerController->GetHitResultUnderCursor(ECC_Visibility, false, hit);
+	bool hasHit = playerController->GetHitResultUnderCursor(ECC_Visibility, false, hit);//gets hit under cursor
 
-	if(hasHit)
+	if(hasHit)//if true
 	{
-		DrawDebugSphere(GetWorld(), hit.ImpactPoint, 10.0f, 12, FColor::Red, false, 2.0f);
+		DrawDebugSphere(GetWorld(), hit.ImpactPoint, 10.0f, 12, FColor::Red, false, 2.0f);//draw debug sphere
+
+		if (hit.GetActor() && hit.GetActor()->ActorHasTag("canGrab"))//if hit actor has tag
+		{
+			UE_LOG(LogTemp, Display, TEXT("grabbable object grabbed"));
+		}
+		else
+		{
+			UE_LOG(LogTemp, Display, TEXT("object cannot be grabbed"));
+		}
 	}
 }
+
+
 
 
 

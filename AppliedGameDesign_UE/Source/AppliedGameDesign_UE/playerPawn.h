@@ -62,9 +62,8 @@ protected:
 public:
 
 	UFUNCTION(BlueprintCallable, Category = "Input")
-	virtual void interactCallback(const FInputActionInstance& instance);
+	virtual void interactCallback();
 
-	
-
+	bool isHolding = false;
 	
 };
