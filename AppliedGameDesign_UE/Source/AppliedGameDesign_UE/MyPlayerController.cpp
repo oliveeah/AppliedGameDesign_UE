@@ -3,3 +3,9 @@
 
 #include "MyPlayerController.h"
 
+AMyPlayerController::AMyPlayerController()
+{
+	SetShowMouseCursor(true);
+}
+
+

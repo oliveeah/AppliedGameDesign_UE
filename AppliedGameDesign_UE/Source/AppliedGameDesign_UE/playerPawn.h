@@ -1,6 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
+#include "InputActionValue.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "CoreMinimal.h"
@@ -13,6 +16,9 @@ class USpringArmComponent;
 class UCameraComponent;
 class UStaticMeshComponent;
 class USceneComponent;
+class UInputAction;
+struct FInputActionValue;
+
 
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API AplayerPawn : public APawn
@@ -49,6 +55,11 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Components")
 	UStaticMeshComponent* mesh;
 
+protected:
+	//interact action
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
+	UInputAction* interactAction;
 
-
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	virtual void interactCallback();
 };

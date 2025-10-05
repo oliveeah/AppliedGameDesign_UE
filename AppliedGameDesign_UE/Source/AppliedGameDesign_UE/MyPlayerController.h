@@ -14,6 +14,8 @@ class APPLIEDGAMEDESIGN_UE_API AMyPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 
+
+	AMyPlayerController();
 	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	
 };
