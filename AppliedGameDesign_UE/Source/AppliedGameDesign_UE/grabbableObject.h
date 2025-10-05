@@ -7,7 +7,6 @@
 #include "grabbableObject.generated.h"
 
 
-
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API AgrabbableObject : public AActor
 {
@@ -36,5 +35,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 
 };

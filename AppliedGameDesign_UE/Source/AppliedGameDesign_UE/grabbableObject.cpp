@@ -4,6 +4,7 @@
 #include "grabbableObject.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
+#include "GameplayTagContainer.h"
 
 // Sets default values
 AgrabbableObject::AgrabbableObject()
@@ -20,6 +21,8 @@ AgrabbableObject::AgrabbableObject()
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	mesh->SetupAttachment(boxCollision);
 	mesh->SetSimulatePhysics(false);
+
+	FGameplayTag grabbableObjectTag = FGameplayTag::RequestGameplayTag(FName("canGrab"));
 
 
 }
