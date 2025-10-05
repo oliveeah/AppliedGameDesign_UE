@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "grabbableObject.generated.h"
 
+
+
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API AgrabbableObject : public AActor
 {
@@ -24,6 +26,10 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Components")
 	UStaticMeshComponent* mesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta =(AllowPrivateAccess = "true"))
+	class UBoxComponent* boxCollision;
+
 
 	
 
