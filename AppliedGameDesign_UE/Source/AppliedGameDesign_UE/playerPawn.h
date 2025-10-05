@@ -62,9 +62,9 @@ protected:
 public:
 
 	UFUNCTION(BlueprintCallable, Category = "Input")
-	virtual void interactCallback();
+	virtual void interactCallback(const FInputActionInstance& instance);
 
-	void getMouseLocation(float mouseX, float mouseY);
+	
 
 	
 };

@@ -77,7 +77,7 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	{
 		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Started, this, &AplayerPawn::interactCallback);
 
-
+		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Ongoing, this, &AplayerPawn::interactCallback);
 	}
 	else
 	{
@@ -86,11 +86,25 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	}
 }
 
-void AplayerPawn::interactCallback()
+void AplayerPawn::interactCallback(const FInputActionInstance& instance)
 {
 	UE_LOG(LogTemp, Warning, TEXT("input callback called"));
-	//FVector forwardVector = camera->GetForwardVector();
-	//UE_LOG(LogTemp, Display, TEXT("fvector %s"), *forwardVector.ToString());
+
+	ETriggerEvent trigger = instance.GetTriggerEvent();
+
+	switch (trigger)
+	{
+		case ETriggerEvent::Started:
+			UE_LOG(LogTemp, Warning, TEXT("started"));
+
+			break;
+
+		case ETriggerEvent::Ongoing:
+			UE_LOG(LogTemp, Warning, TEXT("holding"));
+
+			break;
+	}
+
 	
 	APlayerController* playerController = GetWorld()->GetFirstPlayerController();
 	if (!playerController) { return; }
@@ -105,11 +119,7 @@ void AplayerPawn::interactCallback()
 	}
 }
 
-void AplayerPawn::getMouseLocation(float mouseX, float mouseY)
-{
-	UE_LOG(LogTemp, Display, TEXT("x: %f, y: %f"), mouseX, mouseY);
-	
-}
+
 
 
 
