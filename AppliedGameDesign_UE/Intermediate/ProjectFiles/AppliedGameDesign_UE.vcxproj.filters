@@ -40,6 +40,18 @@
     <ClInclude Include="..\..\Source\AppliedGameDesign_UE\AppliedGameDesign_UE.h">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\grabbableObject.cpp">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\grabbableObject.h">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\grabbableObject_AC.cpp">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\grabbableObject_AC.h">
+      <Filter>Source\AppliedGameDesign_UE</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AppliedGameDesign_UE\MyPlayerController.cpp">
       <Filter>Source\AppliedGameDesign_UE</Filter>
     </ClCompile>

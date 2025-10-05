@@ -263,6 +263,14 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\AppliedGameDesign_UE\AppliedGameDesign_UE.h"/>
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\grabbableObject.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\grabbableObject.h"/>
+    <ClCompile Include="..\..\Source\AppliedGameDesign_UE\grabbableObject_AC.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AppliedGameDesign_UE\grabbableObject_AC.h"/>
     <ClCompile Include="..\..\Source\AppliedGameDesign_UE\MyPlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

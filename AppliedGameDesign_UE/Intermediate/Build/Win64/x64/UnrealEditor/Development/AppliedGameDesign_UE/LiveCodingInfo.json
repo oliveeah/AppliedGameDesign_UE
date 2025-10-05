@@ -3,6 +3,8 @@
 	{
 		"Module.AppliedGameDesign_UE.gen.cpp.obj": [
 			"AppliedGameDesign_UE.init.gen.cpp.obj",
+			"grabbableObject.gen.cpp.obj",
+			"grabbableObject_AC.gen.cpp.obj",
 			"MyPlayerController.gen.cpp.obj",
 			"playerPawn.gen.cpp.obj",
 			"TouchGameMode.gen.cpp.obj"
