@@ -253,6 +253,7 @@
     <None Include="..\..\Source\AppliedGameDesign_UE.Target.cs"/>
     <None Include="..\..\Source\AppliedGameDesign_UEEditor.Target.cs"/>
     <None Include="..\..\.gitignore"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>

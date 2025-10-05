@@ -63,4 +63,8 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	virtual void interactCallback();
+
+	void getMouseLocation(float mouseX, float mouseY);
+
+	
 };

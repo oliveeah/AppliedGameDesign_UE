@@ -1483,3 +1483,416 @@ FPackageName: Skipped package /Game/assets/FarmAnimals_v1/SheepWhite has a valid
 [2025.10.05-16.07.20:050][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.10.05-16.07.20:053][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2025.10.05-16.07.20:087][491]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.10.05-16.07.49:991][754]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/playerPawn_BP.playerPawn_BP
+[2025.10.05-16.07.49:992][754]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.10.05-16.07.55:229][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.05-16.07.55:293][ 15]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/playerPawn_BP] ([2] browsable assets)...
+[2025.10.05-16.07.55:293][ 15]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/playerPawn_BP]
+[2025.10.05-16.07.55:311][ 15]LogSavePackage: Moving output files for package: /Game/blueprints/playerPawn_BP
+[2025.10.05-16.07.55:311][ 15]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/playerPawn_BPAC1C0FE44C3FE3A92225AA8A20F44460.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/playerPawn_BP.uasset'
+[2025.10.05-16.07.55:322][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.312 ms (total: 455.422 ms)
+[2025.10.05-16.07.55:389][ 15]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.05-16.07.55:389][ 15]LogContentValidation: Enabled validators:
+[2025.10.05-16.07.55:389][ 15]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.05-16.07.55:389][ 15]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.05-16.07.55:389][ 15]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.05-16.07.55:390][ 15]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.05-16.07.55:390][ 15]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.05-16.07.55:390][ 15]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.05-16.07.55:390][ 15]AssetCheck: /Game/blueprints/playerPawn_BP Validating asset
+[2025.10.05-16.08.08:456][734]LogStreaming: Display: FlushAsyncLoading(536): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.05-16.08.08:475][734]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.10.05-16.08.08:503][734]LoadErrors: Warning: While trying to load package /Game/_assets/FarmAnimals_v1/Pig, a dependent package /Game/assets/FarmAnimals_v1/Material_008 was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/assets/FarmAnimals_v1/Material_008 has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/assets/FarmAnimals_v1/Material_008'. Perhaps it has been deleted or was not synced?
+
+[2025.10.05-16.08.09:510][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.05-16.08.09:585][782]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/playerPawn_BP] ([2] browsable assets)...
+[2025.10.05-16.08.09:597][782]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/playerPawn_BP.playerPawn_BP]
+[2025.10.05-16.08.09:597][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/playerPawn_BP]
+[2025.10.05-16.08.09:613][782]LogSavePackage: Moving output files for package: /Game/blueprints/playerPawn_BP
+[2025.10.05-16.08.09:613][782]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/playerPawn_BP1857978048F41C012D31A9AB0F17B281.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/playerPawn_BP.uasset'
+[2025.10.05-16.08.09:626][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.961 ms (total: 571.383 ms)
+[2025.10.05-16.08.09:704][782]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.05-16.08.09:704][782]LogContentValidation: Enabled validators:
+[2025.10.05-16.08.09:704][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.05-16.08.09:704][782]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.05-16.08.09:704][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.05-16.08.09:704][782]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.05-16.08.09:704][782]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.05-16.08.09:704][782]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.05-16.08.09:704][782]AssetCheck: /Game/blueprints/playerPawn_BP Validating asset
+[2025.10.05-16.08.10:154][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.10.05-16.08.11:573][872]LogSlate: Window 'playerPawn_BP' being destroyed
+[2025.10.05-16.08.11:583][872]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.10.05-16.08.11:583][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-16.08.11:652][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.05-16.08.12:184][904]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.05-16.08.12:189][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.05-16.08.12:189][904]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-16.08.12:191][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002000s)
+[2025.10.05-16.08.12:191][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.002034s)
+[2025.10.05-16.08.12:223][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.05-16.08.12:224][904]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.05-16.08.12:226][904]LogPlayLevel: PIE: World Init took: (0.002568s)
+[2025.10.05-16.08.12:228][904]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.05-16.08.12:228][904]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.05-16.08.12:228][904]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.05-16.08.12:228][904]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.05-16.08.12:228][904]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.05-16.08.12:228][904]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.05-16.08.12:228][904]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.05-16.08.12:228][904]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.05-16.08.12:228][904]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.05-16.08.12:228][904]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.05-16.08.12:228][904]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.05-16.08.12:228][904]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.05-16.08.12:232][904]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.05-16.08.12:296][904]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.05-16.08.12:297][904]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.05-16.08.12:297][904]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.05-16.08.12:297][904]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.05-16.08.12:297][904]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.05-16.08.12:297][904]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.05-16.08.12:300][904]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.05-16.08.12:300][904]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.05-16.08.12:300][904]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.05-16.08.12:300][904]LogAudio: Display: Audio Device (ID: 4) registered with world 'testLevel'.
+[2025.10.05-16.08.12:300][904]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.05-16.08.12:305][904]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.05-16.08.12:305][904]LogStreaming: Display: FlushAsyncLoading(537): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.05-16.08.12:306][904]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.05-16.08.12:306][904]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.05-16.08.12:307][904]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.05-16.08.12
+[2025.10.05-16.08.12:307][904]LogWorld: Bringing up level for play took: 0.000689
+[2025.10.05-16.08.12:310][904]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.10.05-16.08.12:310][904]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.05-16.08.12:311][904]LogTemp: Warning: enhanced input detected
+[2025.10.05-16.08.12:311][904]LogTemp: Warning: Mapping context added.
+[2025.10.05-16.08.12:312][904]PIE: Server logged in
+[2025.10.05-16.08.12:314][904]PIE: Play in editor total start time 0.125 seconds.
+[2025.10.05-16.08.12:419][905]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.05-16.08.13:364][960]LogTemp: Warning: input callback called
+[2025.10.05-16.08.13:378][961]LogTemp: Warning: input callback called
+[2025.10.05-16.08.13:395][962]LogTemp: Warning: input callback called
+[2025.10.05-16.08.15:931][114]LogTemp: Warning: input callback called
+[2025.10.05-16.08.15:945][115]LogTemp: Warning: input callback called
+[2025.10.05-16.08.15:962][116]LogTemp: Warning: input callback called
+[2025.10.05-16.08.15:979][117]LogTemp: Warning: input callback called
+[2025.10.05-16.08.16:380][141]LogTemp: Warning: input callback called
+[2025.10.05-16.08.16:395][142]LogTemp: Warning: input callback called
+[2025.10.05-16.08.16:412][143]LogTemp: Warning: input callback called
+[2025.10.05-16.08.16:763][164]LogTemp: Warning: input callback called
+[2025.10.05-16.08.16:778][165]LogTemp: Warning: input callback called
+[2025.10.05-16.08.16:795][166]LogTemp: Warning: input callback called
+[2025.10.05-16.08.17:830][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-16.08.17:830][226]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-16.08.17:830][226]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.05-16.08.17:830][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-16.08.17:831][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.05-16.08.17:836][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-16.08.17:871][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-16.08.17:871][226]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.05-16.08.17:874][226]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.10.05-16.08.17:876][226]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.10.05-16.08.17:892][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.10.05-16.08.17:928][227]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: ================================================
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: Total job queries 324, among them cache hits 25 (7.72%), DDC hits 233 (71.91%), Duplicates 64 (19.75%)
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: Tracking 235 distinct input hashes that result in 139 distinct outputs (59.15%)
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: RAM used: 1.19 MiB of 1.60 GiB budget. Usage: 0.07%
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.10.05-16.08.22:570][414]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Job execution time: average 1.69 s, max 1.84 s
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Job life time (pending + execution): average 1.76 s, max 1.91
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Shader code size: total 22.191 KiB, numShaders 2, average 11.096 KiB, min 10.867 KiB, max 11.324 KiB
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.92 s
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Average processing rate: 1.04 jobs/sec
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Total thread time: 2.539 s
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Total thread preprocess time: 7.341 s
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Percentage time preprocessing: 289.15%
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Effective parallelization: 1.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.165660
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.42 sec, max 1.42 sec, min 1.42 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 56.02% of total time (compiled    1 times, average 1.42 sec, max 1.42 sec, min 1.42 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 43.98% of total time (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: === Material stats ===
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Materials Translated:    136
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Material Translation Only: 0.07 s (42%)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: Material Cache Hits: 26 (19%)
+[2025.10.05-16.08.22:571][414]LogShaderCompilers: Display: ================================================
+[2025.10.05-16.10.09:019][722]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.10.05-16.10.19:582][355]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug93cedbca-580f-474a-81ca-101cd24f43da ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\linda\AppData\Local\Temp\4078.tmp
+   Creating library C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Binaries\Win64\UnrealEditor-AppliedGameDesign_UE.patch_0.lib and object C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Binaries\Win64\UnrealEditor-AppliedGameDesign_UE.patch_0.exp
+Detoured run took 1.5s
+[2025.10.05-16.10.19:958][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.10.05-16.10.20:013][362]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.10.05-16.10.20:013][362]LogLiveCoding: Display: Live coding succeeded
+[2025.10.05-16.10.23:068][446]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.05-16.10.23:074][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.05-16.10.23:074][446]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-16.10.23:082][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007753s)
+[2025.10.05-16.10.23:083][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.007803s)
+[2025.10.05-16.10.23:201][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.05-16.10.23:203][446]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.05-16.10.23:206][446]LogPlayLevel: PIE: World Init took: (0.002755s)
+[2025.10.05-16.10.23:207][446]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.10.05-16.10.23:207][446]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.05-16.10.23:207][446]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.05-16.10.23:207][446]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.05-16.10.23:207][446]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.05-16.10.23:207][446]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.05-16.10.23:207][446]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.05-16.10.23:207][446]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.05-16.10.23:207][446]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.05-16.10.23:207][446]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.05-16.10.23:207][446]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.05-16.10.23:207][446]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.05-16.10.23:211][446]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.05-16.10.23:286][446]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.05-16.10.23:286][446]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.05-16.10.23:286][446]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.05-16.10.23:286][446]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.05-16.10.23:287][446]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.10.05-16.10.23:287][446]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.10.05-16.10.23:291][446]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.10.05-16.10.23:292][446]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.10.05-16.10.23:292][446]LogInit: FAudioDevice initialized with ID 5.
+[2025.10.05-16.10.23:292][446]LogAudio: Display: Audio Device (ID: 5) registered with world 'testLevel'.
+[2025.10.05-16.10.23:292][446]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.05-16.10.23:297][446]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.05-16.10.23:297][446]LogStreaming: Display: FlushAsyncLoading(538): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.05-16.10.23:298][446]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.05-16.10.23:298][446]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.05-16.10.23:299][446]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.05-16.10.23
+[2025.10.05-16.10.23:299][446]LogWorld: Bringing up level for play took: 0.001129
+[2025.10.05-16.10.23:302][446]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.10.05-16.10.23:302][446]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.05-16.10.23:304][446]LogTemp: Warning: enhanced input detected
+[2025.10.05-16.10.23:304][446]LogTemp: Warning: Mapping context added.
+[2025.10.05-16.10.23:305][446]PIE: Server logged in
+[2025.10.05-16.10.23:308][446]PIE: Play in editor total start time 0.234 seconds.
+[2025.10.05-16.10.23:424][447]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.05-16.10.24:540][510]LogTemp: Warning: input callback called
+[2025.10.05-16.10.24:554][511]LogTemp: Warning: input callback called
+[2025.10.05-16.10.24:570][512]LogTemp: Warning: input callback called
+[2025.10.05-16.10.24:588][513]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:328][677]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:344][678]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:360][679]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:377][680]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:878][710]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:893][711]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:910][712]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:927][713]LogTemp: Warning: input callback called
+[2025.10.05-16.10.27:943][714]LogTemp: Warning: input callback called
+[2025.10.05-16.10.29:228][791]LogTemp: Warning: input callback called
+[2025.10.05-16.10.29:244][792]LogTemp: Warning: input callback called
+[2025.10.05-16.10.29:259][793]LogTemp: Warning: input callback called
+[2025.10.05-16.10.29:277][794]LogTemp: Warning: input callback called
+[2025.10.05-16.10.30:011][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-16.10.30:012][835]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-16.10.30:012][835]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.05-16.10.30:012][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-16.10.30:013][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.05-16.10.30:018][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-16.10.30:064][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-16.10.30:064][835]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.05-16.10.30:064][835]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.10.05-16.10.30:067][835]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.10.05-16.10.30:093][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.10.05-16.10.30:129][836]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.10.05-16.11.05:804][265]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 350.159424
+[2025.10.05-16.11.06:804][268]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.05-16.11.06:804][269]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 350.826904, Update Interval: 314.414490
+[2025.10.05-16.13.26:965][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.05-16.13.28:497][741]LogSlate: Window 'Save Content' being destroyed
+[2025.10.05-16.13.28:507][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.05-16.13.28:629][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.10.05-16.13.28:651][741]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.05-16.13.28:652][741]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel797A541A4BDC6E2D123E54BC0344E487.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.05-16.13.28:661][741]LogFileHelpers: Saving map 'testLevel' took 0.078
+[2025.10.05-16.13.28:671][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 163.937 ms (total: 735.321 ms)
+[2025.10.05-16.13.28:747][741]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.05-16.13.28:747][741]LogContentValidation: Enabled validators:
+[2025.10.05-16.13.28:747][741]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.05-16.13.28:747][741]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.05-16.13.28:747][741]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.05-16.13.28:747][741]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.05-16.13.28:747][741]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.05-16.13.28:747][741]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.05-16.13.28:747][741]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.05-16.13.28:769][741]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.05-16.13.30:245][828]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.10.05-16.13.37:565][267]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug396e9fb9-d4d6-4594-81a1-7eab12a7c993 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\linda\AppData\Local\Temp\46C4.tmp
+   Creating library C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Binaries\Win64\UnrealEditor-AppliedGameDesign_UE.patch_1.lib and object C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Binaries\Win64\UnrealEditor-AppliedGameDesign_UE.patch_1.exp
+Detoured run took 1.3s
+[2025.10.05-16.13.37:864][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.10.05-16.13.38:686][272]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.10.05-16.13.38:686][272]LogLiveCoding: Display: Live coding succeeded
+[2025.10.05-16.13.44:395][482]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.05-16.13.44:402][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.05-16.13.44:402][482]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-16.13.44:405][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002406s)
+[2025.10.05-16.13.44:405][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.002448s)
+[2025.10.05-16.13.44:520][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.05-16.13.44:526][482]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.05-16.13.44:529][482]LogPlayLevel: PIE: World Init took: (0.002539s)
+[2025.10.05-16.13.44:530][482]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.10.05-16.13.44:530][482]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.05-16.13.44:530][482]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.05-16.13.44:530][482]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.05-16.13.44:530][482]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.05-16.13.44:530][482]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.05-16.13.44:530][482]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.05-16.13.44:530][482]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.05-16.13.44:530][482]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.05-16.13.44:530][482]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.05-16.13.44:530][482]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.05-16.13.44:530][482]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.05-16.13.44:534][482]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.05-16.13.44:603][482]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.05-16.13.44:604][482]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.05-16.13.44:604][482]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.05-16.13.44:604][482]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.05-16.13.44:604][482]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.10.05-16.13.44:604][482]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.10.05-16.13.44:608][482]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.10.05-16.13.44:609][482]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.10.05-16.13.44:609][482]LogInit: FAudioDevice initialized with ID 6.
+[2025.10.05-16.13.44:609][482]LogAudio: Display: Audio Device (ID: 6) registered with world 'testLevel'.
+[2025.10.05-16.13.44:609][482]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.05-16.13.44:614][482]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.05-16.13.44:614][482]LogStreaming: Display: FlushAsyncLoading(539): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.05-16.13.44:614][482]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.05-16.13.44:614][482]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.05-16.13.44:615][482]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.05-16.13.44
+[2025.10.05-16.13.44:615][482]LogWorld: Bringing up level for play took: 0.000878
+[2025.10.05-16.13.44:618][482]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.10.05-16.13.44:618][482]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.05-16.13.44:619][482]LogTemp: Warning: enhanced input detected
+[2025.10.05-16.13.44:620][482]LogTemp: Warning: Mapping context added.
+[2025.10.05-16.13.44:621][482]PIE: Server logged in
+[2025.10.05-16.13.44:623][482]PIE: Play in editor total start time 0.221 seconds.
+[2025.10.05-16.13.44:744][483]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.05-16.13.45:956][553]LogTemp: Warning: input callback called
+[2025.10.05-16.13.45:956][553]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.45:969][554]LogTemp: Warning: input callback called
+[2025.10.05-16.13.45:969][554]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.45:986][555]LogTemp: Warning: input callback called
+[2025.10.05-16.13.45:986][555]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.46:003][556]LogTemp: Warning: input callback called
+[2025.10.05-16.13.46:003][556]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.48:354][697]LogTemp: Warning: input callback called
+[2025.10.05-16.13.48:354][697]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.48:369][698]LogTemp: Warning: input callback called
+[2025.10.05-16.13.48:369][698]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.48:386][699]LogTemp: Warning: input callback called
+[2025.10.05-16.13.48:386][699]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.48:403][700]LogTemp: Warning: input callback called
+[2025.10.05-16.13.48:403][700]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.48:420][701]LogTemp: Warning: input callback called
+[2025.10.05-16.13.48:420][701]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.48:436][702]LogTemp: Warning: input callback called
+[2025.10.05-16.13.48:437][702]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.49:489][765]LogTemp: Warning: input callback called
+[2025.10.05-16.13.49:489][765]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.49:503][766]LogTemp: Warning: input callback called
+[2025.10.05-16.13.49:503][766]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.49:520][767]LogTemp: Warning: input callback called
+[2025.10.05-16.13.49:520][767]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.49:538][768]LogTemp: Warning: input callback called
+[2025.10.05-16.13.49:538][768]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.49:553][769]LogTemp: Warning: input callback called
+[2025.10.05-16.13.49:553][769]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.50:705][838]LogTemp: Warning: input callback called
+[2025.10.05-16.13.50:705][838]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.50:720][839]LogTemp: Warning: input callback called
+[2025.10.05-16.13.50:720][839]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.50:736][840]LogTemp: Warning: input callback called
+[2025.10.05-16.13.50:737][840]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.50:754][841]LogTemp: Warning: input callback called
+[2025.10.05-16.13.50:754][841]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.50:770][842]LogTemp: Warning: input callback called
+[2025.10.05-16.13.50:770][842]LogTemp: Display: fvector X=1.000 Y=0.000 Z=0.000
+[2025.10.05-16.13.51:411][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-16.13.51:411][878]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.05-16.13.51:411][878]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.05-16.13.51:411][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-16.13.51:412][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.05-16.13.51:417][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.05-16.13.51:449][878]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.05-16.13.51:464][878]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.05-16.13.51:464][878]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.10.05-16.13.51:467][878]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.10.05-16.13.51:473][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.05-16.13.51:490][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.10.05-16.13.51:527][879]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.10.05-16.16.24:858][412]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 669.185059
+[2025.10.05-16.16.25:858][415]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.05-16.16.25:858][415]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 669.852356, Update Interval: 330.755341
+[2025.10.05-16.22.02:338][424]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1006.636963
+[2025.10.05-16.22.03:327][427]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.05-16.22.03:327][427]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1007.293030, Update Interval: 338.993500
+[2025.10.05-16.22.17:370][659]Running C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/AppliedGameDesign_UE.uproject" -game -rocket -progress
+[2025.10.05-16.22.17:483][659]Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.10.05-16.22.17:483][659]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/AppliedGameDesign_UE.uproject" -game -rocket -progress
+[2025.10.05-16.22.18:088][659]Log file: C:\Users\linda\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.10.05-16.22.18:390][659]
+[2025.10.05-16.22.18:390][659]Generating VisualStudio project files:
+[2025.10.05-16.22.18:390][659]Discovering modules, targets and source code for project...
+[2025.10.05-16.22.18:490][659]Adding projects for all targets...
+[2025.10.05-16.22.19:498][659]Adding projects for all targets took 0.98s
+[2025.10.05-16.22.19:498][659]Adding projects for all game projects took 0.00s
+[2025.10.05-16.22.19:901][659]Adding projects for all modules took 0.43s
+[2025.10.05-16.22.20:102][659]Compiling Rules Assemblies
+[2025.10.05-16.22.20:104][659]Compiling Rules Assemblies 100%
+[2025.10.05-16.22.20:104][659]Creating Build Targets
+[2025.10.05-16.22.22:120][659]Creating Build Targets 100%
+[2025.10.05-16.22.22:120][659]Creating Build Targets took 2.01s
+[2025.10.05-16.22.22:120][659]Binding IntelliSense data...
+[2025.10.05-16.22.25:960][659]Binding IntelliSense data... 100%
+[2025.10.05-16.22.25:960][659]Binding IntelliSense data took 3.78s
+[2025.10.05-16.22.25:960][659]Writing project files...
+[2025.10.05-16.22.28:179][659]Writing project files... 100%
+[2025.10.05-16.22.28:179][659]Writing project files took 2.22s
+[2025.10.05-16.22.28:179][659]
+[2025.10.05-16.22.28:179][659]Generating QueryTargets data for editor...
+[2025.10.05-16.22.28:179][659]Compiling Rules Assemblies
+[2025.10.05-16.22.28:179][659]Compiling Rules Assemblies 100%
+[2025.10.05-16.22.28:179][659]Writing Query Target Info
+[2025.10.05-16.22.28:179][659]Writing Query Target Info 100%
+[2025.10.05-16.22.28:179][659]Generating QueryTargets data for editor took 0.03s
+[2025.10.05-16.22.28:179][659]
+[2025.10.05-16.22.28:179][659]Result: Succeeded
+[2025.10.05-16.22.28:179][659]Total execution time: 10.58 seconds

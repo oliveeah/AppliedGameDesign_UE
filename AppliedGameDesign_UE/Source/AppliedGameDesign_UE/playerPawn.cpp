@@ -21,13 +21,8 @@ AplayerPawn::AplayerPawn()
 		root = CreateDefaultSubobject<USceneComponent>(TEXT("root"));
 		SetRootComponent(root);
 	
-
-
 		mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 		mesh->SetupAttachment(root);
-
-	
-
 
 		springArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("springArm"));
 		springArm->SetupAttachment(root);
@@ -37,8 +32,6 @@ AplayerPawn::AplayerPawn()
 		camera = CreateDefaultSubobject<UCameraComponent>(TEXT("camera"));
 		camera->SetupAttachment(springArm, USpringArmComponent::SocketName);
 		camera->bUsePawnControlRotation = false;
-
-	
 
 }
 
@@ -77,7 +70,7 @@ void AplayerPawn::Tick(float DeltaTime)
 // Called to bind functionality to input
 void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
-	//Super::SetupPlayerInputComponent(PlayerInputComponent);
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
@@ -95,6 +88,14 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 void AplayerPawn::interactCallback()
 {
 	UE_LOG(LogTemp, Warning, TEXT("input callback called"));
+	//FVector forwardVector = camera->GetForwardVector();
+	//UE_LOG(LogTemp, Display, TEXT("fvector %s"), *forwardVector.ToString());
+	
+
+}
+
+void AplayerPawn::getMouseLocation(float mouseX, float mouseY)
+{
 
 }
 
