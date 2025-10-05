@@ -3,10 +3,13 @@
 
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/Controller.h"
-
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
+#include "InputActionValue.h"
 
 // Sets default values
 AplayerPawn::AplayerPawn()
@@ -56,23 +59,25 @@ void AplayerPawn::Tick(float DeltaTime)
 // Called to bind functionality to input
 void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	//Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Triggered, this, &AplayerPawn::interactCallback);
+		UE_LOG(LogTemp, Warning, TEXT("enhanced input detected"));
 
 	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("no enhanced input detected"));
 
-
+	}
 }
 
 void AplayerPawn::interactCallback()
 {
-	if (GEngine)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("interact action callback"));
-	}
+	UE_LOG(LogTemp, Warning, TEXT("input callback called"));
+
 }
 
 

@@ -6,7 +6,7 @@
 
 ATouchGameMode::ATouchGameMode()
 {
-	ConstructorHelpers::FClassFinder<APawn> defaultPawn(TEXT("/Game/blueprints/BP_MySpectatorPawn.BP_MySpectatorPawn"));
+	ConstructorHelpers::FClassFinder<APawn> defaultPawn(TEXT("/Game/blueprints/playerPawn_BP.playerPawn_BP"));
 	DefaultPawnClass = defaultPawn.Class;
 
 	if (GEngine)
