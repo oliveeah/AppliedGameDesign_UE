@@ -51,6 +51,11 @@ protected:
 	UStaticMeshComponent* mesh;
 
 protected:
+
+	// Input mapping context
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
+	class UInputMappingContext* defaultMappingContext;
+
 	//interact action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputAction* interactAction;

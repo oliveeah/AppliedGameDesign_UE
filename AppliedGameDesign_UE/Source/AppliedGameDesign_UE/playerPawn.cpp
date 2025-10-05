@@ -47,6 +47,24 @@ void AplayerPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
+	{
+		if (ULocalPlayer* LocalPlayer = PlayerController->GetLocalPlayer())
+		{
+			if (UEnhancedInputLocalPlayerSubsystem* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
+			{
+				if (defaultMappingContext)
+				{
+					Subsystem->AddMappingContext(defaultMappingContext, 0);
+					UE_LOG(LogTemp, Warning, TEXT("Mapping context added."));
+				}
+				else
+				{
+					UE_LOG(LogTemp, Warning, TEXT("No mapping context assigned!"));
+				}
+			}
+		}
+	}
 }
 
 // Called every frame
