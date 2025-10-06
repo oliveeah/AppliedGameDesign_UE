@@ -35,6 +35,9 @@ AplayerPawn::AplayerPawn()
 		camera->bUsePawnControlRotation = false;
 
 		physicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
+		physicsHandle->InterpolationSpeed = 10.f; // smooths movement
+		physicsHandle->LinearDamping = 2000.f;   // stabilizes objects
+		physicsHandle->LinearStiffness = 3000.f; // stronger attachment
 		//physicsHandle->SetupAttachment(root);
 
 }
@@ -74,26 +77,20 @@ void AplayerPawn::Tick(float DeltaTime)
 	{
 		float mouseX, mouseY;
 
-		APlayerController* playerController = GetWorld()->GetFirstPlayerController();//get player controller and check ptr
-		if (!playerController) { return; }
 
-		playerController->GetMousePosition(mouseX, mouseY);
+		PlayerController->GetMousePosition(mouseX, mouseY);
 
 		FVector worldLocation, worldDirection;
 
-		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
+		PlayerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
 
 		float Distance = 400.f;
 		FVector TargetLocation = worldLocation + (worldDirection * Distance);
 
 		physicsHandle->SetTargetLocationAndRotation(
 			TargetLocation,
-			playerController->PlayerCameraManager->GetCameraRotation()
+			PlayerController->PlayerCameraManager->GetCameraRotation()
 		);
-	}
-	else
-	{
-		physicsHandle->ReleaseComponent();
 	}
 
 }
@@ -157,6 +154,10 @@ void AplayerPawn::interactCallbackHolding()
 void AplayerPawn::interactCallbackRelease()
 {
 	isHolding = false;
+	if (physicsHandle && physicsHandle->GrabbedComponent)
+	{
+		physicsHandle->ReleaseComponent();
+	}
 }
 
 
