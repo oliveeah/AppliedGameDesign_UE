@@ -5,6 +5,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "GameplayTagContainer.h"
+#include "Components/TextRenderComponent.h"
+
 
 // Sets default values
 AgrabbableObject::AgrabbableObject()
@@ -22,9 +24,10 @@ AgrabbableObject::AgrabbableObject()
 	mesh->SetupAttachment(boxCollision);
 	mesh->SetSimulatePhysics(false);
 
-	FGameplayTag grabbableObjectTag = FGameplayTag::RequestGameplayTag(FName("canGrab"));
+	//FGameplayTag grabbableObjectTag = FGameplayTag::RequestGameplayTag(FName("canGrab"));
 
-
+	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
+	textRender->SetupAttachment(boxCollision);
 }
 
 
@@ -34,6 +37,11 @@ void AgrabbableObject::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	int32 randomNum = FMath::RandRange(0, 100);
+
+	UE_LOG(LogTemp, Display, TEXT("Random Number: %d"), randomNum);
+
+	textRender->SetText(FText::AsNumber(randomNum));
 }
 
 // Called every frame
