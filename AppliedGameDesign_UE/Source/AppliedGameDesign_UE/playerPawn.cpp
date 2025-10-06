@@ -10,7 +10,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
-
+#include "grabbableObject.h"
 
 // Sets default values
 AplayerPawn::AplayerPawn()
@@ -34,13 +34,17 @@ AplayerPawn::AplayerPawn()
 		camera->SetupAttachment(springArm, USpringArmComponent::SocketName);
 		camera->bUsePawnControlRotation = false;
 
+		physicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
+		//physicsHandle->SetupAttachment(root);
+
 }
 
 // Called when the game starts or when spawned
 void AplayerPawn::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+
 	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
 	{
 		if (ULocalPlayer* LocalPlayer = PlayerController->GetLocalPlayer())
@@ -65,6 +69,28 @@ void AplayerPawn::BeginPlay()
 void AplayerPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (isHolding && physicsHandle && physicsHandle->GrabbedComponent)
+	{
+		float mouseX, mouseY;
+
+		APlayerController* playerController = GetWorld()->GetFirstPlayerController();//get player controller and check ptr
+		if (!playerController) { return; }
+
+		playerController->GetMousePosition(mouseX, mouseY);
+
+		FVector worldLocation, worldDirection;
+
+		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
+
+		float Distance = 400.f;
+		FVector TargetLocation = worldLocation + (worldDirection * Distance);
+
+		physicsHandle->SetTargetLocationAndRotation(
+			TargetLocation,
+			playerController->PlayerCameraManager->GetCameraRotation()
+		);
+	}
 
 }
 
@@ -100,14 +126,39 @@ void AplayerPawn::interactCallback()
 	{
 		DrawDebugSphere(GetWorld(), hit.ImpactPoint, 10.0f, 12, FColor::Red, false, 2.0f);//draw debug sphere
 
-		if (hit.GetActor() && hit.GetActor()->ActorHasTag("canGrab"))//if hit actor has tag
+		if (AActor* hitActor = hit.GetActor())
 		{
-			UE_LOG(LogTemp, Display, TEXT("grabbable object grabbed"));
+			if (hitActor->IsA(AgrabbableObject::StaticClass()))
+			{
+				UE_LOG(LogTemp, Display, TEXT("grabbableObject actor hit"));
+
+				if (!physicsHandle) { return; }
+
+				UPrimitiveComponent* hitComponent = hit.GetComponent();
+				physicsHandle->GrabComponentAtLocationWithRotation(
+					hitComponent,
+					NAME_None,
+					hitComponent->GetComponentLocation(),
+					hitComponent->GetComponentRotation()
+				);
+				isHolding = true;
+			}
 		}
-		else
-		{
-			UE_LOG(LogTemp, Display, TEXT("object cannot be grabbed"));
-		}
+
+		//if (hit.GetActor() && hit.GetActor()->ActorHasTag("canGrab"))//if hit actor has tag
+		//{
+		//	UE_LOG(LogTemp, Display, TEXT("grabbable object grabbed"));
+
+		//	if (!physicsHandle)
+		//	{
+		//		return;
+		//	}
+		//	//physicsHandle->GrabComponentAtLocationWithRotation();
+		//}
+		//else
+		//{
+		//	UE_LOG(LogTemp, Display, TEXT("object cannot be grabbed"));
+		//}
 	}
 }
 

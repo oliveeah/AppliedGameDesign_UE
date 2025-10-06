@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
@@ -50,6 +51,8 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Components")
 	UStaticMeshComponent* mesh;
 
+
+
 protected:
 
 	// Input mapping context
@@ -66,4 +69,6 @@ public:
 
 	bool isHolding = false;
 	
+	UPROPERTY(EditDefaultsOnly, Category = "Components")
+	UPhysicsHandleComponent* physicsHandle;
 };
