@@ -19,6 +19,8 @@ AgrabbableObject::AgrabbableObject()
 	boxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("box collider"));
 	SetRootComponent(boxCollision);
 	boxCollision->SetSimulatePhysics(true);
+	boxCollision->SetLinearDamping(2.0f);
+	boxCollision->SetAngularDamping(5.0f);
 
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	mesh->SetupAttachment(boxCollision);
@@ -28,6 +30,8 @@ AgrabbableObject::AgrabbableObject()
 
 	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
 	textRender->SetupAttachment(boxCollision);
+
+
 }
 
 
