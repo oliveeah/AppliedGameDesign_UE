@@ -91,6 +91,10 @@ void AplayerPawn::Tick(float DeltaTime)
 			playerController->PlayerCameraManager->GetCameraRotation()
 		);
 	}
+	else
+	{
+		physicsHandle->ReleaseComponent();
+	}
 
 }
 
@@ -101,7 +105,8 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
-		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Started, this, &AplayerPawn::interactCallback);
+		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Started, this, &AplayerPawn::interactCallbackHolding);
+		EnhancedInputComponent->BindAction(interactAction, ETriggerEvent::Completed, this, &AplayerPawn::interactCallbackRelease);
 
 	}
 	else
@@ -111,7 +116,7 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	}
 }
 
-void AplayerPawn::interactCallback()
+void AplayerPawn::interactCallbackHolding()
 {
 	UE_LOG(LogTemp, Warning, TEXT("input callback called"));
 	
@@ -145,21 +150,13 @@ void AplayerPawn::interactCallback()
 			}
 		}
 
-		//if (hit.GetActor() && hit.GetActor()->ActorHasTag("canGrab"))//if hit actor has tag
-		//{
-		//	UE_LOG(LogTemp, Display, TEXT("grabbable object grabbed"));
 
-		//	if (!physicsHandle)
-		//	{
-		//		return;
-		//	}
-		//	//physicsHandle->GrabComponentAtLocationWithRotation();
-		//}
-		//else
-		//{
-		//	UE_LOG(LogTemp, Display, TEXT("object cannot be grabbed"));
-		//}
 	}
+}
+
+void AplayerPawn::interactCallbackRelease()
+{
+	isHolding = false;
 }
 
 
