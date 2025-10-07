@@ -18,7 +18,7 @@ AplayerPawn::AplayerPawn()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-
+		
 		root = CreateDefaultSubobject<USceneComponent>(TEXT("root"));
 		SetRootComponent(root);
 	
@@ -36,8 +36,8 @@ AplayerPawn::AplayerPawn()
 
 		physicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
 		physicsHandle->InterpolationSpeed = 10.f; // smooths movement
-		physicsHandle->LinearDamping = 2000.f;   // stabilizes objects
-		physicsHandle->LinearStiffness = 3000.f; // stronger attachment
+		physicsHandle->LinearDamping = 1000.f;   // stabilizes objects
+		physicsHandle->LinearStiffness = 2000.f; // stronger attachment
 		//physicsHandle->SetupAttachment(root);
 
 }
@@ -46,11 +46,15 @@ AplayerPawn::AplayerPawn()
 void AplayerPawn::BeginPlay()
 {
 	Super::BeginPlay();
-
-
-	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
+	playerController = Cast<APlayerController>(GetController());
+	if (!playerController)
 	{
-		if (ULocalPlayer* LocalPlayer = PlayerController->GetLocalPlayer())
+		playerController = GetWorld()->GetFirstPlayerController();
+	}
+
+	if (playerController)
+	{
+		if (ULocalPlayer* LocalPlayer = playerController->GetLocalPlayer())
 		{
 			if (UEnhancedInputLocalPlayerSubsystem* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
 			{
@@ -78,18 +82,18 @@ void AplayerPawn::Tick(float DeltaTime)
 		float mouseX, mouseY;
 
 
-		PlayerController->GetMousePosition(mouseX, mouseY);
+		playerController->GetMousePosition(mouseX, mouseY);
 
 		FVector worldLocation, worldDirection;
 
-		PlayerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
+		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
 
 		float Distance = 400.f;
 		FVector TargetLocation = worldLocation + (worldDirection * Distance);
 
 		physicsHandle->SetTargetLocationAndRotation(
 			TargetLocation,
-			PlayerController->PlayerCameraManager->GetCameraRotation()
+			playerController->PlayerCameraManager->GetCameraRotation()
 		);
 	}
 
@@ -115,9 +119,12 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void AplayerPawn::interactCallbackHolding()
 {
+	SetActorTickEnabled(true);
+
+
 	UE_LOG(LogTemp, Warning, TEXT("input callback called"));
 	
-	APlayerController* playerController = GetWorld()->GetFirstPlayerController();//get player controller and check ptr
+	//get player controller and check ptr
 	if (!playerController) { return; }
 
 	FHitResult hit;
@@ -137,6 +144,9 @@ void AplayerPawn::interactCallbackHolding()
 				if (!physicsHandle) { return; }
 
 				UPrimitiveComponent* hitComponent = hit.GetComponent();
+
+				if (!hitComponent || !hitComponent->IsSimulatingPhysics()) { return; }
+
 				physicsHandle->GrabComponentAtLocationWithRotation(
 					hitComponent,
 					NAME_None,
@@ -153,6 +163,9 @@ void AplayerPawn::interactCallbackHolding()
 
 void AplayerPawn::interactCallbackRelease()
 {
+	SetActorTickEnabled(false);
+
+
 	isHolding = false;
 	if (physicsHandle && physicsHandle->GrabbedComponent)
 	{

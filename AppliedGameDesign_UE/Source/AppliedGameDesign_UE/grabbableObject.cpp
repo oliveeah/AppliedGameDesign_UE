@@ -19,8 +19,8 @@ AgrabbableObject::AgrabbableObject()
 	boxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("box collider"));
 	SetRootComponent(boxCollision);
 	boxCollision->SetSimulatePhysics(true);
-	boxCollision->SetLinearDamping(2.0f);
-	boxCollision->SetAngularDamping(5.0f);
+	boxCollision->SetLinearDamping(4.f);
+	boxCollision->SetAngularDamping(10.f);
 
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	mesh->SetupAttachment(boxCollision);
@@ -41,17 +41,25 @@ void AgrabbableObject::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	int32 randomNum = FMath::RandRange(0, 100);
+	//int32 randomNum = FMath::RandRange(0, 100);
 
-	UE_LOG(LogTemp, Display, TEXT("Random Number: %d"), randomNum);
+	
+	//UE_LOG(LogTemp, Display, TEXT("Random Number: %d"), randomNum);
 
-	textRender->SetText(FText::AsNumber(randomNum));
 }
 
 // Called every frame
 void AgrabbableObject::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+}
+
+void AgrabbableObject::setRandomNum(int32 randomNumGenerated)
+{
+
+
+	textRender->SetText(FText::AsNumber(randomNumGenerated));
 
 }
 

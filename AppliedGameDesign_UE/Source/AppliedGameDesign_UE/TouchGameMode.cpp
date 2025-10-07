@@ -4,6 +4,8 @@
 #include "TouchGameMode.h"
 #include "UObject/ConstructorHelpers.h"
 
+
+
 ATouchGameMode::ATouchGameMode()
 {
 	ConstructorHelpers::FClassFinder<APawn> defaultPawn(TEXT("/Game/blueprints/playerPawn_BP.playerPawn_BP"));
@@ -16,4 +18,16 @@ ATouchGameMode::ATouchGameMode()
 
 	//ConstructorHelpers::FClassFinder<ASpectatorPawn> defaultCamera(TEXT("/Game/blueprints/MySpectatorPawn_BP.MySpectatorPawn_BP"));
 		//SpectatorClass = defaultCamera.Class;
+}
+
+void ATouchGameMode::BeginPlay()
+{
+	Super::BeginPlay();
+
+
+	int32 i = 0;
+	while (i <= 4)
+	{
+
+	}
 }

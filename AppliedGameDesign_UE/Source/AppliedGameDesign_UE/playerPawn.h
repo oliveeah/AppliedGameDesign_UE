@@ -74,4 +74,6 @@ public:
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Components")
 	UPhysicsHandleComponent* physicsHandle;
+
+	APlayerController* playerController;
 };

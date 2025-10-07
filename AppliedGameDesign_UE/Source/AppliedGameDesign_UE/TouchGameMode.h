@@ -14,7 +14,9 @@ class APPLIEDGAMEDESIGN_UE_API ATouchGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
+protected:
+	virtual void BeginPlay() override;
+
 
 public:
 	

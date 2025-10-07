@@ -33,11 +33,13 @@ protected:
 	class UTextRenderComponent* textRender;
 
 
-	
+
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+
+	void setRandomNum(int32 randomNumGenerated);
 
 };
