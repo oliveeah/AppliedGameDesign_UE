@@ -3474,3 +3474,120 @@ FPackageName: Skipped package /Game/assets/FarmAnimals_v1/Material_008 has a val
 [2025.10.07-21.58.34:214][719]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
 [2025.10.07-21.58.34:227][719]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
 [2025.10.07-21.58.34:515][720]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.10.07-21.58.52:484][931]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2025.10.07-21.58.53:766][931]LogSlate: Window 'Save Content' being destroyed
+[2025.10.07-21.58.53:783][931]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.07-21.58.53:996][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.07-21.58.54:042][931]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.07-21.58.54:043][931]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel480597F34E98F8B5ADF384AEB60DDB00.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.07-21.58.54:074][931]LogFileHelpers: Saving map 'testLevel' took 0.190
+[2025.10.07-21.58.54:100][931]LogFileHelpers: InternalPromptForCheckoutAndSave took 317.225 ms (total: 3.09 sec)
+[2025.10.07-21.58.54:239][931]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.07-21.58.54:239][931]LogContentValidation: Enabled validators:
+[2025.10.07-21.58.54:239][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.07-21.58.54:239][931]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.07-21.58.54:239][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.07-21.58.54:239][931]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.07-21.58.54:239][931]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.07-21.58.54:239][931]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.07-21.58.54:239][931]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.07-22.02.53:458][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5635.543945
+[2025.10.07-22.02.54:458][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.07-22.02.54:459][968]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5636.210449, Update Interval: 308.216187
+[2025.10.07-22.08.37:507][996]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5979.592773
+[2025.10.07-22.08.38:508][999]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.07-22.08.38:508][999]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5980.258301, Update Interval: 338.870819
+[2025.10.07-22.13.12:395][821]LogDerivedDataCache: C:/Users/linda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.07-22.15.04:559][157]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6366.640625
+[2025.10.07-22.15.05:562][160]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.07-22.15.05:562][160]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6367.306641, Update Interval: 308.725250
+[2025.10.07-22.20.49:618][192]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6711.703613
+[2025.10.07-22.20.50:617][195]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.07-22.20.50:617][195]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6712.370605, Update Interval: 356.559326
+[2025.10.07-22.25.18:525][527]LogContentBrowser: Attempting asset rename: grabbableObject_2_BP -> grabbableObject_chickem_BP
+[2025.10.07-22.25.18:679][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.07-22.25.18:679][527]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/blueprints/grabbableObject_chickem_BP] ([2] browsable assets)...
+[2025.10.07-22.25.18:681][527]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2025.10.07-22.25.18:700][527]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/blueprints/grabbableObject_chickem_BP.grabbableObject_chickem_BP_C]
+[2025.10.07-22.25.18:700][527]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2025.10.07-22.25.18:713][527]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/grabbableObject_chickem_BP.grabbableObject_chickem_BP]
+[2025.10.07-22.25.18:713][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_chickem_BP]
+[2025.10.07-22.25.18:728][527]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_chickem_BP
+[2025.10.07-22.25.18:728][527]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_chickem_BP36AEF33644AEA386FD4E3C86281E0E86.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_chickem_BP.uasset'
+[2025.10.07-22.25.18:737][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/grabbableObject_2_BP] ([5] browsable assets)...
+[2025.10.07-22.25.18:737][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_2_BP]
+[2025.10.07-22.25.18:746][527]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_2_BP
+[2025.10.07-22.25.18:747][527]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_2_BP6E9EF8004A7EB17772CDBFA0B5C8A52F.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_2_BP.uasset'
+[2025.10.07-22.25.18:751][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.872 ms (total: 3.16 sec)
+[2025.10.07-22.25.18:823][527]LogContentValidation: Display: Starting to validate 4 assets
+[2025.10.07-22.25.18:823][527]LogContentValidation: Enabled validators:
+[2025.10.07-22.25.18:823][527]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.07-22.25.18:823][527]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.07-22.25.18:823][527]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.07-22.25.18:823][527]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.07-22.25.18:823][527]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.07-22.25.18:823][527]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.07-22.25.18:824][527]AssetCheck: /Game/blueprints/grabbableObject_chickem_BP Validating asset
+[2025.10.07-22.25.18:824][527]AssetCheck: /Game/blueprints/grabbableObject_2_BP Validating asset
+[2025.10.07-22.25.18:824][527]AssetCheck: /Game/blueprints/grabbableObject_2_BP Validating asset
+[2025.10.07-22.25.18:824][527]AssetCheck: /Game/blueprints/grabbableObject_2_BP Validating asset
+[2025.10.07-22.25.18:903][527]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.07-22.25.22:733][743]LogContentBrowser: Attempting asset rename: grabbableObject_chickem_BP -> grabbableObject_chicken_BP
+[2025.10.07-22.25.22:885][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.07-22.25.22:885][743]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/grabbableObject_2_BP] ([3] browsable assets)...
+[2025.10.07-22.25.22:885][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_2_BP]
+[2025.10.07-22.25.22:895][743]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_2_BP
+[2025.10.07-22.25.22:897][743]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_2_BP35BEF46648AF203013D1B6A4D968F2EB.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_2_BP.uasset'
+[2025.10.07-22.25.22:900][743]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/grabbableObject_chicken_BP] ([2] browsable assets)...
+[2025.10.07-22.25.22:900][743]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_45
+[2025.10.07-22.25.22:917][743]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/blueprints/grabbableObject_chicken_BP.grabbableObject_chicken_BP_C]
+[2025.10.07-22.25.22:917][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_chicken_BP]
+[2025.10.07-22.25.22:932][743]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_chicken_BP
+[2025.10.07-22.25.22:932][743]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_chicken_BP8E4638C64CBDB8582B17F8AD15044091.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_chicken_BP.uasset'
+[2025.10.07-22.25.22:939][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 53.911 ms (total: 3.22 sec)
+[2025.10.07-22.25.22:999][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.07-22.25.23:042][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.07-22.25.23:078][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.10.07-22.25.23:177][743]LogContentValidation: Display: Starting to validate 4 assets
+[2025.10.07-22.25.23:177][743]LogContentValidation: Enabled validators:
+[2025.10.07-22.25.23:177][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.07-22.25.23:177][743]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.07-22.25.23:177][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.07-22.25.23:177][743]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.07-22.25.23:177][743]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.07-22.25.23:177][743]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.07-22.25.23:177][743]AssetCheck: /Game/blueprints/grabbableObject_2_BP Validating asset
+[2025.10.07-22.25.23:177][743]AssetCheck: /Game/blueprints/grabbableObject_2_BP Validating asset
+[2025.10.07-22.25.23:177][743]AssetCheck: /Game/blueprints/grabbableObject_2_BP Validating asset
+[2025.10.07-22.25.23:177][743]AssetCheck: /Game/blueprints/grabbableObject_chicken_BP Validating asset
+[2025.10.07-22.25.23:187][743]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2025.10.07-22.25.23:259][743]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.07-22.25.28:194][ 22]LogContentBrowser: Attempting asset rename: grabbableObject_3_BP -> grabbableObject_cow_BP
+[2025.10.07-22.25.28:356][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.07-22.25.28:356][ 22]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/blueprints/grabbableObject_cow_BP] ([2] browsable assets)...
+[2025.10.07-22.25.28:356][ 22]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2025.10.07-22.25.28:374][ 22]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/blueprints/grabbableObject_cow_BP.grabbableObject_cow_BP_C]
+[2025.10.07-22.25.28:374][ 22]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_48
+[2025.10.07-22.25.28:390][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/grabbableObject_cow_BP.grabbableObject_cow_BP]
+[2025.10.07-22.25.28:390][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_cow_BP]
+[2025.10.07-22.25.28:407][ 22]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_cow_BP
+[2025.10.07-22.25.28:407][ 22]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_cow_BPFD6A8E2B41BC25FFF2771B8CFDEBAB75.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_cow_BP.uasset'
+[2025.10.07-22.25.28:416][ 22]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/grabbableObject_3_BP] ([5] browsable assets)...
+[2025.10.07-22.25.28:417][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_3_BP]
+[2025.10.07-22.25.28:427][ 22]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_3_BP
+[2025.10.07-22.25.28:429][ 22]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_3_BPD88578E94B69ED3E5F7B86AA520AADEC.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_3_BP.uasset'
+[2025.10.07-22.25.28:433][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.832 ms (total: 3.29 sec)
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: Display: Starting to validate 4 assets
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: Enabled validators:
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.07-22.25.28:516][ 22]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.07-22.25.28:516][ 22]AssetCheck: /Game/blueprints/grabbableObject_cow_BP Validating asset
+[2025.10.07-22.25.28:516][ 22]AssetCheck: /Game/blueprints/grabbableObject_3_BP Validating asset
+[2025.10.07-22.25.28:516][ 22]AssetCheck: /Game/blueprints/grabbableObject_3_BP Validating asset
+[2025.10.07-22.25.28:516][ 22]AssetCheck: /Game/blueprints/grabbableObject_3_BP Validating asset
+[2025.10.07-22.25.28:596][ 22]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.07-22.25.33:474][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
