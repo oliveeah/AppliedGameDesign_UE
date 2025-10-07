@@ -76,4 +76,6 @@ public:
 	UPhysicsHandleComponent* physicsHandle;
 
 	APlayerController* playerController;
+
+	float GrabDistance = 400.0f;
 };

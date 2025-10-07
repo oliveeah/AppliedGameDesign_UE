@@ -88,8 +88,8 @@ void AplayerPawn::Tick(float DeltaTime)
 
 		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
 
-		float Distance = 400.f;
-		FVector TargetLocation = worldLocation + (worldDirection * Distance);
+		
+		FVector TargetLocation = worldLocation + (worldDirection * GrabDistance);
 
 		physicsHandle->SetTargetLocationAndRotation(
 			TargetLocation,
@@ -153,6 +153,10 @@ void AplayerPawn::interactCallbackHolding()
 					hitComponent->GetComponentLocation(),
 					hitComponent->GetComponentRotation()
 				);
+
+				FVector CamLoc = playerController->PlayerCameraManager->GetCameraLocation();
+				GrabDistance = (hit.ImpactPoint - CamLoc).Size();
+
 				isHolding = true;
 			}
 		}
