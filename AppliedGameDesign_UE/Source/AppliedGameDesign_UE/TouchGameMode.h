@@ -17,6 +17,7 @@ class APPLIEDGAMEDESIGN_UE_API ATouchGameMode : public AGameModeBase
 protected:
 	virtual void BeginPlay() override;
 
+	void calculateRandomNumbers();
 
 public:
 	
