@@ -26,4 +26,10 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta = (AllowPrivateAccess = "true"))
 	class UBoxComponent* holdingBox;
+
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* itemToHoldMesh;
+
+	UPROPERTY(VisibleAnywhere)
+	USceneComponent* RootComp;//root component we will attach everything to
 };

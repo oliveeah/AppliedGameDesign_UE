@@ -3,12 +3,22 @@
 
 #include "placementSlot.h"
 #include "Components/BoxComponent.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 AplacementSlot::AplacementSlot()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	RootComp = CreateDefaultSubobject<USceneComponent>(TEXT("Root Comp"));//create object of type and return pointer
+	SetRootComponent(RootComp);//set root comp object as root comp 
+
+	holdingBox = CreateDefaultSubobject<UBoxComponent>(TEXT("box Comp"));
+	holdingBox->SetupAttachment(RootComp);//attach trigger comp to root comp
+
+	itemToHoldMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Key Item Mesh"));
+	itemToHoldMesh->SetupAttachment(RootComp);
 
 }
 
