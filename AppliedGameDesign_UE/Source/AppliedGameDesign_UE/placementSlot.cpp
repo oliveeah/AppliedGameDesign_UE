@@ -2,6 +2,7 @@
 
 
 #include "placementSlot.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 AplacementSlot::AplacementSlot()

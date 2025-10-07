@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "placementSlot.generated.h"
 
+
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API AplacementSlot : public AActor
 {
@@ -23,4 +24,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta = (AllowPrivateAccess = "true"))
+	class UBoxComponent* holdingBox;
 };
