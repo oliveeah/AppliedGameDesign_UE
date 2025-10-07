@@ -49,29 +49,20 @@ void ATouchGameMode::calculateRandomNumbers()
 
 	int32 numOfGrabbableObjectsInScene = FoundObjects.Num();
 
-	TArray<int32> randomNumberArray;
+	TSet<int32> randomNumberTSet;
 
 	int32 i = numOfGrabbableObjectsInScene;
 	while (i != 0)
 	{
 		int32 randomNum = FMath::RandRange(0, 100);
-		if (randomNumberArray.Contains(randomNum))
+		if (!randomNumberTSet.Contains(randomNum))
 		{
-			return;
-		}
-		else
-		{
-			randomNumberArray.Add(randomNum);
+			randomNumberTSet.Add(randomNum);
 			i--;
 		}
 	}
+	TArray<int32> randomNumberArray = randomNumberTSet.Array();
 
-	for (int j = 0; j < randomNumberArray.Num(); j++)
-	{
-		UE_LOG(LogTemp, Display, TEXT(" array contents: %d"), randomNumberArray[j]);
-		
-	
-	}
 
 	int l = 0;
 	for (AActor* Actor : FoundObjects)
