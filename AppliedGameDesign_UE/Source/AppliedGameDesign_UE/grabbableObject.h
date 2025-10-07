@@ -24,7 +24,7 @@ protected:
 	USceneComponent* root;
 
 	UPROPERTY(EditAnywhere, Category = "Components")
-	UStaticMeshComponent* mesh;
+	USkeletalMeshComponent* mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta =(AllowPrivateAccess = "true"))
 	class UBoxComponent* boxCollision;

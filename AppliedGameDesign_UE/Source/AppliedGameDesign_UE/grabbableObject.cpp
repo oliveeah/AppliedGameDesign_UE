@@ -2,7 +2,7 @@
 
 
 #include "grabbableObject.h"
-#include "Components/StaticMeshComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "GameplayTagContainer.h"
 #include "Components/TextRenderComponent.h"
@@ -22,7 +22,7 @@ AgrabbableObject::AgrabbableObject()
 	boxCollision->SetLinearDamping(4.f);
 	boxCollision->SetAngularDamping(10.f);
 
-	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
 	mesh->SetupAttachment(boxCollision);
 	mesh->SetSimulatePhysics(false);
 
