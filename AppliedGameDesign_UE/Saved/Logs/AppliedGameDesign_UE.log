@@ -9505,3 +9505,352 @@ FPackageName: Skipped package /Game/assets/FarmAnimals_v1/Material_008 has a val
 [2025.10.09-14.07.59:785][682]AssetCheck: /Game/_assets/psx_fences/all_fences/Fences/plaster_wall/plaster_wall_column Validating asset
 [2025.10.09-14.07.59:785][682]AssetCheck: /Game/_assets/psx_fences/all_fences/Fences/plaster_wall/plaster_wall_column_fancy Validating asset
 [2025.10.09-14.07.59:816][682]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: ================================================
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Total job queries 1,027, among them cache hits 472 (45.96%), DDC hits 438 (42.65%), Duplicates 105 (10.22%)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Tracking 450 distinct input hashes that result in 274 distinct outputs (60.89%)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: RAM used: 2.22 MiB of 1.60 GiB budget. Usage: 0.14%
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Shaders Compiled: 12
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Average time worker was idle: 67.44 s
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Job execution time: average 1.14 s, max 2.03 s
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Job life time (pending + execution): average 1.20 s, max 2.09
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Shader code size: total 151.261 KiB, numShaders 12, average 12.604 KiB, min 2.934 KiB, max 29.414 KiB
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.60 s
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Average processing rate: 1.58 jobs/sec
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Total thread time: 11.183 s
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Total thread preprocess time: 22.182 s
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Percentage time preprocessing: 198.35%
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Effective parallelization: 1.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.183997
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.72 sec, max 1.72 sec, min 1.72 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.29 sec, max 1.29 sec, min 1.29 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 1.06 sec, max 1.06 sec, min 1.06 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 1.00 sec, max 1.38 sec, min 0.62 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.85% of total time (compiled    3 times, average 0.85 sec, max 1.40 sec, min 0.57 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.90% of total time (compiled    2 times, average 1.00 sec, max 1.38 sec, min 0.62 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 15.35% of total time (compiled    1 times, average 1.72 sec, max 1.72 sec, min 1.72 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.50% of total time (compiled    1 times, average 1.29 sec, max 1.29 sec, min 1.29 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 9.68% of total time (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: === Material stats ===
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Materials Translated:    210
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Material Total Translate Time: 0.23 s
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Material Translation Only: 0.12 s (51%)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Material DDC Serialization Only: 0.01 s (2%)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: Material Cache Hits: 60 (29%)
+[2025.10.09-14.08.45:914][425]LogShaderCompilers: Display: ================================================
+[2025.10.09-14.09.05:845][584]LogStreaming: Display: FlushAsyncLoading(1243): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.09.05:845][584]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall.low_wooden_wall'
+[2025.10.09-14.09.09:653][784]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/wooden_fence_closed.wooden_fence_closed
+[2025.10.09-14.09.09:653][784]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/wooden_fence_closed.wooden_fence_closed
+[2025.10.09-14.09.09:653][784]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/wooden_fence_closed.wooden_fence_closed as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_19
+[2025.10.09-14.09.09:658][784]LogStreaming: Display: FlushAsyncLoading(1245): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.09.11:335][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.10.09-14.09.11:340][883]LogEditorActor: Deleted 0 Actors (0.034 secs)
+[2025.10.09-14.09.11:346][883]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/wooden_fence_closed.wooden_fence_closed
+[2025.10.09-14.09.11:346][883]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/wooden_fence_closed.wooden_fence_closed
+[2025.10.09-14.09.11:348][883]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/wooden_fence_closed.wooden_fence_closed as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_20
+[2025.10.09-14.09.11:357][883]LogStreaming: Display: FlushAsyncLoading(1246): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.09.27:204][767]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall1.low_wooden_wall1
+[2025.10.09-14.09.27:204][767]LogStreaming: Display: FlushAsyncLoading(1248): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.09.27:206][767]LogMaterial: Warning: [AssetLog] /Engine/Transient.low_wooden_wall1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.09.27:210][767]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.10.09-14.09.27:564][767]LogMaterial: Warning: [AssetLog] /Engine/Transient.low_wooden_wall1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.09.27:570][767]LogMaterial: Warning: [AssetLog] /Engine/Transient.low_wooden_wall1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.09.28:213][767]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2025.10.09-14.09.47:734][679]LogStreaming: Display: FlushAsyncLoading(1254): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.09.51:020][820]LogMaterial: Warning: [AssetLog] /Engine/Transient.low_wooden_wall1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.09.53:927][959]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.09-14.09.53:927][959]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.09-14.09.53:927][959]MaterialEditorStats: Shader Count: 0
+[2025.10.09-14.09.53:927][959]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.09-14.09.54:014][961]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.10.09-14.09.54:014][961]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.09-14.09.54:014][961]MaterialEditorStats: Texture samplers: 1/16
+[2025.10.09-14.09.54:014][961]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.09-14.09.54:014][961]MaterialEditorStats: Shader Count: 3
+[2025.10.09-14.09.54:014][961]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.09-14.09.54:756][999]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.09-14.09.54:756][999]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.09-14.09.54:756][999]MaterialEditorStats: Shader Count: 0
+[2025.10.09-14.09.54:756][999]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.09-14.09.54:845][  1]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.10.09-14.09.54:845][  1]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.09-14.09.54:845][  1]MaterialEditorStats: Texture samplers: 1/16
+[2025.10.09-14.09.54:845][  1]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.09-14.09.54:845][  1]MaterialEditorStats: Shader Count: 3
+[2025.10.09-14.09.54:845][  1]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.09-14.09.57:154][123]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.09-14.09.57:154][123]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.09-14.09.57:154][123]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.09-14.09.57:154][123]MaterialEditorStats: Shader Count: 0
+[2025.10.09-14.09.57:154][123]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.09-14.09.57:223][125]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.09-14.09.57:223][125]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.09-14.09.57:223][125]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.09-14.09.57:223][125]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.09-14.09.57:223][125]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.09-14.09.57:223][125]MaterialEditorStats: Shader Count: 3
+[2025.10.09-14.09.57:223][125]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.09-14.10.01:348][334]LogMaterialEditor: Saving and Compiling material low_wooden_wall1
+[2025.10.09-14.10.01:534][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.10.09-14.10.01:783][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.10.09-14.10.01:803][334]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.10.01:890][334]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall1] ([1] browsable assets)...
+[2025.10.09-14.10.01:899][334]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall1.low_wooden_wall1]
+[2025.10.09-14.10.01:899][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall1]
+[2025.10.09-14.10.01:913][334]LogSavePackage: Moving output files for package: /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall1
+[2025.10.09-14.10.01:914][334]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/low_wooden_wall1804C86D644CBC54247E1B8933439C00D.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall1.uasset'
+[2025.10.09-14.10.01:925][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.766 ms (total: 11.7 sec)
+[2025.10.09-14.10.02:044][334]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.10.02:044][334]LogContentValidation: Enabled validators:
+[2025.10.09-14.10.02:044][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.10.02:044][334]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.10.02:044][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.10.02:044][334]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.10.02:044][334]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.10.02:044][334]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.10.02:044][334]AssetCheck: /Game/_assets/psx_fences/all_fences/Fences/low_wooden_fence/low_wooden_wall1 Validating asset
+[2025.10.09-14.10.05:015][482]LogSlate: Window 'low_wooden_wall1' being destroyed
+[2025.10.09-14.10.11:615][872]Cmd: DUPLICATE
+[2025.10.09-14.10.11:615][872]Cmd: ACTOR DUPLICATE
+[2025.10.09-14.10.17:395][206]Cmd: DUPLICATE
+[2025.10.09-14.10.17:396][206]Cmd: ACTOR DUPLICATE
+[2025.10.09-14.10.33:828][148]Cmd: DUPLICATE
+[2025.10.09-14.10.33:828][148]Cmd: ACTOR DUPLICATE
+[2025.10.09-14.10.47:141][921]Cmd: DUPLICATE
+[2025.10.09-14.10.47:141][921]Cmd: ACTOR DUPLICATE
+[2025.10.09-14.10.56:526][466]Cmd: DUPLICATE
+[2025.10.09-14.10.56:526][466]Cmd: ACTOR DUPLICATE
+[2025.10.09-14.11.18:901][766]Cmd: TRANSACTION UNDO
+[2025.10.09-14.11.18:901][766]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.09-14.11.21:196][875]Cmd: DUPLICATE
+[2025.10.09-14.11.21:196][875]Cmd: ACTOR DUPLICATE
+[2025.10.09-14.11.36:105][717]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.11.36:120][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.11.36:120][717]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.11.36:131][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011290s)
+[2025.10.09-14.11.36:131][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.011342s)
+[2025.10.09-14.11.36:173][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.10.09-14.11.36:177][717]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.11.36:180][717]LogPlayLevel: PIE: World Init took: (0.002924s)
+[2025.10.09-14.11.36:182][717]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.10.09-14.11.36:182][717]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.11.36:182][717]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.11.36:182][717]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.11.36:182][717]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.11.36:182][717]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.11.36:182][717]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.11.36:182][717]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.11.36:182][717]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.11.36:182][717]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.11.36:182][717]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.11.36:182][717]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.11.36:186][717]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.11.36:274][717]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.11.36:274][717]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.11.36:274][717]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.11.36:274][717]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.11.36:275][717]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.10.09-14.11.36:275][717]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.10.09-14.11.36:279][717]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.10.09-14.11.36:279][717]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.10.09-14.11.36:279][717]LogInit: FAudioDevice initialized with ID 16.
+[2025.10.09-14.11.36:279][717]LogAudio: Display: Audio Device (ID: 16) registered with world 'testLevel'.
+[2025.10.09-14.11.36:279][717]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.09-14.11.36:330][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.11.36:331][717]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.11.36:331][717]LogStreaming: Display: FlushAsyncLoading(1255): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.11.36:332][717]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.11.36:332][717]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.11.36:333][717]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.11.36:337][717]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.11.36
+[2025.10.09-14.11.36:337][717]LogWorld: Bringing up level for play took: 0.004527
+[2025.10.09-14.11.36:340][717]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.10.09-14.11.36:340][717]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.11.36:341][717]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.11.36:341][717]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.11.36:349][717]PIE: Server logged in
+[2025.10.09-14.11.36:355][717]PIE: Play in editor total start time 0.238 seconds.
+[2025.10.09-14.11.37:538][784]LogTemp: Warning: input callback called
+[2025.10.09-14.11.37:538][784]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.11.40:473][960]LogTemp: Warning: input callback called
+[2025.10.09-14.11.40:473][960]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.11.42:323][ 71]LogTemp: Warning: input callback called
+[2025.10.09-14.11.42:323][ 71]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.11.43:242][126]LogTemp: Warning: input callback called
+[2025.10.09-14.11.43:243][126]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.11.44:394][195]LogTemp: Warning: input callback called
+[2025.10.09-14.11.44:394][195]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.11.45:611][268]LogTemp: Warning: input callback called
+[2025.10.09-14.11.45:611][268]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.11.48:561][445]LogTemp: Warning: input callback called
+[2025.10.09-14.11.48:561][445]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.11.52:812][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.11.52:812][698]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.11.52:812][698]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.11.52:830][698]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.11.52:831][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.11.52:835][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.11.52:844][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.11.52:883][698]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.09-14.11.52:883][698]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2025.10.09-14.11.52:887][698]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2025.10.09-14.11.52:898][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.10.09-14.11.53:211][705]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.10.09-14.11.57:564][963]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1277.615112
+[2025.10.09-14.11.57:711][972]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-14.11.57:711][972]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1277.746094, Update Interval: 311.594604
+[2025.10.09-14.16.24:162][438]LogStreaming: Display: FlushAsyncLoading(1256): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.16.24:405][443]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.10.09-14.16.24:588][451]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx
+[2025.10.09-14.16.24:588][451]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx
+[2025.10.09-14.16.24:589][451]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_0
+[2025.10.09-14.16.24:590][451]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_0
+[2025.10.09-14.16.24:609][452]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.10.09-14.16.25:460][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.10.09-14.16.25:463][488]LogEditorActor: Deleted 0 Actors (0.071 secs)
+[2025.10.09-14.16.25:470][488]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx
+[2025.10.09-14.16.25:471][488]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx
+[2025.10.09-14.16.25:474][488]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_1
+[2025.10.09-14.16.25:474][488]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_1
+[2025.10.09-14.16.40:109][336]Cmd: DUPLICATE
+[2025.10.09-14.16.40:109][336]Cmd: ACTOR DUPLICATE
+[2025.10.09-14.16.42:423][462]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.16.42:436][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.16.42:436][462]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.16.42:449][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012786s)
+[2025.10.09-14.16.42:449][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.012862s)
+[2025.10.09-14.16.42:489][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.10.09-14.16.42:491][462]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.16.42:494][462]LogPlayLevel: PIE: World Init took: (0.003003s)
+[2025.10.09-14.16.42:495][462]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.10.09-14.16.42:495][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.16.42:495][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.16.42:495][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.16.42:495][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.16.42:495][462]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.16.42:495][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.16.42:495][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.16.42:495][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.16.42:495][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.16.42:495][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.16.42:495][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.16.42:499][462]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.16.42:572][462]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.16.42:572][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.16.42:572][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.16.42:573][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.16.42:573][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.10.09-14.16.42:573][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.10.09-14.16.42:577][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.10.09-14.16.42:577][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.10.09-14.16.42:577][462]LogInit: FAudioDevice initialized with ID 17.
+[2025.10.09-14.16.42:577][462]LogAudio: Display: Audio Device (ID: 17) registered with world 'testLevel'.
+[2025.10.09-14.16.42:577][462]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.09-14.16.42:624][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.16.42:624][462]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.16.42:624][462]LogStreaming: Display: FlushAsyncLoading(1257): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.16.42:624][462]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.16.42:624][462]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.16.42:625][462]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.16.42:630][462]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.16.42
+[2025.10.09-14.16.42:630][462]LogWorld: Bringing up level for play took: 0.005211
+[2025.10.09-14.16.42:634][462]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.10.09-14.16.42:634][462]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.16.42:636][462]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.16.42:636][462]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.16.42:642][462]PIE: Server logged in
+[2025.10.09-14.16.42:648][462]PIE: Play in editor total start time 0.212 seconds.
+[2025.10.09-14.16.44:445][565]LogTemp: Warning: input callback called
+[2025.10.09-14.16.44:980][597]LogTemp: Warning: input callback called
+[2025.10.09-14.16.45:280][615]LogTemp: Warning: input callback called
+[2025.10.09-14.16.45:748][643]LogTemp: Warning: input callback called
+[2025.10.09-14.16.45:748][643]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.16.46:934][714]LogTemp: Warning: input callback called
+[2025.10.09-14.16.46:934][714]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.16.48:235][792]LogTemp: Warning: input callback called
+[2025.10.09-14.16.48:235][792]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.16.49:854][889]LogTemp: Warning: input callback called
+[2025.10.09-14.16.49:854][889]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.16.51:038][960]LogTemp: Warning: input callback called
+[2025.10.09-14.16.51:038][960]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.16.52:023][ 19]LogTemp: Warning: input callback called
+[2025.10.09-14.16.52:023][ 19]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.16.54:075][142]LogTemp: Warning: input callback called
+[2025.10.09-14.16.54:075][142]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.16.56:933][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.16.56:933][312]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.16.56:933][312]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.16.56:950][312]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.16.56:951][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.16.56:955][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.16.56:963][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.16.57:003][312]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.09-14.16.57:003][312]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2025.10.09-14.16.57:007][312]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2025.10.09-14.16.57:021][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.09-14.16.57:297][319]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.10.09-14.17.13:343][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.09-14.17.13:351][250]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.17.13:517][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.09-14.17.13:575][250]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.09-14.17.13:576][250]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel89371EEF46D472D54ED201B1C9BE882B.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.09-14.17.13:596][250]LogFileHelpers: Saving map 'testLevel' took 0.159
+[2025.10.09-14.17.13:612][250]LogFileHelpers: InternalPromptForCheckoutAndSave took 261.344 ms (total: 12.0 sec)
+[2025.10.09-14.17.13:704][250]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.17.13:704][250]LogContentValidation: Enabled validators:
+[2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.17.13:704][250]AssetCheck: /Game/levels/testLevel Validating asset
