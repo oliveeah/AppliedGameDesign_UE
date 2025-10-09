@@ -10149,3 +10149,797 @@ Sampler Limit: 32
 [2025.10.09-13.15.07:243][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.10.09-13.15.07:325][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
 [2025.10.09-13.15.10:621][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.10.09-13.15.29:900][411]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: Total job queries 5,057, among them cache hits 4,153 (82.12%), DDC hits 345 (6.82%), Duplicates 101 (2.00%)
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: Tracking 799 distinct input hashes that result in 407 distinct outputs (50.94%)
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: RAM used: 3.30 MiB of 1.60 GiB budget. Usage: 0.20%
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: Shaders Compiled: 454
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: Jobs assigned 454, completed 454 (100%)
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: Average time worker was idle: 42.36 s
+[2025.10.09-13.15.31:780][493]LogShaderCompilers: Display: Time job spent in pending queue: average 0.18 s, longest 1.53 s
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Job execution time: average 1.44 s, max 3.66 s
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Job life time (pending + execution): average 1.62 s, max 4.25
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Shader code size: total 3.588 MiB, numShaders 542, average 6.779 KiB, min 2.648 KiB, max 15.584 KiB
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 145.46 s
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Jobs were issued in 454 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Average processing rate: 3.12 jobs/sec
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Total thread time: 548.005 s
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Total thread preprocess time: 106.697 s
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Percentage time preprocessing: 19.47%
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.470920
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   38 times, average 2.38 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   11 times, average 1.46 sec, max 1.51 sec, min 1.35 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   16 times, average 1.45 sec, max 1.66 sec, min 1.31 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   15 times, average 1.42 sec, max 1.63 sec, min 1.21 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled   38 times, average 1.35 sec, max 1.76 sec, min 1.10 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 16.49% of total time (compiled   38 times, average 2.38 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                                  FVelocityPS - 11.70% of total time (compiled   48 times, average 1.34 sec, max 1.81 sec, min 0.86 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.07% of total time (compiled   56 times, average 0.98 sec, max 1.35 sec, min 0.57 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 9.36% of total time (compiled   38 times, average 1.35 sec, max 1.76 sec, min 1.10 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display:                                                 FLumenCardPS - 7.18% of total time (compiled   53 times, average 0.74 sec, max 0.91 sec, min 0.47 sec)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: === Material stats ===
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Materials Translated:    795
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Material Total Translate Time: 0.43 s
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Material Translation Only: 0.19 s (45%)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: Material Cache Hits: 31 (4%)
+[2025.10.09-13.15.31:781][493]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.15.32:820][551]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2025.10.09-13.15.48:541][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2025.10.09-13.16.09:793][577]LogFab: Display: Logging in using persist
+[2025.10.09-13.16.10:012][577]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2025.10.09-13.16.10:035][577]LogCEFBrowser: CEF GPU acceleration enabled
+[2025.10.09-13.16.10:595][587]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 4fd...944 Access[Expires: 2025.10.09-15.16.10 Remaining: 7200.63] Refresh[Expires: 2026-04-07T13:16:10.632Z Remaining: 15552000.63] State: Valid
+[2025.10.09-13.16.10:611][588]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.10.09-13.16.10:780][598]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.10.09-13.16.10:780][598]LogFab: Display: User logged in
+[2025.10.09-13.16.10:780][598]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.10.09-13.16.11:246][626]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-c2GWm0f2tEmuMTCPKlGKqA-uBg0iSINA0qpzmS0-htOog]
+[2025.10.09-13.16.56:130][315]LogFab: Display: Asset Type = gltf
+[2025.10.09-13.16.56:130][315]LogFab: Display: Is Quixel = 1
+[2025.10.09-13.16.56:425][325]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18426196043922464152
+[2025.10.09-13.16.56:425][325]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.10.09-13.16.56:437][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.16.58:026][409]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.16.58:588][409]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2025.10.09-13.16.58:589][409]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/linda/AppData/Local/Temp/FabLibrary/55e27fb6-a4d2-4438-9cb4-1452ebe4d369/dirt_ground_xdhhdgq_2k_ue_mid_extracted/xdhhdgq_tier_2.gltf]
+[2025.10.09-13.16.58:659][411]LogStreaming: Display: FlushAsyncLoading(704): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.16.58:808][420]LogStreaming: Display: FlushAsyncLoading(707): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.16.58:892][420]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2025.10.09-13.16.58:896][420]LogTexture: Display: Building textures: /Fab/Textures/Standard/T_DefaultColor.T_DefaultColor (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 1.16142 MB), EncodeSpeed: Fast
+[2025.10.09-13.16.58:896][420]LogTexture: Display: Building textures: /Fab/Textures/Standard/T_DefaultDisplacement.T_DefaultDisplacement (TFO_BC4, 32x32 x1x1x1) (Required Memory Estimate: 1.16988 MB), EncodeSpeed: Fast
+[2025.10.09-13.16.58:896][420]LogTexture: Display: Building textures: /Fab/Textures/Standard/T_DefaultMasks.T_DefaultMasks (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 1.16142 MB), EncodeSpeed: Fast
+[2025.10.09-13.16.58:897][420]LogTexture: Display: Building textures: /Fab/Textures/Standard/T_DefaultNormal.T_DefaultNormal (TFO_BC5, 32x32 x1x1x1) (Required Memory Estimate: 1.288993 MB), EncodeSpeed: Fast
+[2025.10.09-13.16.58:972][422]LogTexture: Display: Building textures: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM.T_xdhhdgq_2K_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.10.09-13.16.58:973][422]LogTexture: Display: Building textures: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N.T_xdhhdgq_2K_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2025.10.09-13.16.58:973][422]LogTexture: Display: Building textures: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B.T_xdhhdgq_2K_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.10.09-13.16.59:365][444]LogInterchangeEngine: Display: Interchange import completed [C:/Users/linda/AppDa..._2k_ue_mid_extracted/xdhhdgq_tier_2.gltf]
+[2025.10.09-13.17.03:091][653]LogFab: Display: Asset Type = gltf
+[2025.10.09-13.17.03:091][653]LogFab: Display: Is Quixel = 1
+[2025.10.09-13.17.04:174][701]LogStreaming: Display: FlushAsyncLoading(709): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.17.04:176][701]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2025.10.09-13.17.04:176][701]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/linda/AppData/Local/Temp/FabLibrary/55e27fb6-a4d2-4438-9cb4-1452ebe4d369/dirt_ground_xdhhdgq_1k_ue_low_extracted/xdhhdgq_tier_3.gltf]
+[2025.10.09-13.17.04:236][703]LogStreaming: Display: FlushAsyncLoading(710): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.17.04:256][704]LogStreaming: Display: FlushAsyncLoading(713): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.17.04:295][706]LogTexture: Display: Building textures: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N.T_xdhhdgq_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 214.499988 MB), EncodeSpeed: Fast
+[2025.10.09-13.17.04:295][706]LogTexture: Display: Building textures: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM.T_xdhhdgq_1K_ORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 122.708323 MB), EncodeSpeed: Fast
+[2025.10.09-13.17.04:296][706]LogTexture: Display: Building textures: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B.T_xdhhdgq_1K_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 122.708323 MB), EncodeSpeed: Fast
+[2025.10.09-13.17.04:469][709]LogInterchangeEngine: Display: Interchange import completed [C:/Users/linda/AppDa..._1k_ue_low_extracted/xdhhdgq_tier_3.gltf]
+[2025.10.09-13.17.10:782][ 62]LogEOSSDK: Error: LogEOSAuth: Authentication session lost due to failing verification. Error: EOS_Auth_InvalidToken UserId: 4fd...944
+[2025.10.09-13.17.10:783][ 62]LogEOSSDK: Warning: LogEOSPresence: Can't set presence to offline, No connection to EpicConnect. LocalUserId=[4fd...944]
+[2025.10.09-13.17.12:596][151]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq.MI_xdhhdgq
+[2025.10.09-13.17.12:598][151]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_38
+[2025.10.09-13.17.17:956][371]LogSlate: Window 'MI_xdhhdgq' being destroyed
+[2025.10.09-13.17.19:126][435]LogSlate: Window 'MI_xdhhdgq' being destroyed
+[2025.10.09-13.17.19:235][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.10.09-13.17.21:750][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.09-13.17.21:802][435]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-13.17.21:802][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.17.21:851][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.10.09-13.17.40:815][515]Cmd: DELETE
+[2025.10.09-13.17.40:816][515]Cmd: ACTOR DELETE
+[2025.10.09-13.17.40:824][515]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-13.17.40:863][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.10.09-13.17.40:870][515]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2025.10.09-13.17.42:896][632]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3201.916504
+[2025.10.09-13.17.43:056][640]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-13.17.43:056][640]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3202.054688, Update Interval: 303.993652
+[2025.10.09-13.18.26:030][ 86]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark.Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.18.26:040][ 86]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves.Birtch_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.18.26:054][ 86]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves.Fir_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.18.26:065][ 86]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves.Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.18.27:963][149]Cmd: TRANSACTION UNDO
+[2025.10.09-13.18.27:963][149]LogEditorTransaction: Undo Foliage Editing
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: Total job queries 5,306, among them cache hits 4,256 (80.21%), DDC hits 366 (6.90%), Duplicates 149 (2.81%)
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: Tracking 897 distinct input hashes that result in 444 distinct outputs (49.50%)
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: RAM used: 3.57 MiB of 1.60 GiB budget. Usage: 0.22%
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: Shaders Compiled: 495
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: Jobs assigned 521, completed 495 (95.01%)
+[2025.10.09-13.18.31:794][271]LogShaderCompilers: Display: Average time worker was idle: 42.30 s
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Time job spent in pending queue: average 0.34 s, longest 3.99 s
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Job execution time: average 1.42 s, max 3.66 s
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Job life time (pending + execution): average 1.63 s, max 4.25
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Shader code size: total 3.924 MiB, numShaders 589, average 6.822 KiB, min 2.312 KiB, max 15.584 KiB
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 156.06 s
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Jobs were issued in 503 batches (only local compilation was used), average 1.04 jobs/batch
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Average processing rate: 3.17 jobs/sec
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Total thread time: 585.767 s
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Total thread preprocess time: 111.446 s
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Percentage time preprocessing: 19.03%
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Effective parallelization: 3.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.469181
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   39 times, average 2.37 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   17 times, average 1.47 sec, max 1.82 sec, min 1.31 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   11 times, average 1.46 sec, max 1.51 sec, min 1.35 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   16 times, average 1.42 sec, max 1.63 sec, min 1.21 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled   42 times, average 1.35 sec, max 1.76 sec, min 1.10 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 15.77% of total time (compiled   39 times, average 2.37 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                                  FVelocityPS - 11.32% of total time (compiled   50 times, average 1.33 sec, max 1.81 sec, min 0.86 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.72% of total time (compiled   58 times, average 0.98 sec, max 1.35 sec, min 0.57 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 9.69% of total time (compiled   42 times, average 1.35 sec, max 1.76 sec, min 1.10 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.83% of total time (compiled   54 times, average 0.74 sec, max 0.91 sec, min 0.47 sec)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: === Material stats ===
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Materials Translated:    830
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Material Total Translate Time: 0.61 s
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Material Translation Only: 0.26 s (42%)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.10.09-13.18.31:795][271]LogShaderCompilers: Display: Material Cache Hits: 41 (5%)
+[2025.10.09-13.18.31:796][271]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.18.35:475][426]Cmd: TRANSACTION UNDO
+[2025.10.09-13.18.35:475][426]LogEditorTransaction: Undo Foliage Editing
+[2025.10.09-13.18.56:178][580]Cmd: TRANSACTION UNDO
+[2025.10.09-13.18.56:178][580]LogEditorTransaction: Undo Foliage Editing
+[2025.10.09-13.18.56:696][588]Cmd: TRANSACTION UNDO
+[2025.10.09-13.18.56:696][588]LogEditorTransaction: Undo Foliage Editing
+[2025.10.09-13.19.18:920][875]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1.Grass_1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.19.18:928][875]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2.Grass_2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.19.18:938][875]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2.Flowers_2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.19.18:950][875]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed.Weed needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.19.18:961][875]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3.Flowers_3 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.19.18:974][875]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers.Flowers needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.19.35:439][663]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch.Burt_Branch needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.09-13.19.39:552][888]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-13.19.39:563][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-13.19.39:564][888]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.19.39:572][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008023s)
+[2025.10.09-13.19.39:572][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.008087s)
+[2025.10.09-13.19.39:636][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.09-13.19.39:645][888]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-13.19.39:647][888]LogPlayLevel: PIE: World Init took: (0.002687s)
+[2025.10.09-13.19.39:649][888]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.10.09-13.19.39:649][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-13.19.39:649][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-13.19.39:649][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-13.19.39:649][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-13.19.39:649][888]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-13.19.39:649][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-13.19.39:649][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-13.19.39:649][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-13.19.39:649][888]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-13.19.39:649][888]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-13.19.39:649][888]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-13.19.39:653][888]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-13.19.39:723][888]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-13.19.39:723][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-13.19.39:723][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-13.19.39:723][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-13.19.39:724][888]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.10.09-13.19.39:724][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.10.09-13.19.39:729][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.10.09-13.19.39:729][888]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.10.09-13.19.39:729][888]LogInit: FAudioDevice initialized with ID 13.
+[2025.10.09-13.19.39:729][888]LogAudio: Display: Audio Device (ID: 13) registered with world 'testLevel'.
+[2025.10.09-13.19.39:729][888]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.09-13.19.39:779][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.19.39:779][888]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-13.19.39:779][888]LogStreaming: Display: FlushAsyncLoading(714): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.19.39:780][888]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-13.19.39:780][888]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-13.19.39:780][888]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-13.19.39:784][888]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-13.19.39
+[2025.10.09-13.19.39:784][888]LogWorld: Bringing up level for play took: 0.003429
+[2025.10.09-13.19.39:788][888]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2025.10.09-13.19.39:788][888]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-13.19.39:789][888]LogTemp: Display:  number of found objects: 5
+[2025.10.09-13.19.39:789][888]LogTemp: Warning: Mapping context added.
+[2025.10.09-13.19.39:800][888]PIE: Server logged in
+[2025.10.09-13.19.39:808][888]PIE: Play in editor total start time 0.246 seconds.
+[2025.10.09-13.19.42:882][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.19.42:882][ 37]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.19.42:882][ 37]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-13.19.42:897][ 37]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-13.19.42:898][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.19.42:899][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-13.19.42:906][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.19.42:941][ 37]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.09-13.19.42:941][ 37]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.09-13.19.42:942][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.10.09-13.19.42:945][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.10.09-13.19.42:957][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.09-13.19.43:011][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2025.10.09-13.20.20:346][114]LogStreaming: Display: FlushAsyncLoading(715): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.20.20:603][122]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_2.Building_2
+[2025.10.09-13.20.20:603][122]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_2.Building_2
+[2025.10.09-13.20.20:604][122]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_2.Building_2 as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_7
+[2025.10.09-13.20.22:211][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.09-13.20.22:223][204]LogEditorActor: Deleted 0 Actors (0.049 secs)
+[2025.10.09-13.20.22:229][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_2.Building_2
+[2025.10.09-13.20.22:229][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_2.Building_2
+[2025.10.09-13.20.22:232][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_2.Building_2 as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_8
+[2025.10.09-13.20.23:970][277]LogStreaming: Display: FlushAsyncLoading(716): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.20.24:136][281]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Gazeebo.Gazeebo
+[2025.10.09-13.20.24:136][281]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Gazeebo.Gazeebo
+[2025.10.09-13.20.24:137][281]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Gazeebo.Gazeebo as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_9
+[2025.10.09-13.20.26:000][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.09-13.20.26:004][389]LogEditorActor: Deleted 0 Actors (0.035 secs)
+[2025.10.09-13.20.26:011][389]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Gazeebo.Gazeebo
+[2025.10.09-13.20.26:011][389]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Gazeebo.Gazeebo
+[2025.10.09-13.20.26:013][389]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Gazeebo.Gazeebo as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_10
+[2025.10.09-13.20.30:922][657]Cmd: TRANSACTION UNDO
+[2025.10.09-13.20.30:922][657]LogEditorTransaction: Undo Move Elements
+[2025.10.09-13.20.31:314][668]Cmd: TRANSACTION UNDO
+[2025.10.09-13.20.31:314][668]LogEditorTransaction: Undo Place Objects
+[2025.10.09-13.20.35:180][850]LogStreaming: Display: FlushAsyncLoading(717): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.20.35:375][856]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.20.35:375][856]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.20.35:375][856]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_11
+[2025.10.09-13.20.38:541][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.09-13.20.38:549][ 42]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2025.10.09-13.20.38:557][ 42]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.20.38:557][ 42]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.20.38:559][ 42]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_12
+[2025.10.09-13.20.40:256][130]Cmd: TRANSACTION UNDO
+[2025.10.09-13.20.40:256][130]LogEditorTransaction: Undo Place Objects
+[2025.10.09-13.20.41:241][159]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.20.41:318][159]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_39
+[2025.10.09-13.20.52:438][605]LogStreaming: Display: FlushAsyncLoading(718): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.20.52:455][605]LogInterchangeEngine: [Pending] Importing
+[2025.10.09-13.20.52:455][605]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx]
+[2025.10.09-13.20.52:746][610]LogStreaming: Display: FlushAsyncLoading(727): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.20.53:027][616]LogStaticMesh: Display: Building static mesh Tower (Required Memory Estimate: 1.505655 MB)...
+[2025.10.09-13.20.53:033][616]LogStaticMesh: Adjacency [0.00s], tris: 948, UVs 1
+[2025.10.09-13.20.53:036][616]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.10.09-13.20.53:037][616]LogStaticMesh: Leaves [0.00s]
+[2025.10.09-13.20.53:050][616]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower) ...
+[2025.10.09-13.20.53:081][616]LogStaticMesh: Reduce [0.04s]
+[2025.10.09-13.20.53:111][616]LogStaticMesh: Fallback [0.03s], num tris: 458
+[2025.10.09-13.20.53:143][616]LogStaticMesh: Fallback [0.03s], num tris: 400
+[2025.10.09-13.20.53:144][616]LogStaticMesh: ConstrainClusters:
+[2025.10.09-13.20.53:144][616]LogStaticMesh:   Input: 15 Clusters, 1829 Triangles and 2831 Vertices
+[2025.10.09-13.20.53:144][616]LogStaticMesh:   Output without splits: 15 Clusters, 1829 Triangles and 2831 Vertices
+[2025.10.09-13.20.53:144][616]LogStaticMesh:   Output with splits: 15 Clusters, 1829 Triangles and 2831 Vertices
+[2025.10.09-13.20.53:144][616]LogStaticMesh: Material Stats - Unique Materials: 3, Fast Path Clusters: 15, Slow Path Clusters: 0, 1 Material: 6, 2 Materials: 6, 3 Materials: 3, At Least 4 Materials: 0
+[2025.10.09-13.20.53:146][616]LogStaticMesh: WritePages:
+[2025.10.09-13.20.53:146][616]LogStaticMesh:   Root: GPU size: 32208 bytes. 1 Pages. 32208.000 bytes per page (98.291% utilization).
+[2025.10.09-13.20.53:146][616]LogStaticMesh:   Streaming: GPU size: 4264 bytes. 1 Pages (1 with relative encoding). 4264.000 bytes per page (3.253% utilization).
+[2025.10.09-13.20.53:146][616]LogStaticMesh:   Page data disk size: 28632 bytes. Fixup data size: 192 bytes.
+[2025.10.09-13.20.53:146][616]LogStaticMesh:   Total GPU size: 36472 bytes, Total disk size: 28824 bytes.
+[2025.10.09-13.20.53:146][616]LogStaticMesh: Encode [0.00s]
+[2025.10.09-13.20.53:146][616]LogStaticMesh: NaniteBuild [0.11s]
+[2025.10.09-13.20.53:169][616]LogStaticMesh: Built static mesh [0.14s] /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.20.55:746][616]LogMeshUtilities: Finished distance field build in 2.6s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 0 triangles, Tower
+[2025.10.09-13.20.55:863][617]LogInterchangeEngine: Display: Interchange import completed [C:/Users/linda/Downl...ck/Village Buildings/Buildings.fbx]
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_003' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_004' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_007' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_013' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_014' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_015' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_018' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_020' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_021' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : 'Tower', StaticMesh] No smoothing group information was found for this mesh 'Cube_002' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_005' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_009' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:864][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_016' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:865][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_008' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:865][617]Interchange: Warning: [C:/Users/linda/Downloads/Fantasy Mega Pack/Fantasy Mega Pack/Village Buildings/Buildings.fbx : '', Unknown] No smoothing group information was found for this mesh 'Cube_001' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.09-13.20.55:874][617]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.09-13.20.55:874][617]LogInterchangeEngine: [Success] Import Done
+[2025.10.09-13.20.58:636][667]LogMeshUtilities: Finished distance field build in 2.8s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 0 triangles, Tower
+[2025.10.09-13.21.04:951][941]LogSlate: Window 'Message Log' being destroyed
+[2025.10.09-13.21.06:837][ 27]LogSlate: Window 'Tower' being destroyed
+[2025.10.09-13.21.06:935][ 27]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-13.21.06:935][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.21.07:027][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.09-13.21.24:762][925]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.21.24:762][925]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.21.24:763][925]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_13
+[2025.10.09-13.21.26:063][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.10.09-13.21.26:075][996]LogEditorActor: Deleted 0 Actors (0.045 secs)
+[2025.10.09-13.21.26:080][996]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.21.26:080][996]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower
+[2025.10.09-13.21.26:082][996]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_14
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Total job queries 5,678, among them cache hits 4,568 (80.45%), DDC hits 384 (6.76%), Duplicates 167 (2.94%)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Tracking 939 distinct input hashes that result in 486 distinct outputs (51.76%)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: RAM used: 3.87 MiB of 1.60 GiB budget. Usage: 0.24%
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Shaders Compiled: 555
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Jobs assigned 555, completed 555 (100%)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Average time worker was idle: 40.63 s
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Time job spent in pending queue: average 0.52 s, longest 7.95 s
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Job execution time: average 1.65 s, max 8.45 s
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Job life time (pending + execution): average 2.17 s, max 10.97
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Shader code size: total 4.472 MiB, numShaders 656, average 6.98 KiB, min 2.312 KiB, max 16.826 KiB
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 170.22 s
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Jobs were issued in 532 batches (only local compilation was used), average 1.04 jobs/batch
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Average processing rate: 3.26 jobs/sec
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Total thread time: 673.558 s
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Total thread preprocess time: 124.998 s
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Percentage time preprocessing: 18.56%
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Effective parallelization: 3.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.494611
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   44 times, average 2.41 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   16 times, average 1.83 sec, max 2.95 sec, min 1.35 sec)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   22 times, average 1.71 sec, max 2.76 sec, min 1.31 sec)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   16 times, average 1.42 sec, max 1.63 sec, min 1.21 sec)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled   44 times, average 1.36 sec, max 1.76 sec, min 1.10 sec)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 15.75% of total time (compiled   44 times, average 2.41 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.21.31:797][326]LogShaderCompilers: Display:                                                  FVelocityPS - 10.91% of total time (compiled   55 times, average 1.34 sec, max 1.81 sec, min 0.86 sec)
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.25% of total time (compiled   63 times, average 0.99 sec, max 1.35 sec, min 0.57 sec)
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 8.89% of total time (compiled   44 times, average 1.36 sec, max 1.76 sec, min 1.10 sec)
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.53% of total time (compiled   59 times, average 0.75 sec, max 0.91 sec, min 0.47 sec)
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: === Material stats ===
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: Materials Translated:    841
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: Material Total Translate Time: 0.62 s
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: Material Translation Only: 0.26 s (42%)
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: Material Cache Hits: 41 (5%)
+[2025.10.09-13.21.31:798][326]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.21.44:091][ 38]Cmd: TRANSACTION UNDO
+[2025.10.09-13.21.44:091][ 38]LogEditorTransaction: Undo Clicking on Actors
+[2025.10.09-13.21.45:145][ 81]Cmd: TRANSACTION UNDO
+[2025.10.09-13.21.45:145][ 81]LogEditorTransaction: Undo Clicking on Actors
+[2025.10.09-13.21.46:136][132]Cmd: TRANSACTION UNDO
+[2025.10.09-13.21.46:137][132]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.09-13.21.47:000][180]Cmd: TRANSACTION UNDO
+[2025.10.09-13.21.47:000][180]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.09-13.22.27:918][553]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-13.22.27:929][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-13.22.27:930][553]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.22.27:939][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008805s)
+[2025.10.09-13.22.27:939][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.008855s)
+[2025.10.09-13.22.27:976][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.09-13.22.27:984][553]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-13.22.27:987][553]LogPlayLevel: PIE: World Init took: (0.002825s)
+[2025.10.09-13.22.27:988][553]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.10.09-13.22.27:988][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-13.22.27:988][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-13.22.27:988][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-13.22.27:988][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-13.22.27:988][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-13.22.27:988][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-13.22.27:988][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-13.22.27:988][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-13.22.27:988][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-13.22.27:989][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-13.22.27:989][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-13.22.27:992][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-13.22.28:067][553]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-13.22.28:067][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-13.22.28:067][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-13.22.28:067][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-13.22.28:068][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.10.09-13.22.28:068][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.10.09-13.22.28:072][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.10.09-13.22.28:072][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.10.09-13.22.28:072][553]LogInit: FAudioDevice initialized with ID 14.
+[2025.10.09-13.22.28:072][553]LogAudio: Display: Audio Device (ID: 14) registered with world 'testLevel'.
+[2025.10.09-13.22.28:072][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.09-13.22.28:127][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.22.28:127][553]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-13.22.28:127][553]LogStreaming: Display: FlushAsyncLoading(728): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.22.28:127][553]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-13.22.28:127][553]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-13.22.28:128][553]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-13.22.28:132][553]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-13.22.28
+[2025.10.09-13.22.28:132][553]LogWorld: Bringing up level for play took: 0.004106
+[2025.10.09-13.22.28:135][553]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2025.10.09-13.22.28:136][553]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-13.22.28:137][553]LogTemp: Display:  number of found objects: 5
+[2025.10.09-13.22.28:137][553]LogTemp: Warning: Mapping context added.
+[2025.10.09-13.22.28:146][553]PIE: Server logged in
+[2025.10.09-13.22.28:155][553]PIE: Play in editor total start time 0.225 seconds.
+[2025.10.09-13.22.30:733][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.22.30:733][698]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.22.30:733][698]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-13.22.30:740][698]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-13.22.30:741][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.22.30:742][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-13.22.30:748][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.22.30:789][698]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.09-13.22.30:789][698]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.09-13.22.30:789][698]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.10.09-13.22.30:794][698]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.10.09-13.22.30:807][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.09-13.22.30:935][699]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2025.10.09-13.22.37:881][ 91]Cmd: TRANSACTION UNDO
+[2025.10.09-13.22.37:881][ 91]LogEditorTransaction: Undo Set Rotation
+[2025.10.09-13.22.39:188][152]Cmd: TRANSACTION UNDO
+[2025.10.09-13.22.39:188][152]LogEditorTransaction: Undo Set Rotation
+[2025.10.09-13.22.53:153][889]LogStreaming: Display: FlushAsyncLoading(729): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.22.53:444][900]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3
+[2025.10.09-13.22.53:444][900]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3
+[2025.10.09-13.22.53:445][900]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3 as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_15
+[2025.10.09-13.22.53:899][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.09-13.22.53:906][924]LogEditorActor: Deleted 0 Actors (0.043 secs)
+[2025.10.09-13.22.54:264][944]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3
+[2025.10.09-13.22.54:264][944]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3
+[2025.10.09-13.22.54:264][944]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3 as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_16
+[2025.10.09-13.22.54:569][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.10.09-13.22.54:572][960]LogEditorActor: Deleted 0 Actors (0.034 secs)
+[2025.10.09-13.22.54:579][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3
+[2025.10.09-13.22.54:579][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3
+[2025.10.09-13.22.54:580][960]LogActorFactory: Actor Factory spawned StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Building_3.Building_3 as actor: StaticMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.StaticMeshActor_17
+[2025.10.09-13.23.00:916][302]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-13.23.00:927][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-13.23.00:927][302]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.23.00:935][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008268s)
+[2025.10.09-13.23.00:935][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.008310s)
+[2025.10.09-13.23.00:967][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.10.09-13.23.00:971][302]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-13.23.00:973][302]LogPlayLevel: PIE: World Init took: (0.002568s)
+[2025.10.09-13.23.00:974][302]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.10.09-13.23.00:974][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-13.23.00:974][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-13.23.00:974][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-13.23.00:974][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-13.23.00:974][302]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-13.23.00:975][302]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-13.23.00:975][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-13.23.00:975][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-13.23.00:975][302]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-13.23.00:975][302]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-13.23.00:975][302]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-13.23.00:979][302]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-13.23.01:065][302]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-13.23.01:066][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-13.23.01:066][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-13.23.01:066][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-13.23.01:066][302]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.10.09-13.23.01:066][302]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.10.09-13.23.01:069][302]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.10.09-13.23.01:069][302]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.10.09-13.23.01:069][302]LogInit: FAudioDevice initialized with ID 15.
+[2025.10.09-13.23.01:069][302]LogAudio: Display: Audio Device (ID: 15) registered with world 'testLevel'.
+[2025.10.09-13.23.01:069][302]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.09-13.23.01:122][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.23.01:122][302]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-13.23.01:122][302]LogStreaming: Display: FlushAsyncLoading(730): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.23.01:123][302]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-13.23.01:123][302]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-13.23.01:123][302]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-13.23.01:126][302]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-13.23.01
+[2025.10.09-13.23.01:126][302]LogWorld: Bringing up level for play took: 0.003516
+[2025.10.09-13.23.01:129][302]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2025.10.09-13.23.01:130][302]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-13.23.01:131][302]LogTemp: Display:  number of found objects: 5
+[2025.10.09-13.23.01:131][302]LogTemp: Warning: Mapping context added.
+[2025.10.09-13.23.01:140][302]PIE: Server logged in
+[2025.10.09-13.23.01:147][302]PIE: Play in editor total start time 0.221 seconds.
+[2025.10.09-13.23.03:453][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.23.03:453][432]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.23.03:453][432]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-13.23.03:467][432]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-13.23.03:468][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.23.03:469][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-13.23.03:476][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.23.03:513][432]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.09-13.23.03:513][432]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.10.09-13.23.03:517][432]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.10.09-13.23.03:532][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.10.09-13.23.03:659][433]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2025.10.09-13.23.19:197][263]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3538.214111
+[2025.10.09-13.23.19:330][271]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-13.23.19:330][271]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3538.331055, Update Interval: 302.764984
+[2025.10.09-13.23.36:714][258]LogStreaming: Display: FlushAsyncLoading(731): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.23.37:459][258]LogTexture: Display: Building textures: /Engine/Transient.Texture2D_27 (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 1.515617 MB), EncodeSpeed: Fast
+[2025.10.09-13.23.37:914][259]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2025.10.09-13.23.47:382][699]Cmd: SELECT NONE
+[2025.10.09-13.23.53:078][997]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-13.23.53:101][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-13.23.53:101][997]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.23.53:115][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013975s)
+[2025.10.09-13.23.53:116][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.014046s)
+[2025.10.09-13.23.53:236][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2025.10.09-13.23.53:245][997]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-13.23.53:250][997]LogPlayLevel: PIE: World Init took: (0.003540s)
+[2025.10.09-13.23.53:251][997]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.10.09-13.23.53:251][997]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-13.23.53:251][997]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-13.23.53:251][997]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-13.23.53:251][997]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-13.23.53:251][997]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-13.23.53:251][997]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-13.23.53:251][997]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-13.23.53:251][997]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-13.23.53:251][997]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-13.23.53:251][997]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-13.23.53:251][997]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-13.23.53:257][997]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-13.23.53:369][997]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-13.23.53:370][997]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-13.23.53:370][997]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-13.23.53:370][997]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-13.23.53:370][997]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.10.09-13.23.53:370][997]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.10.09-13.23.53:376][997]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.10.09-13.23.53:376][997]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.10.09-13.23.53:376][997]LogInit: FAudioDevice initialized with ID 16.
+[2025.10.09-13.23.53:376][997]LogAudio: Display: Audio Device (ID: 16) registered with world 'testLevel'.
+[2025.10.09-13.23.53:376][997]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.09-13.23.53:456][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.23.53:457][997]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-13.23.53:457][997]LogStreaming: Display: FlushAsyncLoading(740): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-13.23.53:457][997]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-13.23.53:457][997]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-13.23.53:458][997]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-13.23.53:465][997]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-13.23.53
+[2025.10.09-13.23.53:466][997]LogWorld: Bringing up level for play took: 0.008450
+[2025.10.09-13.23.53:472][997]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2025.10.09-13.23.53:472][997]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-13.23.53:475][997]LogTemp: Display:  number of found objects: 5
+[2025.10.09-13.23.53:475][997]LogTemp: Warning: Mapping context added.
+[2025.10.09-13.23.53:489][997]PIE: Server logged in
+[2025.10.09-13.23.53:502][997]PIE: Play in editor total start time 0.401 seconds.
+[2025.10.09-13.23.54:700][ 40]LogTemp: Warning: input callback called
+[2025.10.09-13.23.54:700][ 40]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-13.23.55:731][ 86]LogTemp: Warning: input callback called
+[2025.10.09-13.23.55:732][ 86]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-13.23.56:641][121]LogTemp: Warning: input callback called
+[2025.10.09-13.23.56:641][121]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-13.23.57:830][175]LogTemp: Warning: input callback called
+[2025.10.09-13.23.57:830][175]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-13.23.58:859][218]LogTemp: Warning: input callback called
+[2025.10.09-13.23.58:860][218]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-13.24.00:244][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-13.24.00:244][278]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-13.24.00:244][278]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-13.24.00:276][278]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-13.24.00:277][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.24.00:279][278]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-13.24.00:291][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-13.24.00:349][278]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.09-13.24.00:349][278]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2025.10.09-13.24.00:355][278]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2025.10.09-13.24.00:378][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2025.10.09-13.24.00:458][279]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Total job queries 5,980, among them cache hits 4,581 (76.61%), DDC hits 390 (6.52%), Duplicates 296 (4.95%)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Tracking 1,099 distinct input hashes that result in 562 distinct outputs (51.14%)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: RAM used: 4.68 MiB of 1.60 GiB budget. Usage: 0.29%
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Shaders Compiled: 709
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Jobs assigned 709, completed 709 (100%)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Average time worker was idle: 41.88 s
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Time job spent in pending queue: average 2.00 s, longest 25.60 s
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Job execution time: average 3.51 s, max 16.78 s
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Job life time (pending + execution): average 5.51 s, max 27.06
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Shader code size: total 5.965 MiB, numShaders 811, average 7.532 KiB, min 2.105 KiB, max 18.979 KiB
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 198.83 s
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Jobs were issued in 565 batches (only local compilation was used), average 1.25 jobs/batch
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Average processing rate: 3.57 jobs/sec
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Total thread time: 879.529 s
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Total thread preprocess time: 133.482 s
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Percentage time preprocessing: 15.18%
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Effective parallelization: 4.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.552933
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   58 times, average 2.50 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   30 times, average 2.37 sec, max 3.11 sec, min 1.35 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   36 times, average 1.92 sec, max 3.07 sec, min 1.31 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   16 times, average 1.42 sec, max 1.63 sec, min 1.21 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled   45 times, average 1.35 sec, max 1.76 sec, min 0.87 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 16.49% of total time (compiled   58 times, average 2.50 sec, max 3.17 sec, min 1.88 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.78% of total time (compiled   77 times, average 1.00 sec, max 1.35 sec, min 0.57 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                                  FVelocityPS - 8.35% of total time (compiled   55 times, average 1.34 sec, max 1.81 sec, min 0.86 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 8.07% of total time (compiled   30 times, average 2.37 sec, max 3.11 sec, min 1.35 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.85% of total time (compiled   36 times, average 1.92 sec, max 3.07 sec, min 1.31 sec)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: === Material stats ===
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Materials Translated:    857
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Material Total Translate Time: 0.66 s
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Material Translation Only: 0.28 s (43%)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: Material Cache Hits: 41 (5%)
+[2025.10.09-13.24.31:896][ 93]LogShaderCompilers: Display: ================================================
+[2025.10.09-13.24.37:361][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.09-13.24.37:421][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/levels/testLevel_Auto3
+[2025.10.09-13.24.37:421][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel_Auto32CB06F0B459AACCF69F77593986985E3.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/levels/testLevel_Auto3.umap'
+[2025.10.09-13.24.37:426][109]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/testLevel' took 0.105
+[2025.10.09-13.24.37:426][109]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.105
+[2025.10.09-13.24.37:427][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch] ([1] browsable assets)...
+[2025.10.09-13.24.37:427][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch]
+[2025.10.09-13.24.37:445][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch_Auto3
+[2025.10.09-13.24.37:445][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Burt_Branch_Auto3C257666B4A46B191CC1F50852BDE3D99.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch_Auto3.uasset'
+[2025.10.09-13.24.37:447][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1] ([1] browsable assets)...
+[2025.10.09-13.24.37:447][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1]
+[2025.10.09-13.24.37:462][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1_Auto3
+[2025.10.09-13.24.37:462][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Grass_1_Auto337EC7E234808AE9408DAE38B9DE51A1F.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1_Auto3.uasset'
+[2025.10.09-13.24.37:464][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2] ([1] browsable assets)...
+[2025.10.09-13.24.37:464][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2]
+[2025.10.09-13.24.37:480][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2_Auto3
+[2025.10.09-13.24.37:480][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Grass_2_Auto3AEB2DCFE484F60A304A96CBF5933F21C.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2_Auto3.uasset'
+[2025.10.09-13.24.37:483][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2] ([1] browsable assets)...
+[2025.10.09-13.24.37:483][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2]
+[2025.10.09-13.24.37:497][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2_Auto3
+[2025.10.09-13.24.37:497][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers_2_Auto36AC3099847D7759B82DBC2812724AAC2.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2_Auto3.uasset'
+[2025.10.09-13.24.37:499][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed] ([1] browsable assets)...
+[2025.10.09-13.24.37:499][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed]
+[2025.10.09-13.24.37:515][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed_Auto3
+[2025.10.09-13.24.37:516][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Weed_Auto3F7BFB8CC479E30986DAF42BCD3ED6E1F.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed_Auto3.uasset'
+[2025.10.09-13.24.37:519][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3] ([1] browsable assets)...
+[2025.10.09-13.24.37:519][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3]
+[2025.10.09-13.24.37:534][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3_Auto3
+[2025.10.09-13.24.37:534][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers_3_Auto3B0D07B91491AFBD37329E8A8A2402647.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3_Auto3.uasset'
+[2025.10.09-13.24.37:537][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers] ([1] browsable assets)...
+[2025.10.09-13.24.37:537][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers]
+[2025.10.09-13.24.37:550][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_Auto3
+[2025.10.09-13.24.37:550][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers_Auto36B66BA4048338020E6FB81B5437752A2.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_Auto3.uasset'
+[2025.10.09-13.24.37:556][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N] ([1] browsable assets)...
+[2025.10.09-13.24.37:559][109]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N.T_xdhhdgq_2K_N]
+[2025.10.09-13.24.37:559][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N]
+[2025.10.09-13.24.37:582][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N_Auto3
+[2025.10.09-13.24.37:582][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_2K_N_Auto3FA814D6E43EDBEA30038D7A09C87A3D2.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N_Auto3.uasset'
+[2025.10.09-13.24.37:585][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM] ([1] browsable assets)...
+[2025.10.09-13.24.37:587][109]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM.T_xdhhdgq_2K_ORM]
+[2025.10.09-13.24.37:587][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM]
+[2025.10.09-13.24.37:610][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM_Auto3
+[2025.10.09-13.24.37:610][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_2K_ORM_Auto330BFA09D44C174954BF0B9ADE9454EFD.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM_Auto3.uasset'
+[2025.10.09-13.24.37:611][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B] ([1] browsable assets)...
+[2025.10.09-13.24.37:615][109]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B.T_xdhhdgq_2K_B]
+[2025.10.09-13.24.37:615][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B]
+[2025.10.09-13.24.37:637][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B_Auto3
+[2025.10.09-13.24.37:637][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_2K_B_Auto3B21B95C64F84263C5B21EEA08BB00B20.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B_Auto3.uasset'
+[2025.10.09-13.24.37:640][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq] ([1] browsable assets)...
+[2025.10.09-13.24.37:680][109]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq.MI_xdhhdgq]
+[2025.10.09-13.24.37:681][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq]
+[2025.10.09-13.24.37:693][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq_Auto3
+[2025.10.09-13.24.37:693][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/MI_xdhhdgq_Auto3441B6C434052E7B90C3FA49790B8DE5F.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq_Auto3.uasset'
+[2025.10.09-13.24.37:697][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N] ([1] browsable assets)...
+[2025.10.09-13.24.37:699][109]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N.T_xdhhdgq_1K_N]
+[2025.10.09-13.24.37:699][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N]
+[2025.10.09-13.24.37:713][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N_Auto3
+[2025.10.09-13.24.37:713][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_1K_N_Auto3E621835D46250DD2E18A3980C6BC553E.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N_Auto3.uasset'
+[2025.10.09-13.24.37:715][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM] ([1] browsable assets)...
+[2025.10.09-13.24.37:717][109]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM.T_xdhhdgq_1K_ORM]
+[2025.10.09-13.24.37:717][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM]
+[2025.10.09-13.24.37:733][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM_Auto3
+[2025.10.09-13.24.37:733][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_1K_ORM_Auto3325B50EB4256A512FB11739F8E77BAE7.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM_Auto3.uasset'
+[2025.10.09-13.24.37:735][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B] ([1] browsable assets)...
+[2025.10.09-13.24.37:738][109]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B.T_xdhhdgq_1K_B]
+[2025.10.09-13.24.37:738][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B]
+[2025.10.09-13.24.37:753][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B_Auto3
+[2025.10.09-13.24.37:753][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_1K_B_Auto3DEFE32624459AC01DC43A591252DC7FE.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B_Auto3.uasset'
+[2025.10.09-13.24.37:755][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq] ([1] browsable assets)...
+[2025.10.09-13.24.37:768][109]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq.MI_xdhhdgq]
+[2025.10.09-13.24.37:768][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq]
+[2025.10.09-13.24.37:781][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq_Auto3
+[2025.10.09-13.24.37:781][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/MI_xdhhdgq_Auto34B7E195C4575B5CC4C82F2B0E11FCD43.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq_Auto3.uasset'
+[2025.10.09-13.24.37:783][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower] ([1] browsable assets)...
+[2025.10.09-13.24.37:798][109]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.Tower]
+[2025.10.09-13.24.37:798][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower]
+[2025.10.09-13.24.37:813][109]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower_Auto3
+[2025.10.09-13.24.37:813][109]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Tower_Auto3050B94E740A66CEF9516978656679051.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower_Auto3.uasset'
+[2025.10.09-13.24.37:814][109]LogFileHelpers: Auto-saving content packages took 0.389
+[2025.10.09-13.25.07:029][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.10.09-13.25.07:038][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-13.25.07:180][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.10.09-13.25.07:224][322]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.09-13.25.07:226][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevelBC95321746404825EBDB0F878AB47A22.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.09-13.25.07:244][322]LogFileHelpers: Saving map 'testLevel' took 0.128
+[2025.10.09-13.25.07:244][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch] ([1] browsable assets)...
+[2025.10.09-13.25.07:244][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch]
+[2025.10.09-13.25.07:256][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch
+[2025.10.09-13.25.07:257][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Burt_Branch107B2E7A47C734339BBAE1A9D55DEB3A.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch.uasset'
+[2025.10.09-13.25.07:259][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1] ([1] browsable assets)...
+[2025.10.09-13.25.07:259][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1]
+[2025.10.09-13.25.07:270][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1
+[2025.10.09-13.25.07:272][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Grass_18E2C45BA43BFF08234927FBAA8406591.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1.uasset'
+[2025.10.09-13.25.07:274][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2] ([1] browsable assets)...
+[2025.10.09-13.25.07:274][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2]
+[2025.10.09-13.25.07:285][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2
+[2025.10.09-13.25.07:286][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Grass_2D87F0E3E4D4C406E9F36F4937A3DC0E4.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2.uasset'
+[2025.10.09-13.25.07:288][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2] ([1] browsable assets)...
+[2025.10.09-13.25.07:288][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2]
+[2025.10.09-13.25.07:300][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2
+[2025.10.09-13.25.07:302][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers_2E9DCFB574C5C99623E6757B91583CF7F.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2.uasset'
+[2025.10.09-13.25.07:304][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed] ([1] browsable assets)...
+[2025.10.09-13.25.07:304][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed]
+[2025.10.09-13.25.07:315][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed
+[2025.10.09-13.25.07:316][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/WeedB170DABF403F4C577D4A66B04169B3A4.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed.uasset'
+[2025.10.09-13.25.07:320][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3] ([1] browsable assets)...
+[2025.10.09-13.25.07:320][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3]
+[2025.10.09-13.25.07:332][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3
+[2025.10.09-13.25.07:333][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers_3C8406A2B4BC3F1D4F6B2EBA0438AB6BA.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3.uasset'
+[2025.10.09-13.25.07:335][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers] ([1] browsable assets)...
+[2025.10.09-13.25.07:335][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers]
+[2025.10.09-13.25.07:347][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers
+[2025.10.09-13.25.07:348][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers9356074E4B7244A49EB7F2B9F0E0B520.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers.uasset'
+[2025.10.09-13.25.07:350][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N] ([1] browsable assets)...
+[2025.10.09-13.25.07:350][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N]
+[2025.10.09-13.25.07:446][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N
+[2025.10.09-13.25.07:446][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_2K_NA8723F304B587C08D5C01498151BA212.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N.uasset'
+[2025.10.09-13.25.07:453][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM] ([1] browsable assets)...
+[2025.10.09-13.25.07:453][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM]
+[2025.10.09-13.25.07:528][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM
+[2025.10.09-13.25.07:528][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_2K_ORMD0E2345E4571A661A4D88785830FCCD9.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM.uasset'
+[2025.10.09-13.25.07:534][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B] ([1] browsable assets)...
+[2025.10.09-13.25.07:534][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B]
+[2025.10.09-13.25.07:616][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B
+[2025.10.09-13.25.07:616][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_2K_BAA664A6D457E621F2BC3ACAF853EB939.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B.uasset'
+[2025.10.09-13.25.07:619][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq] ([1] browsable assets)...
+[2025.10.09-13.25.07:619][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq]
+[2025.10.09-13.25.07:632][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq
+[2025.10.09-13.25.07:632][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/MI_xdhhdgq698AAC39485098686AD3099E31CA4CD3.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq.uasset'
+[2025.10.09-13.25.07:635][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N] ([1] browsable assets)...
+[2025.10.09-13.25.07:635][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N]
+[2025.10.09-13.25.07:668][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N
+[2025.10.09-13.25.07:669][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_1K_NC8F33E1845F512BD37C62AA85C255A95.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N.uasset'
+[2025.10.09-13.25.07:671][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM] ([1] browsable assets)...
+[2025.10.09-13.25.07:671][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM]
+[2025.10.09-13.25.07:706][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM
+[2025.10.09-13.25.07:706][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_1K_ORMACA8C3FC4098A3739E416FB162148925.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM.uasset'
+[2025.10.09-13.25.07:708][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B] ([1] browsable assets)...
+[2025.10.09-13.25.07:708][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B]
+[2025.10.09-13.25.07:739][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B
+[2025.10.09-13.25.07:739][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/T_xdhhdgq_1K_B1369F7C841B472D3C7C69A89FA92983E.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B.uasset'
+[2025.10.09-13.25.07:744][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq] ([1] browsable assets)...
+[2025.10.09-13.25.07:744][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq]
+[2025.10.09-13.25.07:755][322]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq
+[2025.10.09-13.25.07:755][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/MI_xdhhdgq7B9D7FE34ADE4D9943B8D0BDCF9E4272.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq.uasset'
+[2025.10.09-13.25.07:758][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower] ([1] browsable assets)...
+[2025.10.09-13.25.07:758][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower]
+[2025.10.09-13.25.07:771][322]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower
+[2025.10.09-13.25.07:772][322]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Tower12C152AE40244A6C24DCA89B477559E8.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower.uasset'
+[2025.10.09-13.25.07:784][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 745.279 ms (total: 6.40 sec)
+[2025.10.09-13.25.07:875][322]LogContentValidation: Display: Starting to validate 17 assets
+[2025.10.09-13.25.07:875][322]LogContentValidation: Enabled validators:
+[2025.10.09-13.25.07:875][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-13.25.07:875][322]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-13.25.07:875][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-13.25.07:875][322]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-13.25.07:875][322]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-13.25.07:875][322]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-13.25.07:875][322]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.09-13.25.07:875][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch Validating asset
+[2025.10.09-13.25.07:875][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1 Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2 Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2 Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3 Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM Validating asset
+[2025.10.09-13.25.07:876][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B Validating asset
+[2025.10.09-13.25.07:877][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Materials/MI_xdhhdgq Validating asset
+[2025.10.09-13.25.07:877][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_N Validating asset
+[2025.10.09-13.25.07:877][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_ORM Validating asset
+[2025.10.09-13.25.07:877][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Textures/T_xdhhdgq_1K_B Validating asset
+[2025.10.09-13.25.07:877][322]AssetCheck: /Game/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Low/xdhhdgq_tier_3/Materials/MI_xdhhdgq Validating asset
+[2025.10.09-13.25.07:877][322]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Village_Buildings/Tower Validating asset
+[2025.10.09-13.25.07:917][322]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
