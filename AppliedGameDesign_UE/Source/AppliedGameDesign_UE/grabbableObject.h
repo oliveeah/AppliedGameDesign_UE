@@ -27,7 +27,7 @@ protected:
 	USkeletalMeshComponent* mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta =(AllowPrivateAccess = "true"))
-	class UBoxComponent* boxCollision;
+	class UCapsuleComponent* capsuleCollison;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
 	class UTextRenderComponent* textRender;

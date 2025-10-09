@@ -2,8 +2,8 @@
 
 
 #include "grabbableObject.h"
+#include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
-#include "Components/BoxComponent.h"
 #include "GameplayTagContainer.h"
 #include "Components/TextRenderComponent.h"
 
@@ -16,20 +16,20 @@ AgrabbableObject::AgrabbableObject()
 
 	//root = CreateDefaultSubobject<USceneComponent>(TEXT("root"));
 	//SetRootComponent(root);
-	boxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("box collider"));
-	SetRootComponent(boxCollision);
-	boxCollision->SetSimulatePhysics(true);
-	boxCollision->SetLinearDamping(4.f);
-	boxCollision->SetAngularDamping(10.f);
+	capsuleCollison = CreateDefaultSubobject<UCapsuleComponent>(TEXT("box collider"));
+	SetRootComponent(capsuleCollison);
+	capsuleCollison->SetSimulatePhysics(true);
+	capsuleCollison->SetLinearDamping(4.f);
+	capsuleCollison->SetAngularDamping(10.f);
 
 	mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
-	mesh->SetupAttachment(boxCollision);
+	mesh->SetupAttachment(capsuleCollison);
 	mesh->SetSimulatePhysics(false);
 
 	//FGameplayTag grabbableObjectTag = FGameplayTag::RequestGameplayTag(FName("canGrab"));
 
 	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
-	textRender->SetupAttachment(boxCollision);
+	textRender->SetupAttachment(capsuleCollison);
 
 
 }
