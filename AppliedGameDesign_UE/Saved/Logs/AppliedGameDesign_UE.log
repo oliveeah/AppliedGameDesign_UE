@@ -9854,3 +9854,1418 @@ Sampler Limit: 32
 [2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.09-14.17.13:704][250]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.09-14.17.13:704][250]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.09-14.17.28:044][109]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.17.28:055][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.17.28:055][109]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.17.28:068][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011858s)
+[2025.10.09-14.17.28:068][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.011904s)
+[2025.10.09-14.17.28:104][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.10.09-14.17.28:106][109]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.17.28:109][109]LogPlayLevel: PIE: World Init took: (0.002766s)
+[2025.10.09-14.17.28:110][109]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.10.09-14.17.28:110][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.17.28:110][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.17.28:110][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.17.28:110][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.17.28:110][109]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.17.28:110][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.17.28:110][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.17.28:110][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.17.28:110][109]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.17.28:110][109]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.17.28:111][109]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.17.28:115][109]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.17.28:199][109]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.17.28:199][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.17.28:200][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.17.28:200][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.17.28:200][109]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.10.09-14.17.28:200][109]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.10.09-14.17.28:204][109]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.10.09-14.17.28:204][109]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.10.09-14.17.28:204][109]LogInit: FAudioDevice initialized with ID 18.
+[2025.10.09-14.17.28:204][109]LogAudio: Display: Audio Device (ID: 18) registered with world 'testLevel'.
+[2025.10.09-14.17.28:204][109]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.10.09-14.17.28:254][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.17.28:254][109]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.17.28:254][109]LogStreaming: Display: FlushAsyncLoading(1258): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.17.28:254][109]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.17.28:254][109]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.17.28:255][109]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.17.28:259][109]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.17.28
+[2025.10.09-14.17.28:260][109]LogWorld: Bringing up level for play took: 0.005098
+[2025.10.09-14.17.28:263][109]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.10.09-14.17.28:263][109]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.17.28:264][109]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.17.28:264][109]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.17.28:270][109]PIE: Server logged in
+[2025.10.09-14.17.28:276][109]PIE: Play in editor total start time 0.221 seconds.
+[2025.10.09-14.17.32:773][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.17.32:774][372]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.17.32:774][372]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.17.32:786][372]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.17.32:787][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.17.32:790][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.17.32:797][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.17.32:833][372]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.10.09-14.17.32:833][372]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2025.10.09-14.17.32:836][372]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2025.10.09-14.17.32:846][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.09-14.17.33:096][379]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.10.09-14.17.37:635][641]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1617.687744
+[2025.10.09-14.17.37:660][643]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.09-14.17.37:778][649]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-14.17.37:778][649]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1617.814209, Update Interval: 332.482056
+[2025.10.09-14.17.39:002][723]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.09-14.17.39:863][774]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.17.39:875][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.17.39:875][774]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.17.39:886][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011368s)
+[2025.10.09-14.17.39:886][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.011427s)
+[2025.10.09-14.17.39:922][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.09-14.17.39:925][774]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.17.39:928][774]LogPlayLevel: PIE: World Init took: (0.002731s)
+[2025.10.09-14.17.39:929][774]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.10.09-14.17.39:929][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.17.39:929][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.17.39:929][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.17.39:929][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.17.39:929][774]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.17.39:929][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.17.39:929][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.17.39:929][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.17.39:929][774]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.17.39:929][774]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.17.39:929][774]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.17.39:933][774]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.17.40:004][774]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.17.40:005][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.17.40:005][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.17.40:005][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.17.40:005][774]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.10.09-14.17.40:005][774]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.10.09-14.17.40:009][774]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.10.09-14.17.40:009][774]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.10.09-14.17.40:009][774]LogInit: FAudioDevice initialized with ID 19.
+[2025.10.09-14.17.40:009][774]LogAudio: Display: Audio Device (ID: 19) registered with world 'testLevel'.
+[2025.10.09-14.17.40:009][774]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.10.09-14.17.40:062][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.17.40:062][774]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.17.40:063][774]LogStreaming: Display: FlushAsyncLoading(1259): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.17.40:063][774]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.17.40:063][774]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.17.40:064][774]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.17.40:068][774]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.17.40
+[2025.10.09-14.17.40:068][774]LogWorld: Bringing up level for play took: 0.005184
+[2025.10.09-14.17.40:071][774]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2025.10.09-14.17.40:071][774]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.17.40:073][774]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.17.40:073][774]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.17.40:079][774]PIE: Server logged in
+[2025.10.09-14.17.40:085][774]PIE: Play in editor total start time 0.21 seconds.
+[2025.10.09-14.17.42:890][938]LogTemp: Warning: input callback called
+[2025.10.09-14.17.42:890][938]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.17.43:963][  2]LogTemp: Warning: input callback called
+[2025.10.09-14.17.43:963][  2]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.17.45:573][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.17.45:573][ 96]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.17.45:573][ 96]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.17.45:588][ 96]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.17.45:589][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.17.45:594][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.17.45:601][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.17.45:639][ 96]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.10.09-14.17.45:639][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2025.10.09-14.17.45:642][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2025.10.09-14.17.45:653][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.09-14.17.45:867][103]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2025.10.09-14.17.50:087][341]LogStreaming: Display: FlushAsyncLoading(1260): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.17.53:507][507]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.10.09-14.18.07:050][288]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.18.07:062][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.18.07:062][288]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.18.07:073][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011621s)
+[2025.10.09-14.18.07:073][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.011676s)
+[2025.10.09-14.18.07:141][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.10.09-14.18.07:144][288]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.18.07:147][288]LogPlayLevel: PIE: World Init took: (0.002518s)
+[2025.10.09-14.18.07:148][288]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.10.09-14.18.07:148][288]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.18.07:148][288]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.18.07:148][288]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.18.07:148][288]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.18.07:148][288]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.18.07:148][288]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.18.07:148][288]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.18.07:148][288]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.18.07:148][288]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.18.07:148][288]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.18.07:148][288]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.18.07:151][288]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.18.07:235][288]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.18.07:235][288]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.18.07:235][288]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.18.07:235][288]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.18.07:236][288]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.10.09-14.18.07:236][288]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.10.09-14.18.07:240][288]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.10.09-14.18.07:240][288]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.10.09-14.18.07:240][288]LogInit: FAudioDevice initialized with ID 20.
+[2025.10.09-14.18.07:240][288]LogAudio: Display: Audio Device (ID: 20) registered with world 'testLevel'.
+[2025.10.09-14.18.07:240][288]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.10.09-14.18.07:296][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.18.07:296][288]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.18.07:296][288]LogStreaming: Display: FlushAsyncLoading(1261): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.18.07:297][288]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.18.07:297][288]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.18.07:297][288]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.18.07:302][288]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.18.07
+[2025.10.09-14.18.07:302][288]LogWorld: Bringing up level for play took: 0.004882
+[2025.10.09-14.18.07:305][288]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2025.10.09-14.18.07:305][288]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.18.07:307][288]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.18.07:307][288]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.18.07:313][288]PIE: Server logged in
+[2025.10.09-14.18.07:318][288]PIE: Play in editor total start time 0.257 seconds.
+[2025.10.09-14.18.10:502][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.18.10:502][473]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.18.10:502][473]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.18.10:513][473]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.18.10:514][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.18.10:517][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.18.10:524][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.18.10:558][473]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.09-14.18.10:558][473]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.10.09-14.18.10:558][473]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2025.10.09-14.18.10:561][473]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2025.10.09-14.18.10:576][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.09-14.18.10:718][480]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.10.09-14.18.14:338][671]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.ViewDistanceScale:0.8]]
+[2025.10.09-14.18.14:338][671]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.FXAA.Quality:3]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:2]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.10.09-14.18.14:338][671]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2025.10.09-14.18.14:338][671]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.10.09-14.18.14:339][671]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.10.09-14.18.14:339][671]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:4]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:64]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:128]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:8]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:3]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:0]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:16]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:32]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:16]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:1]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:1]]
+[2025.10.09-14.18.14:342][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:64]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Applying CVar settings from Section [ReflectionQuality@2] File [Scalability]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.4]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:3]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.FastBlurThreshold:3]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Filter.SizeScale:0.8]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.MaxAnisotropy:4]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.Streaming.PoolSize:800]]
+[2025.10.09-14.18.14:343][671]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SSS.SampleSet:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SSS.Quality:-1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SSGI.Quality:2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.5]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.ParticleLightQuality:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:64.0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:64.0]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[fx.Niagara.QualityLevel:2]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:96]]
+[2025.10.09-14.18.14:343][671]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[foliage.DensityScale:0.8]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[grass.DensityScale:0.8]]
+[2025.10.09-14.18.14:343][671]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [Scalability]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.10.09-14.18.14:343][671]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.10.09-14.18.14:343][671]LogConfig: Applying CVar settings from Section [LandscapeQuality@2] File [Scalability]
+[2025.10.09-14.18.14:629][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\brick_fence\brick.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:630][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\brick_fence\concrete.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:631][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\drystone_wall\stone_wall.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:631][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\drystone_wall\concrete.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:632][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\drystone_wall\roof_tiles.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:633][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\metal_fence\fence.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:635][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\metal_fence\rusted_pipe.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:636][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\plackard_wall\Plackard_wall1.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:636][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\plaster_wall\plastic_gate1.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:637][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\plaster_wall\roof_tiles.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:638][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\plaster_wall\Stucco.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:639][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\plaster_wall\concrete.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:640][671]LogMaterial: Warning: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\_assets\psx_fences\all_fences\Fences\white_picket_fence\white_wood.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.10.09-14.18.14:641][671]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.09-14.18.14:690][672]LogContentStreaming: Texture pool size now 800 MB
+[2025.10.09-14.18.14:690][672]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="800"
+[2025.10.09-14.18.15:462][715]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.18.15:474][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.18.15:474][715]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.18.15:485][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011587s)
+[2025.10.09-14.18.15:485][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.011634s)
+[2025.10.09-14.18.15:524][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.09-14.18.15:527][715]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.18.15:530][715]LogPlayLevel: PIE: World Init took: (0.002626s)
+[2025.10.09-14.18.15:532][715]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.10.09-14.18.15:532][715]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.18.15:532][715]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.18.15:532][715]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.18.15:532][715]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.18.15:532][715]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.18.15:532][715]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.18.15:532][715]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.18.15:532][715]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.18.15:532][715]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.18.15:532][715]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.18.15:532][715]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.18.15:535][715]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.18.15:620][715]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.18.15:620][715]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.18.15:620][715]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.18.15:620][715]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.18.15:620][715]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.10.09-14.18.15:621][715]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.10.09-14.18.15:624][715]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.10.09-14.18.15:624][715]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.10.09-14.18.15:624][715]LogInit: FAudioDevice initialized with ID 21.
+[2025.10.09-14.18.15:624][715]LogAudio: Display: Audio Device (ID: 21) registered with world 'testLevel'.
+[2025.10.09-14.18.15:624][715]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.10.09-14.18.15:674][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.18.15:675][715]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.18.15:675][715]LogStreaming: Display: FlushAsyncLoading(1262): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.18.15:675][715]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.18.15:675][715]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.18.15:675][715]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.18.15:679][715]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.18.15
+[2025.10.09-14.18.15:680][715]LogWorld: Bringing up level for play took: 0.004826
+[2025.10.09-14.18.15:683][715]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.10.09-14.18.15:683][715]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.18.15:685][715]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.18.15:685][715]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.18.15:691][715]PIE: Server logged in
+[2025.10.09-14.18.15:696][715]PIE: Play in editor total start time 0.223 seconds.
+[2025.10.09-14.18.17:254][804]LogTemp: Warning: input callback called
+[2025.10.09-14.18.17:254][804]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.18.18:705][891]LogTemp: Warning: input callback called
+[2025.10.09-14.18.18:705][891]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.18.20:007][969]LogTemp: Warning: input callback called
+[2025.10.09-14.18.20:007][969]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.18.21:077][ 33]LogTemp: Warning: input callback called
+[2025.10.09-14.18.21:077][ 33]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.18.22:349][109]LogTemp: Warning: input callback called
+[2025.10.09-14.18.22:349][109]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.18.23:370][170]LogTemp: Warning: input callback called
+[2025.10.09-14.18.23:370][170]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.18.24:972][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.18.24:972][264]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.18.24:972][264]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.18.24:996][264]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.18.24:998][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.18.25:001][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.18.25:009][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.18.25:046][264]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.10.09-14.18.25:046][264]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2025.10.09-14.18.25:050][264]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2025.10.09-14.18.25:060][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.10.09-14.18.25:221][271]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2025.10.09-14.18.34:368][523]LogSlate: Window 'Save Asset As' being destroyed
+[2025.10.09-14.18.34:392][523]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/testLevelSequence.testLevelSequence
+[2025.10.09-14.18.34:392][523]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/testLevelSequence.testLevelSequence
+[2025.10.09-14.18.34:401][523]LogActorFactory: Actor Factory spawned LevelSequence /Game/testLevelSequence.testLevelSequence as actor: LevelSequenceActor /Game/levels/testLevel.testLevel:PersistentLevel.LevelSequenceActor_0
+[2025.10.09-14.18.34:401][523]LogActorFactory: Actor Factory spawned LevelSequence /Game/testLevelSequence.testLevelSequence as actor: LevelSequenceActor /Game/levels/testLevel.testLevel:PersistentLevel.LevelSequenceActor_0
+[2025.10.09-14.18.34:431][523]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/testLevelSequence.testLevelSequence
+[2025.10.09-14.18.34:668][523]LogSequenceNavigator: Activating provider: LevelSequence
+[2025.10.09-14.18.34:668][523]LogSequenceNavigator: Loading provider state: LevelSequence
+[2025.10.09-14.18.34:713][523]LogSequenceNavigator: Tool instance 'LevelSequenceEditor' provider 'LevelSequence' registered
+[2025.10.09-14.18.34:741][523]LogStreaming: Display: FlushAsyncLoading(1263): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.19.37:954][888]LogStreaming: Display: FlushAsyncLoading(1264): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.19.38:210][894]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_rig_Emote_Wave.Villager_NPCs_fbx_Anim_rig_Emote_Wave
+[2025.10.09-14.19.38:211][894]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_rig_Emote_Wave.Villager_NPCs_fbx_Anim_rig_Emote_Wave
+[2025.10.09-14.19.38:212][894]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_3
+[2025.10.09-14.19.38:213][894]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_3
+[2025.10.09-14.19.39:237][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.10.09-14.19.39:240][949]LogEditorActor: Deleted 0 Actors (0.072 secs)
+[2025.10.09-14.19.39:248][949]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_rig_Emote_Wave.Villager_NPCs_fbx_Anim_rig_Emote_Wave
+[2025.10.09-14.19.39:248][949]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_rig_Emote_Wave.Villager_NPCs_fbx_Anim_rig_Emote_Wave
+[2025.10.09-14.19.39:250][949]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_4
+[2025.10.09-14.19.39:252][949]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_4
+[2025.10.09-14.19.42:435][127]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.19.42:449][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.19.42:449][127]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.19.42:461][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011773s)
+[2025.10.09-14.19.42:461][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.011816s)
+[2025.10.09-14.19.42:500][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.10.09-14.19.42:503][127]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.19.42:505][127]LogPlayLevel: PIE: World Init took: (0.002625s)
+[2025.10.09-14.19.42:507][127]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.10.09-14.19.42:507][127]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.19.42:507][127]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.19.42:507][127]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.19.42:507][127]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.19.42:507][127]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.19.42:507][127]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.19.42:507][127]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.19.42:507][127]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.19.42:507][127]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.19.42:507][127]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.19.42:507][127]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.19.42:511][127]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.19.42:592][127]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.19.42:592][127]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.19.42:592][127]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.19.42:592][127]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.19.42:592][127]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.10.09-14.19.42:592][127]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.10.09-14.19.42:596][127]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.10.09-14.19.42:596][127]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.10.09-14.19.42:596][127]LogInit: FAudioDevice initialized with ID 22.
+[2025.10.09-14.19.42:596][127]LogAudio: Display: Audio Device (ID: 22) registered with world 'testLevel'.
+[2025.10.09-14.19.42:597][127]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.10.09-14.19.42:648][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.19.42:649][127]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.19.42:649][127]LogStreaming: Display: FlushAsyncLoading(1265): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.19.42:649][127]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.19.42:649][127]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.19.42:650][127]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.19.42:655][127]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.19.42
+[2025.10.09-14.19.42:655][127]LogWorld: Bringing up level for play took: 0.005658
+[2025.10.09-14.19.42:659][127]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2025.10.09-14.19.42:659][127]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.19.42:660][127]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.19.42:660][127]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.19.42:667][127]PIE: Server logged in
+[2025.10.09-14.19.42:673][127]PIE: Play in editor total start time 0.227 seconds.
+[2025.10.09-14.19.49:084][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.19.49:084][504]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.19.49:084][504]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.19.49:095][504]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.19.49:096][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.19.49:100][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.19.49:110][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.19.49:152][504]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.10.09-14.19.49:152][504]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2025.10.09-14.19.49:156][504]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2025.10.09-14.19.49:170][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.10.09-14.19.49:436][511]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2025.10.09-14.20.05:787][232]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx
+[2025.10.09-14.20.05:794][232]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.10.09-14.20.05:808][232]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.20.12:354][535]LogStreaming: Display: FlushAsyncLoading(1266): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.20.22:764][109]Cmd: TRANSACTION UNDO
+[2025.10.09-14.20.22:764][109]LogEditorTransaction: Undo Skeleton Edit - Transform
+[2025.10.09-14.20.23:078][109]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.20.27:200][332]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.20.27:200][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.20.27:206][332]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_21, Actor: /Engine/Transient.World_21:PersistentLevel.PreviewGeometryActor_0
+[2025.10.09-14.20.27:206][332]LogActorComponent: UnregisterComponent: (/Engine/Transient.World_21:PersistentLevel.PreviewMeshActor_0.DynamicMeshComponent_0) Not registered. Aborting.
+[2025.10.09-14.20.27:206][332]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_21, Actor: /Engine/Transient.World_21:PersistentLevel.PreviewMeshActor_0
+[2025.10.09-14.20.27:364][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.10.09-14.20.29:285][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.20.29:439][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.10.09-14.20.29:503][437]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.09-14.20.29:504][437]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel62FC8A51434ABA464EA86EBF90D2F9DB.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.09-14.20.29:523][437]LogFileHelpers: Saving map 'testLevel' took 0.161
+[2025.10.09-14.20.29:538][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 252.497 ms (total: 12.2 sec)
+[2025.10.09-14.20.29:619][437]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.20.29:620][437]LogContentValidation: Enabled validators:
+[2025.10.09-14.20.29:620][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.20.29:620][437]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.20.29:620][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.20.29:620][437]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.20.29:620][437]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.20.29:620][437]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.20.29:620][437]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.09-14.21.03:328][303]LogStreaming: Display: FlushAsyncLoading(1268): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.24.09:040][406]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2009.092407
+[2025.10.09-14.24.09:195][415]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-14.24.09:195][415]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2009.230591, Update Interval: 343.939331
+[2025.10.09-14.24.09:885][457]Cmd: DELETE
+[2025.10.09-14.24.09:886][457]Cmd: ACTOR DELETE
+[2025.10.09-14.24.09:891][457]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.10.09-14.24.09:935][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.10.09-14.24.09:944][457]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2025.10.09-14.24.36:694][979]LogStreaming: Display: FlushAsyncLoading(1269): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.24.41:812][277]Cmd: TRANSACTION UNDO
+[2025.10.09-14.24.41:812][277]LogEditorTransaction: Undo Select Actors/Components
+[2025.10.09-14.24.42:451][299]Cmd: TRANSACTION UNDO
+[2025.10.09-14.24.42:451][299]LogEditorTransaction: Undo Add Animation
+[2025.10.09-14.26.07:272][194]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx
+[2025.10.09-14.26.07:273][194]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.10.09-14.26.07:289][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.26.56:594][806]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.10.09-14.26.58:119][877]LogAssetEditorSubsystem: Opening Asset editor for IKRigDefinition /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx.IK_Villager_NPCs_fbx
+[2025.10.09-14.26.58:122][877]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.10.09-14.26.58:134][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.26.58:135][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_shoulder
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_shoulder
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_foot
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_foot
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_low_leg
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_low_leg
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_low_arm
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_low_arm
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: torso_6
+[2025.10.09-14.27.01:933][ 23]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: torso_7
+[2025.10.09-14.27.12:613][618]Cmd: TRANSACTION UNDO
+[2025.10.09-14.27.12:613][618]LogEditorTransaction: Undo Set Retarget Definition
+[2025.10.09-14.27.13:205][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.27.13:304][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.27.14:303][669]Cmd: TRANSACTION UNDO
+[2025.10.09-14.27.14:303][669]LogEditorTransaction: Undo Auto Setup FBIK
+[2025.10.09-14.27.14:882][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.27.14:965][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.29.40:875][309]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.40:920][309]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.40:930][310]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.40:946][311]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.40:963][312]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.40:979][313]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.40:996][314]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:013][315]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:029][316]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:046][317]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:063][318]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:079][319]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:095][320]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:112][321]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:129][322]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:145][323]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:163][324]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:179][325]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:196][326]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:213][327]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:230][328]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:246][329]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:263][330]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:279][331]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:296][332]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:313][333]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:329][334]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:346][335]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:362][336]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:379][337]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:396][338]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:412][339]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:432][340]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:447][341]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:463][342]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:481][343]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:496][344]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:512][345]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:529][346]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.29.41:545][347]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.23:848][848]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2383.908203
+[2025.10.09-14.30.23:997][857]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-14.30.23:997][857]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2384.041260, Update Interval: 311.673340
+[2025.10.09-14.30.31:774][320]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:816][320]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:828][321]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:842][322]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:860][323]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:877][324]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:894][325]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:911][326]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:927][327]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:944][328]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:960][329]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:976][330]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.31:993][331]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:009][332]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:027][333]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:043][334]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:060][335]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:076][336]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:093][337]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:110][338]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:127][339]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:143][340]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:159][341]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:177][342]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:193][343]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:210][344]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:226][345]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:243][346]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:260][347]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:276][348]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:294][349]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:310][350]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:327][351]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:343][352]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:360][353]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:377][354]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:393][355]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:410][356]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:427][357]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:443][358]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:460][359]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:477][360]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:493][361]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:511][362]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:530][363]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:546][364]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:562][365]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:579][366]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:595][367]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:612][368]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:629][369]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:645][370]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:665][371]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:681][372]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:695][373]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:711][374]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:729][375]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:746][376]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:763][377]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:779][378]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:796][379]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:812][380]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:829][381]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:847][382]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:863][383]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:879][384]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:896][385]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:914][386]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:930][387]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:945][388]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:962][389]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:978][390]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.32:995][391]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:012][392]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:029][393]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:045][394]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:062][395]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:079][396]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:096][397]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:113][398]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:130][399]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:147][400]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:163][401]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:179][402]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:195][403]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:212][404]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:229][405]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:245][406]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:262][407]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:279][408]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:295][409]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:312][410]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:328][411]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:345][412]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:362][413]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:378][414]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:395][415]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:412][416]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:430][417]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:446][418]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:463][419]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:479][420]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:496][421]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:512][422]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:528][423]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:546][424]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:562][425]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:579][426]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:595][427]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:613][428]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:629][429]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:645][430]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:662][431]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:678][432]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:695][433]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:712][434]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:729][435]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:745][436]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:762][437]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:778][438]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:795][439]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:812][440]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:829][441]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:846][442]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:862][443]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:878][444]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:895][445]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:912][446]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:929][447]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:945][448]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:961][449]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:979][450]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.33:994][451]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:011][452]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:028][453]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:046][454]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:062][455]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:079][456]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:095][457]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:112][458]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:128][459]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:145][460]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:161][461]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:179][462]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:194][463]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:212][464]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:228][465]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:245][466]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:262][467]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:279][468]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:295][469]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:312][470]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:329][471]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:344][472]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:362][473]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:379][474]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:395][475]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:412][476]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:429][477]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:446][478]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:462][479]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:479][480]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:496][481]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:511][482]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:528][483]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:545][484]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:562][485]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:579][486]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:595][487]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:611][488]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:629][489]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:646][490]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:662][491]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:679][492]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:695][493]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:713][494]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:729][495]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:746][496]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:762][497]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:779][498]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:796][499]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:812][500]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:829][501]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:846][502]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:863][503]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:880][504]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:896][505]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:913][506]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:929][507]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:945][508]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:963][509]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:979][510]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.34:996][511]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:013][512]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:029][513]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:046][514]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:063][515]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:079][516]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:095][517]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:112][518]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:129][519]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:146][520]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:163][521]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:179][522]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:196][523]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:213][524]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:229][525]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:245][526]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:263][527]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:280][528]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:297][529]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:313][530]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:329][531]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:346][532]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:365][533]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:397][534]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:412][535]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:430][536]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:445][537]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:464][538]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:493][539]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:508][540]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:526][541]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:541][542]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:558][543]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:575][544]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:591][545]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:608][546]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:626][547]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:643][548]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:659][549]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:676][550]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:693][551]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:709][552]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:725][553]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:742][554]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:758][555]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:774][556]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:791][557]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:808][558]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:824][559]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:841][560]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:859][561]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:875][562]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:891][563]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:909][564]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:925][565]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:942][566]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:958][567]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:974][568]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.35:991][569]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.36:008][570]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.36:024][571]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.36:041][572]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.36:058][573]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:521][435]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:564][435]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:574][436]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:589][437]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:606][438]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:623][439]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:639][440]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:656][441]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:672][442]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:689][443]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:706][444]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:723][445]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:739][446]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:756][447]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:772][448]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:790][449]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:807][450]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:824][451]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:840][452]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:856][453]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:873][454]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:890][455]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:907][456]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:923][457]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:939][458]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:956][459]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:973][460]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.50:989][461]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:006][462]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:026][463]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:044][464]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:056][465]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:073][466]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:090][467]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:106][468]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:123][469]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:140][470]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:157][471]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:173][472]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:190][473]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:207][474]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:224][475]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:241][476]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:257][477]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:273][478]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:290][479]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:307][480]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:326][481]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:342][482]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:358][483]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:374][484]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:390][485]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:408][486]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:424][487]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:440][488]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:457][489]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:474][490]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:492][491]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:508][492]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:525][493]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:542][494]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:559][495]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:574][496]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:590][497]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:607][498]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:623][499]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:640][500]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:658][501]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:673][502]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:689][503]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:706][504]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:723][505]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:739][506]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:756][507]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.51:773][508]LogIKRigEditor: Warning: Solver does not support bone settings.
+[2025.10.09-14.30.54:796][682]Cmd: TRANSACTION UNDO
+[2025.10.09-14.30.54:796][682]LogEditorTransaction: Undo Set Pelvis Bone
+[2025.10.09-14.30.55:375][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.55:388][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.55:398][682]Cmd: TRANSACTION UNDO
+[2025.10.09-14.30.55:398][682]LogEditorTransaction: Undo Add New Goals
+[2025.10.09-14.30.55:940][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.55:961][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.55:963][682]Cmd: TRANSACTION UNDO
+[2025.10.09-14.30.55:963][682]LogEditorTransaction: Undo Delete Selected IK Rig Elements
+[2025.10.09-14.30.56:501][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.56:519][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.56:767][686]Cmd: TRANSACTION UNDO
+[2025.10.09-14.30.56:767][686]LogEditorTransaction: Undo Add Solver
+[2025.10.09-14.30.57:322][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.57:333][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.57:335][686]Cmd: TRANSACTION UNDO
+[2025.10.09-14.30.57:335][686]LogEditorTransaction: Undo Remove Solver
+[2025.10.09-14.30.57:840][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.30.57:860][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.31.06:423][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.31.06:504][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx] ([1] browsable assets)...
+[2025.10.09-14.31.06:520][187]OBJ SavePackage:     Rendered thumbnail for [IKRigDefinition /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx.IK_Villager_NPCs_fbx]
+[2025.10.09-14.31.06:520][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx]
+[2025.10.09-14.31.06:564][187]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx
+[2025.10.09-14.31.06:564][187]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/IK_Villager_NPCs_fbx9A223F0F4D492B7A16F7628135EDF987.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx.uasset'
+[2025.10.09-14.31.06:581][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.830 ms (total: 12.4 sec)
+[2025.10.09-14.31.06:679][187]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.31.06:679][187]LogContentValidation: Enabled validators:
+[2025.10.09-14.31.06:679][187]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.31.06:679][187]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.31.06:679][187]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.31.06:679][187]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.31.06:679][187]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.31.06:679][187]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.31.06:680][187]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx Validating asset
+[2025.10.09-14.31.06:710][187]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_shoulder
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_shoulder
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_foot
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_foot
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_low_leg
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_low_leg
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: l_low_arm
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: r_low_arm
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: torso_6
+[2025.10.09-14.31.17:075][782]LogIKRigEditor: Warning: Auto FBIK using a template with settings for a bone that is not in this skeletal mesh: torso_7
+[2025.10.09-14.31.49:863][709]Cmd: TRANSACTION UNDO
+[2025.10.09-14.31.49:864][709]LogEditorTransaction: Undo Auto Setup FBIK
+[2025.10.09-14.31.50:455][709]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.31.50:540][709]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.31.54:657][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.31.54:734][938]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx] ([1] browsable assets)...
+[2025.10.09-14.31.54:751][938]OBJ SavePackage:     Rendered thumbnail for [IKRigDefinition /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx.IK_Villager_NPCs_fbx]
+[2025.10.09-14.31.54:751][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx]
+[2025.10.09-14.31.54:800][938]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx
+[2025.10.09-14.31.54:800][938]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/IK_Villager_NPCs_fbxBAF16D754BA467E777D00AB199759F94.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx.uasset'
+[2025.10.09-14.31.54:815][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.441 ms (total: 12.5 sec)
+[2025.10.09-14.31.54:907][938]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.31.54:907][938]LogContentValidation: Enabled validators:
+[2025.10.09-14.31.54:907][938]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.31.54:907][938]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.31.54:907][938]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.31.54:907][938]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.31.54:907][938]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.31.54:907][938]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.31.54:907][938]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx Validating asset
+[2025.10.09-14.32.06:575][608]Cmd: TRANSACTION UNDO
+[2025.10.09-14.32.06:575][608]LogEditorTransaction: Undo Translate Bone
+[2025.10.09-14.32.07:202][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.07:340][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.17:709][164]Cmd: TRANSACTION UNDO
+[2025.10.09-14.32.17:709][164]LogEditorTransaction: Undo Translate Bone
+[2025.10.09-14.32.18:284][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.18:399][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.24:084][483]LogInteractiveToolsContext: Display: Select PolyGroups to edit mesh. Use middle mouse on gizmo to reposition it. Hold Ctrl while translating or (in local mode) rotating to align to scene. Shift and Ctrl change marquee select behavior. Ctrl+R toggles Gizmo Orientation Lock.
+[2025.10.09-14.32.24:084][483]LogInteractiveToolsContext: Warning: 
+[2025.10.09-14.32.24:086][483]LogStreaming: Display: FlushAsyncLoading(1270): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.32.24:130][483]LogStaticMesh: Display: Building static mesh GizmoArrowHandle (Required Memory Estimate: 0.208897 MB)...
+[2025.10.09-14.32.24:133][483]LogStaticMesh: Built static mesh [0.01s] /Engine/InteractiveToolsFramework/Meshes/GizmoArrowHandle.GizmoArrowHandle
+[2025.10.09-14.32.24:147][483]LogStaticMesh: Display: Building static mesh GizmoPlaneHandle (Required Memory Estimate: 0.080549 MB)...
+[2025.10.09-14.32.24:149][483]LogStaticMesh: Built static mesh [0.00s] /Engine/InteractiveToolsFramework/Meshes/GizmoPlaneHandle.GizmoPlaneHandle
+[2025.10.09-14.32.24:163][483]LogStaticMesh: Display: Building static mesh GizmoSphereHandle (Required Memory Estimate: 4.785744 MB)...
+[2025.10.09-14.32.24:178][483]LogStaticMesh: Built static mesh [0.02s] /Engine/InteractiveToolsFramework/Meshes/GizmoSphereHandle.GizmoSphereHandle
+[2025.10.09-14.32.24:179][483]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/InteractiveToolsFramework/Meshes/GizmoSphereHandle) ...
+[2025.10.09-14.32.24:196][483]LogStaticMesh: Display: Building static mesh GizmoQuarterCircleHandle (Required Memory Estimate: 0.364347 MB)...
+[2025.10.09-14.32.24:199][483]LogStaticMesh: Built static mesh [0.00s] /Engine/InteractiveToolsFramework/Meshes/GizmoQuarterCircleHandle.GizmoQuarterCircleHandle
+[2025.10.09-14.32.24:213][483]LogStaticMesh: Display: Building static mesh GizmoFullCircleHandle (Required Memory Estimate: 1.246918 MB)...
+[2025.10.09-14.32.24:219][483]LogStaticMesh: Built static mesh [0.01s] /Engine/InteractiveToolsFramework/Meshes/GizmoFullCircleHandle.GizmoFullCircleHandle
+[2025.10.09-14.32.24:238][483]LogStaticMesh: Display: Building static mesh GizmoBoxHandle (Required Memory Estimate: 0.080549 MB)...
+[2025.10.09-14.32.24:239][483]LogStaticMesh: Built static mesh [0.00s] /Engine/InteractiveToolsFramework/Meshes/GizmoBoxHandle.GizmoBoxHandle
+[2025.10.09-14.32.24:256][483]LogStaticMesh: Display: Building static mesh GizmoBoxArrowHandle (Required Memory Estimate: 0.230252 MB)...
+[2025.10.09-14.32.24:259][483]LogStaticMesh: Built static mesh [0.00s] /Engine/InteractiveToolsFramework/Meshes/GizmoBoxArrowHandle.GizmoBoxArrowHandle
+[2025.10.09-14.32.24:278][483]LogStaticMesh: Display: Building static mesh GizmoCornerHandle (Required Memory Estimate: 0.138775 MB)...
+[2025.10.09-14.32.24:281][483]LogStaticMesh: Built static mesh [0.00s] /Engine/InteractiveToolsFramework/Meshes/GizmoCornerHandle.GizmoCornerHandle
+[2025.10.09-14.32.24:288][483]LogInteractiveToolsContext: Warning: This object has only a single Polygroup. Use the GrpGen, GrpPnt or TriSel (Create Polygroup) tools to modify PolyGroups.
+[2025.10.09-14.32.28:430][681]Cmd: TRANSACTION UNDO
+[2025.10.09-14.32.28:430][681]LogEditorTransaction: Undo Selection
+[2025.10.09-14.32.29:139][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.29:286][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.41:209][313]Cmd: TRANSACTION UNDO
+[2025.10.09-14.32.41:209][313]LogEditorTransaction: Undo Transform
+[2025.10.09-14.32.41:777][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.41:892][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.42:488][337]Cmd: TRANSACTION UNDO
+[2025.10.09-14.32.42:488][337]LogEditorTransaction: Undo Selection
+[2025.10.09-14.32.43:035][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.43:146][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.43:324][343]Cmd: TRANSACTION UNDO
+[2025.10.09-14.32.43:324][343]LogEditorTransaction: Undo Activate Tool
+[2025.10.09-14.32.43:860][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.43:962][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.44:064][344]Cmd: TRANSACTION UNDO
+[2025.10.09-14.32.44:064][344]LogEditorTransaction: Undo Remove Retarget Chain
+[2025.10.09-14.32.44:602][344]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.44:720][344]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: ================================================
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Total job queries 1,187, among them cache hits 579 (48.78%), DDC hits 477 (40.19%), Duplicates 111 (9.35%)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Tracking 497 distinct input hashes that result in 312 distinct outputs (62.78%)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: RAM used: 2.49 MiB of 1.60 GiB budget. Usage: 0.15%
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Shaders Compiled: 20
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Average time worker was idle: 534.70 s
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Job execution time: average 1.37 s, max 2.73 s
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Job life time (pending + execution): average 1.43 s, max 2.77
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Shader code size: total 219.144 KiB, numShaders 22, average 9.961 KiB, min 2.691 KiB, max 29.414 KiB
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.38 s
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Average processing rate: 1.93 jobs/sec
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Total thread time: 21.294 s
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Total thread preprocess time: 25.311 s
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Percentage time preprocessing: 118.87%
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Effective parallelization: 2.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.256505
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.79 sec, max 1.79 sec, min 1.79 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.72 sec, max 1.72 sec, min 1.72 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 1.47 sec, max 1.47 sec, min 1.47 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.29 sec, max 1.29 sec, min 1.29 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.30% of total time (compiled    5 times, average 1.04 sec, max 1.40 sec, min 0.57 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.40% of total time (compiled    2 times, average 1.00 sec, max 1.38 sec, min 0.62 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                                                  FVelocityPS - 8.42% of total time (compiled    1 times, average 1.79 sec, max 1.79 sec, min 1.79 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 8.06% of total time (compiled    1 times, average 1.72 sec, max 1.72 sec, min 1.72 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display:                                                  FHitProxyPS - 7.21% of total time (compiled    2 times, average 0.77 sec, max 0.99 sec, min 0.55 sec)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: === Material stats ===
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Materials Translated:    259
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Material Total Translate Time: 0.26 s
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Material Translation Only: 0.13 s (50%)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Material DDC Serialization Only: 0.01 s (2%)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: Material Cache Hits: 60 (23%)
+[2025.10.09-14.32.45:965][413]LogShaderCompilers: Display: ================================================
+[2025.10.09-14.32.51:409][729]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.32.51:409][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.32.51:561][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.10.09-14.33.02:873][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.09-14.33.03:155][246]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.10.09-14.33.03:175][246]LogSlate: Took 0.019502 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.10.09-14.33.03:969][246]LogSlate: Window 'Delete Assets' being destroyed
+[2025.10.09-14.33.04:336][246]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.33.04:336][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.33.04:377][246]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/IK_Villager_NPCs_fbx.IK_Villager_NPCs_fbx
+	Asset Type: IKRigDefinition
+[2025.10.09-14.33.05:010][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.09-14.33.05:059][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.10.09-14.33.05:099][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.09-14.33.05:149][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.10.09-14.33.14:293][613]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.33.14:298][613]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.10.09-14.33.14:313][613]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.09-14.33.14:790][613]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.10.09-14.33.15:553][613]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.10.09-14.33.36:551][840]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave (Required Memory Estimate: 1.65 MB)
+[2025.10.09-14.33.37:347][883]LogAnimationCompression: Display: Storing compressed animation data for /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave, at AnimationSequence/e3a87ee236d11b4b00abb45eb20c3c512a4fc0f2
+[2025.10.09-14.33.48:877][571]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave (Required Memory Estimate: 0.73 MB)
+[2025.10.09-14.33.49:003][578]LogAnimationCompression: Display: Storing compressed animation data for /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave, at AnimationSequence/33d3b900c73e1ad81b3a0cdadac4be5671395ba3
+[2025.10.09-14.33.52:591][784]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.33.52:669][784]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave] ([1] browsable assets)...
+[2025.10.09-14.33.52:669][784]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave]
+[2025.10.09-14.33.52:721][784]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.33.52:722][784]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Villager_NPCs_fbx_Anim_Emote_Wav154FC1244801D0737E94EBA1B0CF59F5.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.uasset'
+[2025.10.09-14.33.52:739][784]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.470 ms (total: 12.7 sec)
+[2025.10.09-14.33.52:826][784]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.33.52:826][784]LogContentValidation: Enabled validators:
+[2025.10.09-14.33.52:827][784]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.33.52:827][784]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.33.52:827][784]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.33.52:827][784]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.33.52:827][784]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.33.52:827][784]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.33.52:827][784]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave Validating asset
+[2025.10.09-14.33.53:649][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.33.53:731][832]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave] ([1] browsable assets)...
+[2025.10.09-14.33.53:731][832]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave]
+[2025.10.09-14.33.53:781][832]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.33.53:782][832]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Villager_NPCs_fbx_Anim_Emote_Wav146C5A5F4E83D6329B6D18B60D52DA22.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.uasset'
+[2025.10.09-14.33.53:800][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 150.326 ms (total: 12.8 sec)
+[2025.10.09-14.33.53:882][832]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.33.53:882][832]LogContentValidation: Enabled validators:
+[2025.10.09-14.33.53:882][832]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.33.53:882][832]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.33.53:882][832]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.33.53:882][832]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.33.53:882][832]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.33.53:882][832]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.33.53:882][832]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave Validating asset
+[2025.10.09-14.34.00:135][139]Cmd: DELETE
+[2025.10.09-14.34.00:135][139]Cmd: ACTOR DELETE
+[2025.10.09-14.34.02:362][139]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.10.09-14.34.02:376][139]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.10.09-14.34.02:454][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.10.09-14.34.02:464][139]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2025.10.09-14.34.03:534][197]Cmd: DELETE
+[2025.10.09-14.34.03:534][197]Cmd: ACTOR DELETE
+[2025.10.09-14.34.03:538][197]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.10.09-14.34.03:577][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.10.09-14.34.03:583][197]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2025.10.09-14.34.05:508][311]LogSequenceNavigator: Deactivating provider: LevelSequence
+[2025.10.09-14.34.05:516][311]LogSequenceNavigator: Provider unregistered: LevelSequence
+[2025.10.09-14.34.10:811][554]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.34.10:811][554]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.34.10:812][554]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_5
+[2025.10.09-14.34.10:814][554]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_5
+[2025.10.09-14.34.12:367][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.10.09-14.34.12:374][639]LogEditorActor: Deleted 0 Actors (0.072 secs)
+[2025.10.09-14.34.12:381][639]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.34.12:381][639]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.34.12:383][639]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_6
+[2025.10.09-14.34.12:385][639]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx.Villager_NPCs_fbx as actor: SkeletalMeshActor /Game/levels/testLevel.testLevel:PersistentLevel.SkeletalMeshActor_6
+[2025.10.09-14.34.22:427][215]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.34.22:439][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.34.22:440][215]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.34.22:454][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012857s)
+[2025.10.09-14.34.22:454][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.012912s)
+[2025.10.09-14.34.22:490][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.09-14.34.22:493][215]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.34.22:496][215]LogPlayLevel: PIE: World Init took: (0.002790s)
+[2025.10.09-14.34.22:497][215]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.10.09-14.34.22:497][215]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.34.22:497][215]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.34.22:497][215]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.34.22:497][215]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.34.22:497][215]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.34.22:497][215]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.34.22:497][215]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.34.22:497][215]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.34.22:497][215]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.34.22:497][215]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.34.22:498][215]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.34.22:500][215]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.34.22:584][215]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.34.22:584][215]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.34.22:584][215]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.34.22:584][215]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.34.22:585][215]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.10.09-14.34.22:585][215]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.10.09-14.34.22:589][215]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.10.09-14.34.22:589][215]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.10.09-14.34.22:589][215]LogInit: FAudioDevice initialized with ID 23.
+[2025.10.09-14.34.22:589][215]LogAudio: Display: Audio Device (ID: 23) registered with world 'testLevel'.
+[2025.10.09-14.34.22:589][215]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.10.09-14.34.22:641][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.34.22:641][215]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.34.22:641][215]LogStreaming: Display: FlushAsyncLoading(1280): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.34.22:642][215]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.34.22:642][215]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.34.22:642][215]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.34.22:646][215]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.34.22
+[2025.10.09-14.34.22:647][215]LogWorld: Bringing up level for play took: 0.005108
+[2025.10.09-14.34.22:650][215]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2025.10.09-14.34.22:650][215]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.34.22:652][215]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.34.22:653][215]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.34.22:660][215]PIE: Server logged in
+[2025.10.09-14.34.22:665][215]PIE: Play in editor total start time 0.225 seconds.
+[2025.10.09-14.34.24:363][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.34.24:363][308]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.34.24:363][308]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.34.24:379][308]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.34.24:381][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.34.24:385][308]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.34.24:395][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.34.24:440][308]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.10.09-14.34.24:440][308]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.10.09-14.34.24:444][308]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.10.09-14.34.24:459][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.10.09-14.34.24:738][315]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2025.10.09-14.34.36:444][993]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2025.10.09-14.34.36:470][993]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.10.09-14.34.40:761][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.34.40:842][241]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave] ([1] browsable assets)...
+[2025.10.09-14.34.40:857][241]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave]
+[2025.10.09-14.34.40:857][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave]
+[2025.10.09-14.34.40:908][241]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.34.40:910][241]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Villager_NPCs_fbx_Anim_Emote_Wav9E959E6F4171110BEA18668DC39ED180.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.uasset'
+[2025.10.09-14.34.40:928][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.851 ms (total: 13.0 sec)
+[2025.10.09-14.34.41:013][241]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.09-14.34.41:013][241]LogContentValidation: Enabled validators:
+[2025.10.09-14.34.41:013][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.34.41:013][241]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.34.41:013][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.34.41:013][241]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.34.41:013][241]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.34.41:013][241]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.34.41:013][241]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave Validating asset
+[2025.10.09-14.34.48:309][673]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.34.48:322][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.34.48:322][673]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.34.48:334][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011960s)
+[2025.10.09-14.34.48:334][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.012021s)
+[2025.10.09-14.34.48:368][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.09-14.34.48:373][673]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.34.48:376][673]LogPlayLevel: PIE: World Init took: (0.002674s)
+[2025.10.09-14.34.48:377][673]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.10.09-14.34.48:377][673]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.34.48:377][673]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.34.48:377][673]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.34.48:377][673]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.34.48:377][673]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.34.48:377][673]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.34.48:377][673]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.34.48:377][673]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.34.48:377][673]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.34.48:377][673]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.34.48:377][673]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.34.48:380][673]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.34.48:472][673]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.34.48:472][673]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.34.48:472][673]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.34.48:472][673]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.34.48:472][673]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.10.09-14.34.48:472][673]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.10.09-14.34.48:476][673]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.10.09-14.34.48:476][673]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.10.09-14.34.48:476][673]LogInit: FAudioDevice initialized with ID 24.
+[2025.10.09-14.34.48:476][673]LogAudio: Display: Audio Device (ID: 24) registered with world 'testLevel'.
+[2025.10.09-14.34.48:476][673]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.10.09-14.34.48:528][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.34.48:528][673]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.34.48:528][673]LogStreaming: Display: FlushAsyncLoading(1281): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.34.48:528][673]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.34.48:528][673]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.34.48:529][673]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.34.48:534][673]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.34.48
+[2025.10.09-14.34.48:534][673]LogWorld: Bringing up level for play took: 0.005068
+[2025.10.09-14.34.48:537][673]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2025.10.09-14.34.48:538][673]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.34.48:539][673]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.34.48:539][673]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.34.48:545][673]PIE: Server logged in
+[2025.10.09-14.34.48:552][673]PIE: Play in editor total start time 0.23 seconds.
+[2025.10.09-14.34.58:203][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.34.58:203][244]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.34.58:203][244]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.34.58:217][244]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.34.58:218][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.34.58:221][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.34.58:230][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.34.58:263][244]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.10.09-14.34.58:264][244]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.10.09-14.34.58:267][244]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.10.09-14.34.58:278][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.09-14.34.58:551][251]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2025.10.09-14.35.39:630][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.09-14.35.39:690][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/levels/testLevel_Auto2
+[2025.10.09-14.35.39:692][674]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel_Auto249D5FE464314662CA6FC109FFBDD2597.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/levels/testLevel_Auto2.umap'
+[2025.10.09-14.35.39:695][674]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/testLevel' took 0.102
+[2025.10.09-14.35.39:695][674]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.102
+[2025.10.09-14.35.39:695][674]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/testLevelSequence] ([1] browsable assets)...
+[2025.10.09-14.35.39:695][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/testLevelSequence]
+[2025.10.09-14.35.39:710][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/testLevelSequence_Auto2
+[2025.10.09-14.35.39:710][674]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevelSequence_Auto285E8712D49E7B12A73E7BA86358A5535.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Autosaves/Game/testLevelSequence_Auto2.uasset'
+[2025.10.09-14.35.39:713][674]LogFileHelpers: Auto-saving content packages took 0.018
+[2025.10.09-14.36.06:339][264]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2726.406982
+[2025.10.09-14.36.06:490][273]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-14.36.06:491][274]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2726.541260, Update Interval: 358.789642
+[2025.10.09-14.38.02:853][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.10.09-14.38.02:862][201]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.38.03:037][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.09-14.38.03:099][201]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.09-14.38.03:100][201]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevelDDE23E374CF7D699F875078D3F2DC8C5.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.09-14.38.03:121][201]LogFileHelpers: Saving map 'testLevel' took 0.166
+[2025.10.09-14.38.03:121][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/testLevelSequence] ([1] browsable assets)...
+[2025.10.09-14.38.03:121][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/testLevelSequence]
+[2025.10.09-14.38.03:121][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/testLevelSequence" FILE="../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/testLevelSequence.uasset" SILENT=true
+[2025.10.09-14.38.03:137][201]LogSavePackage: Moving output files for package: /Game/testLevelSequence
+[2025.10.09-14.38.03:137][201]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevelSequenceC66EB8E040F829228FCDC18935F8F63E.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/testLevelSequence.uasset'
+[2025.10.09-14.38.03:153][201]LogFileHelpers: InternalPromptForCheckoutAndSave took 291.691 ms (total: 13.3 sec)
+[2025.10.09-14.38.03:257][201]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.09-14.38.03:257][201]LogContentValidation: Enabled validators:
+[2025.10.09-14.38.03:257][201]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.38.03:257][201]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.38.03:257][201]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.38.03:257][201]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.38.03:257][201]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.38.03:257][201]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.38.03:257][201]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.09-14.38.03:257][201]AssetCheck: /Game/testLevelSequence Validating asset
+[2025.10.09-14.38.03:296][201]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.09-14.39.26:621][ 28]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.09-14.39.26:635][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-14.39.26:635][ 28]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.39.26:649][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013669s)
+[2025.10.09-14.39.26:649][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.013736s)
+[2025.10.09-14.39.26:690][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.10.09-14.39.26:697][ 28]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.09-14.39.26:700][ 28]LogPlayLevel: PIE: World Init took: (0.003001s)
+[2025.10.09-14.39.26:701][ 28]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.10.09-14.39.26:701][ 28]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-14.39.26:701][ 28]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-14.39.26:701][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-14.39.26:701][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-14.39.26:701][ 28]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-14.39.26:701][ 28]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-14.39.26:701][ 28]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-14.39.26:701][ 28]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-14.39.26:701][ 28]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-14.39.26:701][ 28]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-14.39.26:701][ 28]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-14.39.26:705][ 28]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-14.39.26:791][ 28]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.09-14.39.26:791][ 28]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-14.39.26:791][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-14.39.26:791][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-14.39.26:792][ 28]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.10.09-14.39.26:792][ 28]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.10.09-14.39.26:796][ 28]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.10.09-14.39.26:796][ 28]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.10.09-14.39.26:796][ 28]LogInit: FAudioDevice initialized with ID 25.
+[2025.10.09-14.39.26:796][ 28]LogAudio: Display: Audio Device (ID: 25) registered with world 'testLevel'.
+[2025.10.09-14.39.26:797][ 28]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.10.09-14.39.26:852][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.39.26:852][ 28]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.09-14.39.26:852][ 28]LogStreaming: Display: FlushAsyncLoading(1282): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.09-14.39.26:853][ 28]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.09-14.39.26:853][ 28]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.09-14.39.26:854][ 28]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.09-14.39.26:859][ 28]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.09-14.39.26
+[2025.10.09-14.39.26:860][ 28]LogWorld: Bringing up level for play took: 0.007187
+[2025.10.09-14.39.26:865][ 28]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2025.10.09-14.39.26:865][ 28]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.09-14.39.26:867][ 28]LogTemp: Display:  number of found objects: 6
+[2025.10.09-14.39.26:867][ 28]LogTemp: Warning: Mapping context added.
+[2025.10.09-14.39.26:876][ 28]PIE: Server logged in
+[2025.10.09-14.39.26:883][ 28]PIE: Play in editor total start time 0.248 seconds.
+[2025.10.09-14.39.32:408][344]LogTemp: Warning: input callback called
+[2025.10.09-14.39.32:408][344]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.39.33:678][416]LogTemp: Warning: input callback called
+[2025.10.09-14.39.33:678][416]LogTemp: Display: grabbableObject actor hit
+[2025.10.09-14.39.35:583][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-14.39.35:583][526]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.09-14.39.35:583][526]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.09-14.39.35:604][526]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-14.39.35:606][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.39.35:611][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-14.39.35:624][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-14.39.35:670][526]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.10.09-14.39.35:670][526]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2025.10.09-14.39.35:674][526]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2025.10.09-14.39.35:687][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.10.09-14.39.35:971][533]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2025.10.09-14.40.05:264][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.10.09-14.40.05:276][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-14.40.05:457][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.09-14.40.05:522][137]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.09-14.40.05:524][137]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel512546E24F8D28CB0938BDB8EA1975AC.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.09-14.40.05:546][137]LogFileHelpers: Saving map 'testLevel' took 0.171
+[2025.10.09-14.40.05:546][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave] ([1] browsable assets)...
+[2025.10.09-14.40.05:584][137]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.Villager_NPCs_fbx_Anim_Emote_Wave]
+[2025.10.09-14.40.05:584][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave]
+[2025.10.09-14.40.05:640][137]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave
+[2025.10.09-14.40.05:641][137]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Villager_NPCs_fbx_Anim_Emote_WavA6E5C7454279B050DEE5D9A6514E2100.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave.uasset'
+[2025.10.09-14.40.05:657][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 381.104 ms (total: 13.7 sec)
+[2025.10.09-14.40.05:759][137]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.09-14.40.05:759][137]LogContentValidation: Enabled validators:
+[2025.10.09-14.40.05:759][137]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-14.40.05:759][137]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-14.40.05:759][137]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-14.40.05:759][137]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-14.40.05:759][137]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-14.40.05:759][137]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-14.40.05:760][137]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.09-14.40.05:760][137]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/Villager_NPCs/Villager_NPCs_fbx_Anim_Emote_Wave Validating asset
