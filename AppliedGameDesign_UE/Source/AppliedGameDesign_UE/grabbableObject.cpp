@@ -44,13 +44,7 @@ void AgrabbableObject::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	//int32 randomNum = FMath::RandRange(0, 100);
 
-	
-	//UE_LOG(LogTemp, Display, TEXT("Random Number: %d"), randomNum);
-
-	//capsuleCollison->OnComponentSleep.AddDynamic(this, &AgrabbableObject::OnSleep);
-	//capsuleCollison->OnComponentWake.AddDynamic(this, &AgrabbableObject::OnWake);
 
 
 }
@@ -72,34 +66,9 @@ void AgrabbableObject::setRandomNum(int32 randomNumGenerated)
 
 }
 
-void AgrabbableObject::setIsFlying(bool _isFlying)
-{
-	//if (isFlying == _isFlying) return;
-//isFlying = !isFlying;
 
-	if (_isFlying)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("isflying"));
-	}
-	else
-	{
-		SetActorTickEnabled(false);
 
-		UE_LOG(LogTemp, Warning, TEXT("notflying"));
 
-	}
-}
-
-//void AgrabbableObject::OnSleep(UPrimitiveComponent* SleepingComponent, FName BoneName)
-//{
-//	setIsFlying(false);
-//}
-//
-//void AgrabbableObject::OnWake(UPrimitiveComponent* WakingComponent, FName BoneName)
-//{
-//	setIsFlying(true);
-//
-//}
 
 
 
