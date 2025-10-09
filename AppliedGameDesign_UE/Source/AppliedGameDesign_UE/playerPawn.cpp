@@ -158,6 +158,14 @@ void AplayerPawn::interactCallbackHolding()
 				GrabDistance = (hit.ImpactPoint - CamLoc).Size();
 
 				isHolding = true;
+
+			/*	objGrabbed = hitActor;
+
+				if (AgrabbableObject* _objGrabbed = Cast<AgrabbableObject>(objGrabbed))
+				{
+					_objGrabbed->setIsFlying(isHolding);
+				}*/
+			
 			}
 		}
 
@@ -175,6 +183,15 @@ void AplayerPawn::interactCallbackRelease()
 	{
 		physicsHandle->ReleaseComponent();
 	}
+
+	//if (objGrabbed)
+	//{
+	//	if (AgrabbableObject* _objGrabbed = Cast<AgrabbableObject>(objGrabbed))
+	//	{
+	//		_objGrabbed->setIsFlying(isHolding);
+	//	}
+	//	objGrabbed = nullptr;
+	//}
 }
 
 

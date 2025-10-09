@@ -42,4 +42,16 @@ public:
 
 	void setRandomNum(int32 randomNumGenerated);
 
+	void setIsFlying(bool _isFlying);
+
+
+	bool isFlying = false;
+
+	// Sleep/Wake event handlers
+	//UFUNCTION()
+	//void OnSleep(UPrimitiveComponent* SleepingComponent, FName BoneName);
+
+	//UFUNCTION()
+	//void OnWake(UPrimitiveComponent* WakingComponent, FName BoneName);
+
 };
