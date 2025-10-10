@@ -25,7 +25,7 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Components")
 	USceneComponent* root;
 
-	UPROPERTY(EditAnywhere, Category = "Components")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components")
 	USkeletalMeshComponent* mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta =(AllowPrivateAccess = "true"))
