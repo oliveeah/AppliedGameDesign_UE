@@ -99,7 +99,7 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 	}
 }
 
-bool AgrabbableObject::playAnimation()
+bool AgrabbableObject::playAnimation_Implementation()
 {
 	return isFlying;
 }

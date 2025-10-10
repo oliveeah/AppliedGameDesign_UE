@@ -61,5 +61,8 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Animation")
 
 	bool playAnimation();
+
+
+
 	void stopAnimation();
 };
