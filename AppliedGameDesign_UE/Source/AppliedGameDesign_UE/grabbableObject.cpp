@@ -8,6 +8,7 @@
 #include "GameplayTagContainer.h"
 #include "Components/TextRenderComponent.h"
 #include "PhysicsEngine/BodyInstance.h"
+#include "Animation/AnimInstance.h"
 
 
 // Sets default values
@@ -76,6 +77,7 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 		if (OtherActor->ActorHasTag(FName("floor")))
 		{
 			UE_LOG(LogTemp, Display, TEXT("grounded"));
+			isFlying = false;
 		}
 	}
 }
@@ -87,9 +89,11 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 		if (OtherActor->ActorHasTag(FName("floor")))
 		{
 			UE_LOG(LogTemp, Display, TEXT("in air"));
+			isFlying = true;
 		}
 	}
 }
+
 
 
 
