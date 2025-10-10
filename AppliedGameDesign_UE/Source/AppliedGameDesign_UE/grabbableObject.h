@@ -35,7 +35,6 @@ protected:
 	class UTextRenderComponent* textRender;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta = (AllowPrivateAccess = "true"))
-
 	class UBoxComponent* floorBox;
 
 
@@ -54,13 +53,11 @@ public:
 	UFUNCTION()
 	void OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
+
+public:
+
 	UPROPERTY(BlueprintReadWrite)
 	bool isFlying = false;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
-	UAnimMontage* flyMontage;
-
-
 
 	UPROPERTY(BlueprintAssignable, BlueprintCallable)
 	FOnIsFlyingChangedDelegate onMyEvent;
@@ -68,4 +65,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void getIsFlyingCallback();
+
+	UPROPERTY(EditAnywhere, Category = "Audio")
+	class USoundBase* uniqueCry;
 };

@@ -17,21 +17,18 @@ AgrabbableObject::AgrabbableObject()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	//root = CreateDefaultSubobject<USceneComponent>(TEXT("root"));
-	//SetRootComponent(root);
+
 	capsuleCollison = CreateDefaultSubobject<UCapsuleComponent>(TEXT("box collider"));
 	SetRootComponent(capsuleCollison);
 	capsuleCollison->SetSimulatePhysics(true);
 	capsuleCollison->SetLinearDamping(4.f);
 	capsuleCollison->SetAngularDamping(10.f);
-//	capsuleCollison->BodyInstance.bNotifyRigidBodyCollision = true;
 
 
 	mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
 	mesh->SetupAttachment(capsuleCollison);
 	mesh->SetSimulatePhysics(false);
 
-	//FGameplayTag grabbableObjectTag = FGameplayTag::RequestGameplayTag(FName("canGrab"));
 
 	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
 	textRender->SetupAttachment(capsuleCollison);
@@ -78,7 +75,6 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 	{
 		if (OtherActor->ActorHasTag(FName("floor")))
 		{
-			UE_LOG(LogTemp, Display, TEXT("grounded"));
 			isFlying = false;
 			getIsFlyingCallback();
 		}
@@ -91,7 +87,6 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 	{
 		if (OtherActor->ActorHasTag(FName("floor")))
 		{
-			UE_LOG(LogTemp, Display, TEXT("in air"));
 			isFlying = true;
 			getIsFlyingCallback();
 
