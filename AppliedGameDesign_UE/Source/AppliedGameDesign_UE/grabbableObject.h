@@ -3,10 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Delegates/DelegateCombinations.h"
 #include "GameFramework/Actor.h"
 #include "grabbableObject.generated.h"
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnIsFlyingChangedDelegate, bool, bisFlying);
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API AgrabbableObject : public AActor
 {
@@ -58,11 +60,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
 	UAnimMontage* flyMontage;
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Animation")
-
-	bool playAnimation();
 
 
+	UPROPERTY(BlueprintAssignable, BlueprintCallable)
+	FOnIsFlyingChangedDelegate onMyEvent;
 
-	void stopAnimation();
+
+	UFUNCTION(BlueprintCallable)
+	void getIsFlyingCallback();
 };

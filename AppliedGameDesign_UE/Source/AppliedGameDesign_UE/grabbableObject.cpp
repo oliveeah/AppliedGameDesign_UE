@@ -80,7 +80,7 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 		{
 			UE_LOG(LogTemp, Display, TEXT("grounded"));
 			isFlying = false;
-			stopAnimation();
+			getIsFlyingCallback();
 		}
 	}
 }
@@ -93,20 +93,16 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 		{
 			UE_LOG(LogTemp, Display, TEXT("in air"));
 			isFlying = true;
-			playAnimation();
+			getIsFlyingCallback();
 
 		}
 	}
 }
 
-bool AgrabbableObject::playAnimation_Implementation()
-{
-	return isFlying;
-}
 
-void AgrabbableObject::stopAnimation()
+void AgrabbableObject::getIsFlyingCallback()
 {
-
+	onMyEvent.Broadcast(isFlying);
 }
 
 
