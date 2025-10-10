@@ -55,6 +55,11 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	bool isFlying = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
+	UAnimMontage* flyMontage;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Animation")
 
+	bool playAnimation();
+	void stopAnimation();
 };

@@ -9,7 +9,7 @@
 #include "Components/TextRenderComponent.h"
 #include "PhysicsEngine/BodyInstance.h"
 #include "Animation/AnimInstance.h"
-
+#include "GameFramework/Character.h"
 
 // Sets default values
 AgrabbableObject::AgrabbableObject()
@@ -38,6 +38,8 @@ AgrabbableObject::AgrabbableObject()
 
 	floorBox = CreateDefaultSubobject<UBoxComponent>(TEXT("FLOORBOX"));
 	floorBox->SetupAttachment(capsuleCollison);
+
+
 }
 
 
@@ -78,6 +80,7 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 		{
 			UE_LOG(LogTemp, Display, TEXT("grounded"));
 			isFlying = false;
+			stopAnimation();
 		}
 	}
 }
@@ -90,8 +93,20 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 		{
 			UE_LOG(LogTemp, Display, TEXT("in air"));
 			isFlying = true;
+			playAnimation();
+
 		}
 	}
+}
+
+bool AgrabbableObject::playAnimation()
+{
+	return isFlying;
+}
+
+void AgrabbableObject::stopAnimation()
+{
+
 }
 
 
