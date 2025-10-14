@@ -21,7 +21,7 @@ AgrabbableObject::AgrabbableObject()
 	capsuleCollison = CreateDefaultSubobject<UCapsuleComponent>(TEXT("box collider"));
 	SetRootComponent(capsuleCollison);
 	capsuleCollison->SetSimulatePhysics(true);
-	capsuleCollison->SetLinearDamping(4.f);
+	capsuleCollison->SetLinearDamping(0.f);
 	capsuleCollison->SetAngularDamping(10.f);
 
 
@@ -78,7 +78,7 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 			isFlying = false;
 
 
-			getIsFlyingCallback();
+			//getIsFlyingCallback();
 		}
 	}
 }
@@ -92,7 +92,7 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 			isFlying = true;
 
 
-			getIsFlyingCallback();
+		//	getIsFlyingCallback();
 
 		}
 	}

@@ -88,13 +88,19 @@ void AplayerPawn::Tick(float DeltaTime)
 
 		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
 
-		
-		FVector TargetLocation = worldLocation + (worldDirection * GrabDistance);
+		FPlane GrabPlane(FVector(0, 0, grabbedHeight), FVector::UpVector);
 
-		physicsHandle->SetTargetLocationAndRotation(
-			TargetLocation,
-			playerController->PlayerCameraManager->GetCameraRotation()
-		);
+		FVector TargetLocation;
+		if (FMath::SegmentPlaneIntersection(worldLocation, worldLocation + worldDirection * 10000.f, GrabPlane, TargetLocation))
+		{
+			const float LiftOffset = 100.f;  // Raise 30 units upwards
+			TargetLocation.Z += LiftOffset;
+
+			physicsHandle->SetTargetLocationAndRotation(
+				TargetLocation,
+				playerController->PlayerCameraManager->GetCameraRotation()
+			);
+		}
 	}
 
 }
@@ -155,7 +161,7 @@ void AplayerPawn::interactCallbackHolding()
 				);
 
 				FVector CamLoc = playerController->PlayerCameraManager->GetCameraLocation();
-				GrabDistance = (hit.ImpactPoint - CamLoc).Size();
+				grabbedHeight = hitComponent->GetComponentLocation().Z; // 30 units above
 
 				isHolding = true;
 
