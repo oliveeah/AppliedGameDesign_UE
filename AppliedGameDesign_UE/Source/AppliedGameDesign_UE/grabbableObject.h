@@ -31,9 +31,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta =(AllowPrivateAccess = "true"))
 	class UCapsuleComponent* capsuleCollison;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
-	//class UText3DComponent* textRender;
-	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
+	class UTextRenderComponent* textRender;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta = (AllowPrivateAccess = "true"))
 	class UBoxComponent* floorBox;

@@ -77,7 +77,7 @@ public:
 
 	APlayerController* playerController;
 
-	float GrabDistance = 0.0f;
+	float GrabDistance = 400.0f;
 
 	UPROPERTY()
 	 AActor* objGrabbed;
