@@ -30,8 +30,8 @@ AgrabbableObject::AgrabbableObject()
 	mesh->SetSimulatePhysics(false);
 
 
-	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
-	textRender->SetupAttachment(capsuleCollison);
+	//textRender = CreateDefaultSubobject<UText3DComponent>(TEXT("textRender"));
+	//textRender->SetupAttachment(capsuleCollison);
 
 	floorBox = CreateDefaultSubobject<UBoxComponent>(TEXT("FLOORBOX"));
 	floorBox->SetupAttachment(capsuleCollison);
@@ -65,7 +65,7 @@ void AgrabbableObject::setRandomNum(int32 randomNumGenerated)
 {
 
 
-	textRender->SetText(FText::AsNumber(randomNumGenerated));
+	//textRender->SetText(FText::AsNumber(randomNumGenerated));
 
 }
 

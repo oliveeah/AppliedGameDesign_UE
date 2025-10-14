@@ -77,19 +77,24 @@ void AplayerPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (isHolding && physicsHandle && physicsHandle->GrabbedComponent)
+	if (isHolding && physicsHandle && physicsHandle->GrabbedComponent)//check
 	{
 		float mouseX, mouseY;
 
 
-		playerController->GetMousePosition(mouseX, mouseY);
+		playerController->GetMousePosition(mouseX, mouseY);//get mouse POS
 
 		FVector worldLocation, worldDirection;
 
-		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
+		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);//deproject
+
+		FPlane groundPlane = FPlane(FVector(0.0f, 0.0f, GrabDistance), FVector::UpVector);//create plane
 
 		
-		FVector TargetLocation = worldLocation + (worldDirection * GrabDistance);
+		FVector TargetLocation;
+		FMath::SegmentPlaneIntersection(worldLocation, worldLocation + worldDirection * 10000.f, groundPlane, TargetLocation);//return hit location on plane
+
+
 
 		physicsHandle->SetTargetLocationAndRotation(
 			TargetLocation,
@@ -141,11 +146,11 @@ void AplayerPawn::interactCallbackHolding()
 			{
 				UE_LOG(LogTemp, Display, TEXT("grabbableObject actor hit"));
 
-				if (!physicsHandle) { return; }
+				if (!physicsHandle) { return; } //check pointer
 
-				UPrimitiveComponent* hitComponent = hit.GetComponent();
+				UPrimitiveComponent* hitComponent = hit.GetComponent(); //hit component
 
-				if (!hitComponent || !hitComponent->IsSimulatingPhysics()) { return; }
+				if (!hitComponent || !hitComponent->IsSimulatingPhysics()) { return; } //pointer check
 
 				physicsHandle->GrabComponentAtLocationWithRotation(
 					hitComponent,
@@ -155,8 +160,7 @@ void AplayerPawn::interactCallbackHolding()
 				);
 
 				FVector CamLoc = playerController->PlayerCameraManager->GetCameraLocation();
-				GrabDistance = (hit.ImpactPoint - CamLoc).Size();
-
+				GrabDistance = hitComponent->GetComponentLocation().Z + 100;
 				isHolding = true;
 
 			/*	objGrabbed = hitActor;
