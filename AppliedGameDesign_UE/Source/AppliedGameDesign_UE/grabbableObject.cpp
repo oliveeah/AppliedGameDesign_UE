@@ -10,6 +10,7 @@
 #include "PhysicsEngine/BodyInstance.h"
 #include "Animation/AnimInstance.h"
 #include "GameFramework/Character.h"
+#include "Text3DComponent.h"
 
 // Sets default values
 AgrabbableObject::AgrabbableObject()

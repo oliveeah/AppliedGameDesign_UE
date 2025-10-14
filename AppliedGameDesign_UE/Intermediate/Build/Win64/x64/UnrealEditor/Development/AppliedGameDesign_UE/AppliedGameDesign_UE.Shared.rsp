@@ -287,8 +287,9 @@
 /I "../Plugins/EnhancedInput/Intermediate/Build/Win64/UnrealEditor/Inc/EnhancedInput/UHT"
 /I "../Plugins/EnhancedInput/Source"
 /I "../Plugins/EnhancedInput/Source/EnhancedInput/Public"
-/I "../Plugins/Experimental/Text3D/Intermediate/Build/Win64/UnrealEditor/Inc/Text3DEditor/UHT"
+/I "../Plugins/Experimental/Text3D/Intermediate/Build/Win64/UnrealEditor/Inc/Text3D/UHT"
 /I "../Plugins/Experimental/Text3D/Source"
+/I "../Plugins/Experimental/Text3D/Source/Text3D/Public"
 /I "C:/Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Intermediate/Build/Win64/x64/AppliedGameDesign_UEEditor/Development/UnrealEd"
 /external:W0
 /external:I "ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
