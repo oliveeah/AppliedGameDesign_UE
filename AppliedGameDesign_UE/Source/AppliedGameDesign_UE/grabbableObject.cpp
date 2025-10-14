@@ -76,6 +76,8 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 		if (OtherActor->ActorHasTag(FName("floor")))
 		{
 			isFlying = false;
+
+
 			getIsFlyingCallback();
 		}
 	}
@@ -88,6 +90,8 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 		if (OtherActor->ActorHasTag(FName("floor")))
 		{
 			isFlying = true;
+
+
 			getIsFlyingCallback();
 
 		}
