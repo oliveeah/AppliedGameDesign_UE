@@ -8,6 +8,7 @@
 			"MyPlayerController.gen.cpp.obj",
 			"placementSlot.gen.cpp.obj",
 			"playerPawn.gen.cpp.obj",
+			"signs.gen.cpp.obj",
 			"TouchGameMode.gen.cpp.obj"
 		]
 	}

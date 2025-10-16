@@ -88,13 +88,15 @@ void AplayerPawn::Tick(float DeltaTime)
 
 		playerController->DeprojectScreenPositionToWorld(mouseX, mouseY, worldLocation, worldDirection);
 
+
 		FPlane GrabPlane(FVector(0, 0, grabbedHeight), FVector::UpVector);
 
 		FVector TargetLocation;
 		if (FMath::SegmentPlaneIntersection(worldLocation, worldLocation + worldDirection * 10000.f, GrabPlane, TargetLocation))
 		{
-			const float LiftOffset = 100.f;  // Raise 30 units upwards
+			const float LiftOffset = 75.0f;  // Raise 150 units upwards
 			TargetLocation.Z += LiftOffset;
+
 
 			physicsHandle->SetTargetLocationAndRotation(
 				TargetLocation,
@@ -143,15 +145,14 @@ void AplayerPawn::interactCallbackHolding()
 
 		if (AActor* hitActor = hit.GetActor())
 		{
-			if (hitActor->IsA(AgrabbableObject::StaticClass()))
+			if (hitActor->IsA(AgrabbableObject::StaticClass()))//if hit an actor and its grabbable
 			{
-				UE_LOG(LogTemp, Display, TEXT("grabbableObject actor hit"));
 
 				if (!physicsHandle) { return; }
 
 				UPrimitiveComponent* hitComponent = hit.GetComponent();
 
-				if (!hitComponent || !hitComponent->IsSimulatingPhysics()) { return; }
+				if (!hitComponent || !hitComponent->IsSimulatingPhysics()) { return; } //ptr checks
 
 				physicsHandle->GrabComponentAtLocationWithRotation(
 					hitComponent,
@@ -160,17 +161,11 @@ void AplayerPawn::interactCallbackHolding()
 					hitComponent->GetComponentRotation()
 				);
 
-				FVector CamLoc = playerController->PlayerCameraManager->GetCameraLocation();
-				grabbedHeight = hitComponent->GetComponentLocation().Z; // 30 units above
+				grabbedHeight = hitComponent->GetComponentLocation().Z;
 
 				isHolding = true;
 
-			/*	objGrabbed = hitActor;
-
-				if (AgrabbableObject* _objGrabbed = Cast<AgrabbableObject>(objGrabbed))
-				{
-					_objGrabbed->setIsFlying(isHolding);
-				}*/
+		
 			
 			}
 		}
@@ -190,14 +185,7 @@ void AplayerPawn::interactCallbackRelease()
 		physicsHandle->ReleaseComponent();
 	}
 
-	//if (objGrabbed)
-	//{
-	//	if (AgrabbableObject* _objGrabbed = Cast<AgrabbableObject>(objGrabbed))
-	//	{
-	//		_objGrabbed->setIsFlying(isHolding);
-	//	}
-	//	objGrabbed = nullptr;
-	//}
+
 }
 
 

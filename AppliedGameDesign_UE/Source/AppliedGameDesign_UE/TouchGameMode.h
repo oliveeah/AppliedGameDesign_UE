@@ -19,6 +19,8 @@ protected:
 
 	void calculateRandomNumbers();
 
+	void assignTextToSigns();
+
 public:
 	
 	ATouchGameMode();

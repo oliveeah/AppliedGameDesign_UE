@@ -36,7 +36,7 @@ AgrabbableObject::AgrabbableObject()
 	floorBox = CreateDefaultSubobject<UBoxComponent>(TEXT("FLOORBOX"));
 	floorBox->SetupAttachment(capsuleCollison);
 
-
+	
 }
 
 
@@ -78,7 +78,7 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 			isFlying = false;
 
 
-			//getIsFlyingCallback();
+			getIsFlyingCallback();
 		}
 	}
 }
@@ -92,7 +92,7 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 			isFlying = true;
 
 
-		//	getIsFlyingCallback();
+		getIsFlyingCallback();
 
 		}
 	}
