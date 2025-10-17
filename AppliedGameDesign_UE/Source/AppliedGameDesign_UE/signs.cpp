@@ -32,6 +32,74 @@ void Asigns::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	boxCollider->OnComponentBeginOverlap.AddDynamic(this, &Asigns::signs_OverlapBegin);
+	boxCollider->OnComponentEndOverlap.AddDynamic(this, &Asigns::signs_OverlapEnd);
+}
+
+void Asigns::signs_OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (numberOfOverlappedActors == numberOfActorsInSceneNeeded)
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(
+				-1,
+				5.0f,
+				FColor::Green,
+				FString::Printf(TEXT("requirement met"))
+			);
+		}
+	}
+	if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
+	{
+		UE_LOG(LogTemp, Display, TEXT("is child"));
+		AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
+		
+		bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
+
+		if (grabbable)
+		{	
+			if (isOdd == grabbableIsOdd)
+			{
+				numberOfOverlappedActors++;
+			}
+
+		}
+	}
+
+
+}
+
+void Asigns::signs_OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	if (numberOfOverlappedActors != numberOfActorsInSceneNeeded)
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(
+				-1,
+				5.0f,
+				FColor::Green,
+				FString::Printf(TEXT("requirement NOT met"))
+			);
+		}
+	}
+
+	if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
+	{
+		AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
+
+		bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
+
+		if (grabbable)
+		{
+			if (isOdd == grabbableIsOdd)
+			{
+				numberOfOverlappedActors--;
+			}
+
+		}
+	}
 }
 
 // Called every frame
@@ -54,5 +122,10 @@ void Asigns::setIsOdd(bool _isOdd)
 bool Asigns::checkIfBoxHasAllGrabbables()
 {
 	return false;
+}
+
+void Asigns::setNumberOfActorsNeeded(int numberNeeded)
+{
+	numberOfActorsInSceneNeeded = numberNeeded;
 }
 

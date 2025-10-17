@@ -37,7 +37,11 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collision", meta = (AllowPrivateAccess = "true"))
 	class UBoxComponent* floorBox;
 
+	UFUNCTION()
+	 void OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
+	UFUNCTION()
+	 void OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 
 public:	
@@ -47,25 +51,22 @@ public:
 
 	void setRandomNum(int32 randomNumGenerated);
 
-	UFUNCTION()
-	void OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	UFUNCTION()
-	void OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 
 public:
 
-	UPROPERTY(BlueprintReadWrite)
-	bool isFlying = false;
+	UPROPERTY(BlueprintReadWrite) bool isFlying = false;
 
-	UPROPERTY(BlueprintAssignable, BlueprintCallable)
-	FOnIsFlyingChangedDelegate onMyEvent;
+	UPROPERTY(BlueprintAssignable, BlueprintCallable) FOnIsFlyingChangedDelegate onMyEvent;
 
 
-	UFUNCTION(BlueprintCallable)
-	void getIsFlyingCallback();
+	UFUNCTION(BlueprintCallable) void getIsFlyingCallback();
 
-	UPROPERTY(EditAnywhere, Category = "Audio")
-	class USoundBase* uniqueCry;
+	UPROPERTY(EditAnywhere, Category = "Audio") class USoundBase* uniqueCry;
+
+	UPROPERTY(VisibleAnywhere) bool grabbableIsOdd;
+
+	void set_grabbableIsOdd(bool _isOdd);
+	bool get_grabbableIsOdd();
 };

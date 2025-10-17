@@ -10,6 +10,7 @@
 #include "PhysicsEngine/BodyInstance.h"
 #include "Animation/AnimInstance.h"
 #include "GameFramework/Character.h"
+#include "signs.h"
 
 // Sets default values
 AgrabbableObject::AgrabbableObject()
@@ -83,6 +84,7 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 	}
 }
 
+
 void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 	if (OtherActor)
@@ -102,6 +104,16 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 void AgrabbableObject::getIsFlyingCallback()
 {
 	onMyEvent.Broadcast(isFlying);
+}
+
+void AgrabbableObject::set_grabbableIsOdd(bool _isOdd)
+{
+	grabbableIsOdd = _isOdd;
+}
+
+bool AgrabbableObject::get_grabbableIsOdd()
+{
+	return grabbableIsOdd;
 }
 
 

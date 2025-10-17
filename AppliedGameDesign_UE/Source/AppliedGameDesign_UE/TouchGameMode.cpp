@@ -73,6 +73,15 @@ void ATouchGameMode::calculateRandomNumbers()
 		if (AgrabbableObject* Grabbable = Cast<AgrabbableObject>(Actor))
 		{
 			Grabbable->setRandomNum(randomNumberArray[l]); 
+			if (randomNumberArray[l] % 2 == 0)
+			{
+				Grabbable->set_grabbableIsOdd(false);
+			}
+			else
+			{
+				Grabbable->set_grabbableIsOdd(true);
+
+			}
 		}
 		l++;
 	}
@@ -122,12 +131,15 @@ void ATouchGameMode::assignTextToSigns()
 	{
 		Sign1->setText(FText::FromString(_randBool ? "odd" : "even")); //condititonal if
 		Sign1->setIsOdd(_randBool ? 1 : 0);
+		Sign1->setNumberOfActorsNeeded(_randBool ? numberOfOdd : numberOfEven);
 	}
 
 	if (Asigns* Sign2 = Cast<Asigns>(FoundSigns[1]))//pointer check and declaration
 	{
 		Sign2->setText(FText::FromString(_randBool ? "even" : "odd")); //condititonal if
 		Sign2->setIsOdd(_randBool ? 0 : 1);
+		Sign2->setNumberOfActorsNeeded(_randBool ? numberOfEven :numberOfOdd);
+
 	}
 
 
