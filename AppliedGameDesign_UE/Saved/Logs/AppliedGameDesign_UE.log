@@ -3416,3 +3416,1038 @@ Detoured run took 1.4s
 [2025.10.17-11.49.51:535][116]AssetCheck: /Game/levels/testLevel Validating asset
 [2025.10.17-11.49.51:535][116]AssetCheck: /Game/blueprints/TouchGameMode_BP Validating asset
 [2025.10.17-11.49.51:536][116]AssetCheck: /Game/blueprints/UMG_UI Validating asset
+[2025.10.17-11.50.03:256][817]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2496.200439
+[2025.10.17-11.50.03:408][826]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.17-11.50.03:408][826]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2496.334229, Update Interval: 350.269470
+[2025.10.17-11.50.21:285][886]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.17-11.50.21:298][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.17-11.50.21:298][886]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.17-11.50.21:312][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013148s)
+[2025.10.17-11.50.21:312][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.013193s)
+[2025.10.17-11.50.21:354][886]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2025.10.17-11.50.21:357][886]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.17-11.50.21:360][886]LogPlayLevel: PIE: World Init took: (0.002863s)
+[2025.10.17-11.50.21:361][886]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.10.17-11.50.21:361][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.17-11.50.21:361][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.17-11.50.21:361][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.17-11.50.21:361][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.17-11.50.21:361][886]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.17-11.50.21:361][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.17-11.50.21:361][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.17-11.50.21:361][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.17-11.50.21:361][886]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.17-11.50.21:361][886]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.17-11.50.21:361][886]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.17-11.50.21:365][886]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.17-11.50.21:432][886]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.17-11.50.21:432][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.17-11.50.21:432][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.17-11.50.21:432][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.17-11.50.21:433][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.10.17-11.50.21:433][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.10.17-11.50.21:436][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.10.17-11.50.21:436][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.10.17-11.50.21:436][886]LogInit: FAudioDevice initialized with ID 25.
+[2025.10.17-11.50.21:436][886]LogAudio: Display: Audio Device (ID: 25) registered with world 'testLevel'.
+[2025.10.17-11.50.21:436][886]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.10.17-11.50.21:510][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.17-11.50.21:510][886]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.17-11.50.21:510][886]LogStreaming: Display: FlushAsyncLoading(559): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.17-11.50.21:510][886]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.17-11.50.21:510][886]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.17-11.50.21:511][886]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.17-11.50.21:516][886]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.17-11.50.21
+[2025.10.17-11.50.21:517][886]LogWorld: Bringing up level for play took: 0.006362
+[2025.10.17-11.50.21:521][886]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.10.17-11.50.21:521][886]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.17-11.50.21:522][886]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.17-11.50.21:522][886]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.17-11.50.21:522][886]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.17-11.50.21:522][886]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.17-11.50.21:523][886]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.17-11.50.21:523][886]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.17-11.50.21:523][886]LogTemp: Display:  number of found objects: 6
+[2025.10.17-11.50.21:523][886]LogTemp: Warning: Mapping context added.
+[2025.10.17-11.50.21:524][886]LogTemp: Warning: Mapping context added.
+[2025.10.17-11.50.21:531][886]PIE: Server logged in
+[2025.10.17-11.50.21:537][886]PIE: Play in editor total start time 0.239 seconds.
+[2025.10.17-11.50.21:735][893]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] flying is false
+[2025.10.17-11.50.25:042][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.17-11.50.25:042][ 89]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.17-11.50.25:042][ 89]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.17-11.50.25:064][ 89]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.50.25:066][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.50.25:069][ 89]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.17-11.50.25:077][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.50.25:120][ 89]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.10.17-11.50.25:121][ 89]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2025.10.17-11.50.25:124][ 89]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2025.10.17-11.50.25:140][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.10.17-11.50.25:488][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.10.17-11.51.09:947][555]LogStreaming: Display: FlushAsyncLoading(560): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.17-11.51.11:398][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.10.17-11.51.11:402][561]LogStreaming: Display: FlushAsyncLoading(561): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.17-11.51.12:564][612]LogSlate: Window 'Advanced Copy Asset Report' being destroyed
+[2025.10.17-11.51.14:707][721]Cmd: TRANSACTION UNDO
+[2025.10.17-11.51.14:707][721]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2025.10.17-11.52.04:310][529]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark.Bark
+[2025.10.17-11.52.04:316][529]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_33
+[2025.10.17-11.52.04:324][529]LogStreaming: Display: FlushAsyncLoading(562): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.17-11.52.05:288][529]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.52.05:288][529]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.05:288][529]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.05:288][529]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.52.05:288][529]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.05:469][531]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.52.05:469][531]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.52.05:469][531]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.52.05:469][531]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.05:469][531]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.05:469][531]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.52.05:469][531]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.19:552][372]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.52.19:552][372]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.19:552][372]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.19:552][372]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.52.19:552][372]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.19:623][374]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.52.19:623][374]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.52.19:623][374]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.52.19:623][374]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.19:623][374]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.19:623][374]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.52.19:623][374]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.22:571][551]LogMaterialEditor: Saving and Compiling material Bark
+[2025.10.17-11.52.22:742][551]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark.Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.52.22:743][551]LogMaterial: Display: Material /Engine/Transient.Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.52.22:878][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2025.10.17-11.52.23:160][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.10.17-11.52.23:184][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.52.23:279][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark] ([1] browsable assets)...
+[2025.10.17-11.52.23:292][551]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark.Bark]
+[2025.10.17-11.52.23:292][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark]
+[2025.10.17-11.52.23:307][551]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark
+[2025.10.17-11.52.23:308][551]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/BarkBC8ECEAD416585A6AC601EA0C6E769CF.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark.uasset'
+[2025.10.17-11.52.23:321][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.798 ms (total: 1.79 sec)
+[2025.10.17-11.52.23:401][551]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.52.23:401][551]LogContentValidation: Enabled validators:
+[2025.10.17-11.52.23:401][551]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.52.23:401][551]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.52.23:402][551]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.52.23:402][551]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.52.23:402][551]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.52.23:402][551]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.52.23:402][551]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bark Validating asset
+[2025.10.17-11.52.23:965][580]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.23:966][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.24:030][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.10.17-11.52.28:684][852]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves.Birtch_Leaves
+[2025.10.17-11.52.28:688][852]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2025.10.17-11.52.29:463][852]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.52.29:463][852]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.29:463][852]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.29:463][852]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.52.29:463][852]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.29:587][854]MaterialEditorStats: Base pass shader: 172 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.52.29:587][854]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.52.29:587][854]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.52.29:587][854]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.29:587][854]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.29:587][854]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.52.29:587][854]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.32:134][  6]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.52.32:134][  6]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.32:134][  6]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.32:134][  6]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.52.32:134][  6]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.32:195][  8]MaterialEditorStats: Base pass shader: 172 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.52.32:195][  8]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.52.32:195][  8]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.52.32:195][  8]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.32:195][  8]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.32:195][  8]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.52.32:195][  8]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.32:579][ 31]LogMaterialEditor: Saving and Compiling material Birtch_Leaves
+[2025.10.17-11.52.32:734][ 31]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves.Birtch_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.52.32:735][ 31]LogMaterial: Display: Material /Engine/Transient.Birtch_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.52.32:862][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2025.10.17-11.52.33:146][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.10.17-11.52.33:169][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.52.33:276][ 31]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves] ([1] browsable assets)...
+[2025.10.17-11.52.33:287][ 31]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves.Birtch_Leaves]
+[2025.10.17-11.52.33:287][ 31]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves]
+[2025.10.17-11.52.33:310][ 31]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves
+[2025.10.17-11.52.33:311][ 31]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Birtch_LeavesE83892944F63CA3082F6659EF7C291F4.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves.uasset'
+[2025.10.17-11.52.33:331][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.362 ms (total: 1.95 sec)
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: Enabled validators:
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.52.33:424][ 31]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.52.33:424][ 31]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Birtch_Leaves Validating asset
+[2025.10.17-11.52.35:244][136]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.35:244][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.35:308][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.17-11.52.38:833][328]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2025.10.17-11.52.38:833][328]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/.
+[2025.10.17-11.52.39:441][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.10.17-11.52.44:238][610]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.52.44:318][610]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/blueprints/UMG_UI] ([2] browsable assets)...
+[2025.10.17-11.52.44:321][610]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/blueprints/UMG_UI.UMG_UI]
+[2025.10.17-11.52.44:321][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/UMG_UI]
+[2025.10.17-11.52.44:321][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UMG_UI" FILE="../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/UMG_UI.uasset" SILENT=true
+[2025.10.17-11.52.44:340][610]LogSavePackage: Moving output files for package: /Game/blueprints/UMG_UI
+[2025.10.17-11.52.44:341][610]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/UMG_UI71796F834AF74B15C22BF3B39728F7CA.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/UMG_UI.uasset'
+[2025.10.17-11.52.44:354][610]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.554 ms (total: 2.06 sec)
+[2025.10.17-11.52.44:441][610]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.52.44:441][610]LogContentValidation: Enabled validators:
+[2025.10.17-11.52.44:441][610]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.52.44:441][610]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.52.44:441][610]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.52.44:441][610]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.52.44:441][610]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.52.44:441][610]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.52.44:442][610]AssetCheck: /Game/blueprints/UMG_UI Validating asset
+[2025.10.17-11.52.44:927][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.10.17-11.52.46:063][679]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.46:064][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.46:078][679]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.46:078][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.46:185][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.17-11.52.47:310][729]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.47:311][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.47:446][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.17-11.52.48:050][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.17-11.52.48:050][760]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.48:050][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.48:158][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.10.17-11.52.48:628][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.17-11.52.48:628][786]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.48:628][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.48:740][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.17-11.52.49:863][848]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch.Burt_Branch
+[2025.10.17-11.52.49:868][848]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_38
+[2025.10.17-11.52.50:706][848]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.52.50:706][848]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.50:706][848]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.50:706][848]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.52.50:706][848]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.50:862][850]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.52.50:862][850]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.52.50:862][850]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.52.50:862][850]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.50:862][850]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.50:862][850]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.52.50:862][850]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.52:613][931]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.52.52:613][931]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.52:613][931]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.52:613][931]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.52.52:613][931]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.52:709][933]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.52.52:710][933]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.52.52:710][933]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.52.52:710][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.52:710][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.52:710][933]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.52.52:710][933]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.52:808][937]LogMaterialEditor: Saving and Compiling material Burt_Branch
+[2025.10.17-11.52.52:981][937]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch.Burt_Branch needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.52.52:982][937]LogMaterial: Display: Material /Engine/Transient.Burt_Branch needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.52.53:085][937]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2025.10.17-11.52.53:346][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.17-11.52.53:368][937]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.52.53:447][937]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch] ([1] browsable assets)...
+[2025.10.17-11.52.53:454][937]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch.Burt_Branch]
+[2025.10.17-11.52.53:454][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch]
+[2025.10.17-11.52.53:467][937]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch
+[2025.10.17-11.52.53:468][937]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Burt_BranchC3987302472A9572A2EF21B4DD9DCF75.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch.uasset'
+[2025.10.17-11.52.53:481][937]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.662 ms (total: 2.18 sec)
+[2025.10.17-11.52.53:558][937]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.52.53:558][937]LogContentValidation: Enabled validators:
+[2025.10.17-11.52.53:558][937]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.52.53:558][937]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.52.53:558][937]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.52.53:558][937]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.52.53:558][937]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.52.53:558][937]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.52.53:558][937]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Burt_Branch Validating asset
+[2025.10.17-11.52.54:177][965]LogSlate: Window 'Burt_Branch' being destroyed
+[2025.10.17-11.52.54:270][965]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.52.54:270][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.52.54:334][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.17-11.52.55:417][ 18]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves.Bush_Leaves
+[2025.10.17-11.52.55:422][ 18]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_39
+[2025.10.17-11.52.56:306][ 18]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.52.56:306][ 18]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.56:306][ 18]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.56:306][ 18]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.52.56:306][ 18]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.56:438][ 20]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.52.56:438][ 20]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.52.56:438][ 20]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.52.56:438][ 20]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.52.56:438][ 20]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.52.56:438][ 20]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.52.56:438][ 20]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.52.59:147][141]LogMaterialEditor: Saving and Compiling material Bush_Leaves
+[2025.10.17-11.52.59:152][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.52.59:243][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves] ([1] browsable assets)...
+[2025.10.17-11.52.59:243][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves]
+[2025.10.17-11.52.59:259][141]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves
+[2025.10.17-11.52.59:260][141]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Bush_Leaves08FA66D54977E12A4C8A1CAAFE3F7A6F.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves.uasset'
+[2025.10.17-11.52.59:274][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.798 ms (total: 2.30 sec)
+[2025.10.17-11.52.59:363][141]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.52.59:363][141]LogContentValidation: Enabled validators:
+[2025.10.17-11.52.59:363][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.52.59:363][141]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.52.59:363][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.52.59:363][141]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.52.59:363][141]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.52.59:364][141]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.52.59:364][141]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves Validating asset
+[2025.10.17-11.53.00:504][192]LogSlate: Window 'Bush_Leaves' being destroyed
+[2025.10.17-11.53.00:597][192]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.00:597][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.00:689][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.17-11.53.01:597][242]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves_2.Bush_Leaves_2
+[2025.10.17-11.53.01:601][242]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_40
+[2025.10.17-11.53.02:477][242]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.02:477][242]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.02:477][242]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.02:477][242]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.02:477][242]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.02:614][244]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.02:614][244]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.02:614][244]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.02:614][244]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.02:614][244]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.02:614][244]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.02:614][244]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.05:106][352]LogSlate: Window 'Bush_Leaves_2' being destroyed
+[2025.10.17-11.53.05:186][352]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.05:186][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.05:278][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.17-11.53.05:798][379]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Bush_Leaves_3.Bush_Leaves_3
+[2025.10.17-11.53.05:803][379]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_41
+[2025.10.17-11.53.06:713][379]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.06:713][379]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.06:713][379]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.06:713][379]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.06:713][379]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.06:860][381]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.06:860][381]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.06:860][381]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.06:860][381]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.06:860][381]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.06:860][381]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.06:860][381]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.09:127][480]LogSlate: Window 'Bush_Leaves_3' being destroyed
+[2025.10.17-11.53.09:206][480]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.09:206][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.09:298][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.10.17-11.53.10:188][528]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves.Fir_Leaves
+[2025.10.17-11.53.10:194][528]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_42
+[2025.10.17-11.53.11:054][528]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.11:054][528]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.11:054][528]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.11:054][528]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.11:054][528]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.11:207][530]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.11:207][530]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.11:207][530]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.11:208][530]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.11:208][530]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.11:208][530]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.11:208][530]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.13:023][608]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.13:023][608]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.13:023][608]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.13:023][608]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.13:023][608]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.13:109][610]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.13:109][610]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.13:109][610]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.13:109][610]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.13:109][610]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.13:109][610]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.13:109][610]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.13:293][616]LogMaterialEditor: Saving and Compiling material Fir_Leaves
+[2025.10.17-11.53.13:479][616]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves.Fir_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.13:479][616]LogMaterial: Display: Material /Engine/Transient.Fir_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.13:614][616]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2025.10.17-11.53.13:877][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.10.17-11.53.13:904][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.53.14:002][616]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves] ([1] browsable assets)...
+[2025.10.17-11.53.14:010][616]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves.Fir_Leaves]
+[2025.10.17-11.53.14:010][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves]
+[2025.10.17-11.53.14:028][616]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves
+[2025.10.17-11.53.14:030][616]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Fir_LeavesE152C2F4446196D81EE8CA854773C141.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves.uasset'
+[2025.10.17-11.53.14:045][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.758 ms (total: 2.44 sec)
+[2025.10.17-11.53.14:129][616]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.53.14:129][616]LogContentValidation: Enabled validators:
+[2025.10.17-11.53.14:129][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.53.14:129][616]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.53.14:130][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.53.14:130][616]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.53.14:130][616]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.53.14:130][616]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.53.14:130][616]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Fir_Leaves Validating asset
+[2025.10.17-11.53.15:691][683]LogSlate: Window 'Fir_Leaves' being destroyed
+[2025.10.17-11.53.15:783][683]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.15:783][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.15:845][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.17-11.53.16:758][725]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers.Flowers
+[2025.10.17-11.53.16:764][725]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2025.10.17-11.53.17:588][725]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.17:588][725]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.17:588][725]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.17:588][725]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.17:588][725]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.17:694][727]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.17:694][727]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.17:694][727]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.17:694][727]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.17:694][727]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.17:694][727]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.17:694][727]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.19:243][818]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.19:244][818]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.19:244][818]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.19:244][818]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.19:244][818]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.19:303][820]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.19:303][820]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.19:303][820]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.19:303][820]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.19:303][820]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.19:303][820]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.19:303][820]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.20:183][872]LogMaterialEditor: Saving and Compiling material Flowers
+[2025.10.17-11.53.20:341][872]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers.Flowers needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.20:342][872]LogMaterial: Display: Material /Engine/Transient.Flowers needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.20:466][872]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2025.10.17-11.53.20:745][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.17-11.53.20:770][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.53.20:863][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers] ([1] browsable assets)...
+[2025.10.17-11.53.20:872][872]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers.Flowers]
+[2025.10.17-11.53.20:872][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers]
+[2025.10.17-11.53.20:889][872]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers
+[2025.10.17-11.53.20:890][872]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/FlowersE766C8D84F6E11B2D8287ABD13C0403B.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers.uasset'
+[2025.10.17-11.53.20:903][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.746 ms (total: 2.57 sec)
+[2025.10.17-11.53.20:989][872]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.53.20:989][872]LogContentValidation: Enabled validators:
+[2025.10.17-11.53.20:989][872]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.53.20:989][872]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.53.20:989][872]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.53.20:989][872]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.53.20:989][872]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.53.20:989][872]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.53.20:989][872]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers Validating asset
+[2025.10.17-11.53.22:047][930]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.22:047][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.22:118][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.10.17-11.53.22:798][962]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2.Flowers_2
+[2025.10.17-11.53.22:803][962]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2025.10.17-11.53.23:593][962]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.23:593][962]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.23:593][962]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.23:593][962]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.23:593][962]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.23:712][964]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.23:712][964]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.23:712][964]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.23:712][964]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.23:712][964]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.23:712][964]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.23:713][964]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.26:382][120]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.26:382][120]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.26:383][120]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.26:383][120]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.26:383][120]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.26:452][122]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.26:452][122]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.26:452][122]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.26:452][122]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.26:452][122]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.26:452][122]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.26:452][122]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.26:700][137]LogMaterialEditor: Saving and Compiling material Flowers_2
+[2025.10.17-11.53.26:846][137]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2.Flowers_2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.26:846][137]LogMaterial: Display: Material /Engine/Transient.Flowers_2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.26:976][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2025.10.17-11.53.27:256][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.10.17-11.53.27:277][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.53.27:362][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2] ([1] browsable assets)...
+[2025.10.17-11.53.27:371][137]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2.Flowers_2]
+[2025.10.17-11.53.27:371][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2]
+[2025.10.17-11.53.27:388][137]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2
+[2025.10.17-11.53.27:390][137]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers_2BEAE418F4470AF01F22D85BC0C0BD2E9.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2.uasset'
+[2025.10.17-11.53.27:406][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.202 ms (total: 2.70 sec)
+[2025.10.17-11.53.27:504][137]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.53.27:504][137]LogContentValidation: Enabled validators:
+[2025.10.17-11.53.27:504][137]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.53.27:504][137]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.53.27:504][137]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.53.27:504][137]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.53.27:504][137]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.53.27:504][137]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.53.27:504][137]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_2 Validating asset
+[2025.10.17-11.53.27:993][161]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.27:993][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.28:061][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.10.17-11.53.29:956][251]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3.Flowers_3
+[2025.10.17-11.53.29:960][251]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_45
+[2025.10.17-11.53.30:853][251]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.30:853][251]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.30:853][251]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.30:853][251]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.30:853][251]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.30:994][253]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.30:994][253]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.30:994][253]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.30:994][253]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.30:994][253]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.30:994][253]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.30:994][253]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.33:146][349]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.33:146][349]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.33:146][349]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.33:146][349]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.33:146][349]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.33:258][351]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.33:258][351]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.33:258][351]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.33:259][351]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.33:259][351]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.33:259][351]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.33:259][351]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.33:337][354]LogMaterialEditor: Saving and Compiling material Flowers_3
+[2025.10.17-11.53.33:520][354]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3.Flowers_3 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.33:521][354]LogMaterial: Display: Material /Engine/Transient.Flowers_3 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.33:638][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2025.10.17-11.53.33:913][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.10.17-11.53.33:943][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.53.34:035][354]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3] ([1] browsable assets)...
+[2025.10.17-11.53.34:042][354]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3.Flowers_3]
+[2025.10.17-11.53.34:042][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3]
+[2025.10.17-11.53.34:057][354]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3
+[2025.10.17-11.53.34:058][354]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Flowers_3E72F6E394B56F0E402AF31A11B13F64D.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3.uasset'
+[2025.10.17-11.53.34:071][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.414 ms (total: 2.83 sec)
+[2025.10.17-11.53.34:147][354]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.53.34:147][354]LogContentValidation: Enabled validators:
+[2025.10.17-11.53.34:147][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.53.34:147][354]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.53.34:147][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.53.34:147][354]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.53.34:147][354]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.53.34:147][354]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.53.34:147][354]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_3 Validating asset
+[2025.10.17-11.53.34:366][361]LogSlate: Window 'Flowers_3' being destroyed
+[2025.10.17-11.53.34:447][361]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.34:447][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.34:511][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.10.17-11.53.38:427][483]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Flowers_4.Flowers_4
+[2025.10.17-11.53.38:432][483]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2025.10.17-11.53.39:389][483]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.39:389][483]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.39:389][483]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.39:389][483]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.39:389][483]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.39:523][485]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.39:523][485]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.39:523][485]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.39:523][485]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.39:523][485]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.39:523][485]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.39:523][485]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.42:464][606]LogSlate: Window 'Flowers_4' being destroyed
+[2025.10.17-11.53.42:555][606]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.42:555][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.42:650][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.10.17-11.53.43:480][648]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1.Grass_1
+[2025.10.17-11.53.43:487][648]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2025.10.17-11.53.44:484][648]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.44:484][648]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.44:484][648]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.44:484][648]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.44:484][648]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.44:623][650]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.44:623][650]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.44:623][650]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.44:623][650]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.44:623][650]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.44:623][650]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.44:623][650]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.46:612][727]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.46:612][727]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.46:612][727]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.46:612][727]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.46:612][727]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.46:718][729]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.46:718][729]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.46:718][729]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.46:718][729]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.46:718][729]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.46:718][729]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.46:718][729]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.46:838][733]LogMaterialEditor: Saving and Compiling material Grass_1
+[2025.10.17-11.53.47:010][733]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1.Grass_1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.47:011][733]LogMaterial: Display: Material /Engine/Transient.Grass_1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.47:163][733]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2025.10.17-11.53.47:436][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.10.17-11.53.47:460][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.53.47:554][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1] ([1] browsable assets)...
+[2025.10.17-11.53.47:562][733]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1.Grass_1]
+[2025.10.17-11.53.47:562][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1]
+[2025.10.17-11.53.47:577][733]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1
+[2025.10.17-11.53.47:578][733]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Grass_1BC41840F4DFD85A50E4E1ABDCAF76B15.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1.uasset'
+[2025.10.17-11.53.47:593][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.077 ms (total: 2.96 sec)
+[2025.10.17-11.53.47:685][733]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.53.47:685][733]LogContentValidation: Enabled validators:
+[2025.10.17-11.53.47:685][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.53.47:685][733]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.53.47:685][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.53.47:685][733]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.53.47:685][733]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.53.47:685][733]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.53.47:685][733]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_1 Validating asset
+[2025.10.17-11.53.48:031][745]LogSlate: Window 'Grass_1' being destroyed
+[2025.10.17-11.53.48:141][745]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.48:141][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.48:208][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.17-11.53.49:041][787]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2.Grass_2
+[2025.10.17-11.53.49:046][787]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_48
+[2025.10.17-11.53.49:990][787]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.49:990][787]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.49:990][787]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.49:990][787]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.49:990][787]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.50:135][789]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.50:135][789]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.50:135][789]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.50:135][789]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.50:135][789]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.50:135][789]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.50:135][789]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.52:394][885]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.52:394][885]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.52:394][885]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.52:394][885]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.52:394][885]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.52:487][887]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.52:487][887]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.52:487][887]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.52:487][887]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.52:487][887]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.52:487][887]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.52:487][887]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.52:667][893]LogMaterialEditor: Saving and Compiling material Grass_2
+[2025.10.17-11.53.52:852][893]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2.Grass_2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.52:853][893]LogMaterial: Display: Material /Engine/Transient.Grass_2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.52:970][893]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2025.10.17-11.53.53:243][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.17-11.53.53:266][893]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.53.53:348][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2] ([1] browsable assets)...
+[2025.10.17-11.53.53:357][893]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2.Grass_2]
+[2025.10.17-11.53.53:358][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2]
+[2025.10.17-11.53.53:373][893]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2
+[2025.10.17-11.53.53:374][893]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Grass_2455679AF4001918ABA9BE1ACCC18A093.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2.uasset'
+[2025.10.17-11.53.53:388][893]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.216 ms (total: 3.08 sec)
+[2025.10.17-11.53.53:477][893]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.53.53:477][893]LogContentValidation: Enabled validators:
+[2025.10.17-11.53.53:477][893]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.53.53:477][893]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.53.53:477][893]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.53.53:477][893]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.53.53:477][893]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.53.53:477][893]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.53.53:477][893]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Grass_2 Validating asset
+[2025.10.17-11.53.53:820][905]LogSlate: Window 'Grass_2' being destroyed
+[2025.10.17-11.53.53:906][905]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.53:906][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.53:968][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.17-11.53.54:754][942]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves.Leaves
+[2025.10.17-11.53.54:758][942]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_49
+[2025.10.17-11.53.55:668][942]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.55:668][942]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.55:668][942]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.55:668][942]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.55:668][942]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.55:803][944]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.55:804][944]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.55:804][944]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.55:804][944]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.55:804][944]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.55:804][944]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.55:804][944]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.57:306][  7]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.53.57:306][  7]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.57:306][  7]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.57:307][  7]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.53.57:307][  7]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.57:400][  9]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.53.57:401][  9]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.53.57:401][  9]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.53.57:401][  9]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.53.57:401][  9]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.53.57:401][  9]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.53.57:401][  9]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.53.57:518][ 13]LogMaterialEditor: Saving and Compiling material Leaves
+[2025.10.17-11.53.57:698][ 13]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves.Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.57:699][ 13]LogMaterial: Display: Material /Engine/Transient.Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.53.57:826][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2025.10.17-11.53.58:104][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.10.17-11.53.58:128][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.53.58:216][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves] ([1] browsable assets)...
+[2025.10.17-11.53.58:226][ 13]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves.Leaves]
+[2025.10.17-11.53.58:226][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves]
+[2025.10.17-11.53.58:243][ 13]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves
+[2025.10.17-11.53.58:244][ 13]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/LeavesABAB83F642BA483FABBD7EA61A093E54.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves.uasset'
+[2025.10.17-11.53.58:261][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.097 ms (total: 3.22 sec)
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: Enabled validators:
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.53.58:365][ 13]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.53.58:365][ 13]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Leaves Validating asset
+[2025.10.17-11.53.58:799][ 30]LogSlate: Window 'Leaves' being destroyed
+[2025.10.17-11.53.58:883][ 30]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.53.58:883][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.53.58:946][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.17-11.53.59:693][ 68]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed.Weed
+[2025.10.17-11.53.59:698][ 68]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_50
+[2025.10.17-11.54.00:616][ 68]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.54.00:616][ 68]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.54.00:616][ 68]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.54.00:616][ 68]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.54.00:616][ 68]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.54.00:765][ 70]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.54.00:765][ 70]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.54.00:765][ 70]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.54.00:765][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.54.00:765][ 70]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.54.00:765][ 70]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.54.00:765][ 70]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.54.02:751][154]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.17-11.54.02:751][154]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.54.02:751][154]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.54.02:751][154]MaterialEditorStats: Shader Count: 0
+[2025.10.17-11.54.02:751][154]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.54.02:851][156]MaterialEditorStats: Base pass shader: 193 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.10.17-11.54.02:851][156]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.17-11.54.02:851][156]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.17-11.54.02:851][156]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.10.17-11.54.02:851][156]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.10.17-11.54.02:851][156]MaterialEditorStats: Shader Count: 15
+[2025.10.17-11.54.02:851][156]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.17-11.54.02:898][158]LogMaterialEditor: Saving and Compiling material Weed
+[2025.10.17-11.54.03:047][158]LogMaterial: Display: Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed.Weed needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.54.03:047][158]LogMaterial: Display: Material /Engine/Transient.Weed needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2025.10.17-11.54.03:180][158]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2025.10.17-11.54.03:459][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.10.17-11.54.03:487][158]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.54.03:576][158]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed] ([1] browsable assets)...
+[2025.10.17-11.54.03:587][158]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed.Weed]
+[2025.10.17-11.54.03:587][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed]
+[2025.10.17-11.54.03:602][158]LogSavePackage: Moving output files for package: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed
+[2025.10.17-11.54.03:603][158]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Weed85F95F8442BC872E955347ADEF2DC211.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed.uasset'
+[2025.10.17-11.54.03:616][158]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.924 ms (total: 3.35 sec)
+[2025.10.17-11.54.03:710][158]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.54.03:711][158]LogContentValidation: Enabled validators:
+[2025.10.17-11.54.03:711][158]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.54.03:711][158]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.54.03:711][158]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.54.03:711][158]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.54.03:711][158]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.54.03:711][158]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.54.03:711][158]AssetCheck: /Game/_assets/psX_assets/Fantasy_Mega_Pack/Fantasy_Mega_Pack/PSX_MEGA_Nature_Pack/Models/Weed Validating asset
+[2025.10.17-11.54.04:116][172]LogSlate: Window 'Weed' being destroyed
+[2025.10.17-11.54.04:188][172]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-11.54.04:188][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-11.54.04:252][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.17-11.54.05:622][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.10.17-11.54.05:630][237]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.17-11.54.05:811][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.17-11.54.05:869][237]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.17-11.54.05:871][237]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel0C79C427490807A1A9AE11817AD36D69.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.17-11.54.05:894][237]LogFileHelpers: Saving map 'testLevel' took 0.171
+[2025.10.17-11.54.05:907][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 277.947 ms (total: 3.63 sec)
+[2025.10.17-11.54.06:000][237]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.17-11.54.06:000][237]LogContentValidation: Enabled validators:
+[2025.10.17-11.54.06:000][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.17-11.54.06:000][237]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.17-11.54.06:000][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.17-11.54.06:000][237]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.17-11.54.06:000][237]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.17-11.54.06:000][237]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.17-11.54.06:000][237]AssetCheck: /Game/levels/testLevel Validating asset
