@@ -19,8 +19,29 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditAnywhere, Category = "Components")
+	USceneComponent* sceneRoot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components")
+	UStaticMeshComponent* staticMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
+	class UTextRenderComponent* textRender;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
+	class UBoxComponent* boxCollider;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	virtual void setText(FText text);
+
+	virtual void setIsOdd(bool _isOdd);
+
+	virtual bool checkIfBoxHasAllGrabbables();
+
+	UPROPERTY(VisibleAnywhere)
+	bool isOdd;
 
 };

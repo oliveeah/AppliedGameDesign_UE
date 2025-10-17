@@ -35,9 +35,7 @@ AplayerPawn::AplayerPawn()
 		camera->bUsePawnControlRotation = false;
 
 		physicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
-		physicsHandle->InterpolationSpeed = 10.f; // smooths movement
-		physicsHandle->LinearDamping = 1000.f;   // stabilizes objects
-		physicsHandle->LinearStiffness = 2000.f; // stronger attachment
+
 		//physicsHandle->SetupAttachment(root);
 
 }

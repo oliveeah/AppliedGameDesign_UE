@@ -21,6 +21,9 @@ protected:
 
 	void assignTextToSigns();
 
+	int32 numberOfOdd = 0;
+	int32 numberOfEven = 0;
+
 public:
 	
 	ATouchGameMode();
