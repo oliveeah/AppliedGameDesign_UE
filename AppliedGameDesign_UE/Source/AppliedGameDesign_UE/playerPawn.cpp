@@ -59,11 +59,9 @@ void AplayerPawn::BeginPlay()
 				if (defaultMappingContext)
 				{
 					Subsystem->AddMappingContext(defaultMappingContext, 0);
-					UE_LOG(LogTemp, Warning, TEXT("Mapping context added."));
 				}
 				else
 				{
-					UE_LOG(LogTemp, Warning, TEXT("No mapping context assigned!"));
 				}
 			}
 		}
@@ -118,7 +116,6 @@ void AplayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("no enhanced input detected"));
 
 	}
 }
@@ -128,7 +125,6 @@ void AplayerPawn::interactCallbackHolding()
 	SetActorTickEnabled(true);
 
 
-	UE_LOG(LogTemp, Warning, TEXT("input callback called"));
 	
 	//get player controller and check ptr
 	if (!playerController) { return; }
@@ -139,7 +135,6 @@ void AplayerPawn::interactCallbackHolding()
 
 	if(hasHit)//if true
 	{
-		DrawDebugSphere(GetWorld(), hit.ImpactPoint, 10.0f, 12, FColor::Red, false, 2.0f);//draw debug sphere
 
 		if (AActor* hitActor = hit.GetActor())
 		{

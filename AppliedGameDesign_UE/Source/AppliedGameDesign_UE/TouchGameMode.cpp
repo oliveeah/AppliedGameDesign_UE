@@ -13,10 +13,7 @@ ATouchGameMode::ATouchGameMode()
 	ConstructorHelpers::FClassFinder<APawn> defaultPawn(TEXT("/Game/blueprints/playerPawn_BP.playerPawn_BP"));
 	DefaultPawnClass = defaultPawn.Class;
 
-	if (GEngine)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Gamemode is constructing"));
-	}
+
 
 
 
@@ -85,24 +82,7 @@ void ATouchGameMode::calculateRandomNumbers()
 		}
 		l++;
 	}
-	if (GEngine)//debug
-	{
-		GEngine->AddOnScreenDebugMessage(
-			-1,                
-			5.0f,              
-			FColor::Green,     
-			FString::Printf(TEXT("numberOfOdd = %d"), numberOfOdd) 
-		);		
 
-		GEngine->AddOnScreenDebugMessage(
-			-1,
-			5.0f,
-			FColor::Green,
-			FString::Printf(TEXT("numberOfEven = %d"), numberOfEven)
-		);
-
-
-	}
 }
 
 void ATouchGameMode::assignTextToSigns()

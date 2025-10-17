@@ -40,15 +40,7 @@ void Asigns::signs_OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
 {
 	if (numberOfOverlappedActors == numberOfActorsInSceneNeeded)
 	{
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(
-				-1,
-				5.0f,
-				FColor::Green,
-				FString::Printf(TEXT("requirement met"))
-			);
-		}
+
 	}
 	if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
 	{
@@ -74,15 +66,7 @@ void Asigns::signs_OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* 
 {
 	if (numberOfOverlappedActors != numberOfActorsInSceneNeeded)
 	{
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(
-				-1,
-				5.0f,
-				FColor::Green,
-				FString::Printf(TEXT("requirement NOT met"))
-			);
-		}
+
 	}
 
 	if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
