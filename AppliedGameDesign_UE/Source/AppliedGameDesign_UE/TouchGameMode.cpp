@@ -21,6 +21,30 @@ ATouchGameMode::ATouchGameMode()
 		//SpectatorClass = defaultCamera.Class;
 }
 
+
+
+void ATouchGameMode::setIsOddFull(bool _isOddFull)
+{
+	oddIsFull = _isOddFull;
+	checkIfLevelIsComplete();
+	UE_LOG(LogTemp, Display, TEXT("setIsOddFull Called"));
+}
+
+void ATouchGameMode::setIsEvenFull(bool _isEvenFull)
+{
+	evenIsFull = _isEvenFull;
+	checkIfLevelIsComplete();
+	UE_LOG(LogTemp, Display, TEXT("setIsEvenFull Called"));
+
+}
+
+bool ATouchGameMode::checkIfLevelIsComplete()
+{
+	UE_LOG(LogTemp, Display, TEXT("checkIFLevelIsComplete CALLED"));
+	levelIsComplete = true;
+	return (oddIsFull && evenIsFull);
+}
+
 void ATouchGameMode::BeginPlay()
 {
 	Super::BeginPlay();

@@ -33,6 +33,8 @@ AgrabbableObject::AgrabbableObject()
 
 	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
 	textRender->SetupAttachment(capsuleCollison);
+	textRender->SetTextRenderColor(FColor::Cyan);
+
 
 	floorBox = CreateDefaultSubobject<UBoxComponent>(TEXT("FLOORBOX"));
 	floorBox->SetupAttachment(capsuleCollison);

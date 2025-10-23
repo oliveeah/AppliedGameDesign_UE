@@ -23,10 +23,27 @@ protected:
 
 	int32 numberOfOdd = 0;
 	int32 numberOfEven = 0;
+	UPROPERTY(VisibleAnywhere)
+	bool evenIsFull = false;
+
+	UPROPERTY(VisibleAnywhere)
+
+	bool oddIsFull = false;
+
 
 public:
 	
 	ATouchGameMode();
+
+	void setIsOddFull(bool _isOddFull);
+	void setIsEvenFull(bool _isEvenFull);
+
+	UFUNCTION(BlueprintCallable)
+	bool checkIfLevelIsComplete();
+
+	UPROPERTY(VisibleAnywhere)
+
+	bool levelIsComplete = false;
 
 //	ACameraActor* cameraActor;
 };
