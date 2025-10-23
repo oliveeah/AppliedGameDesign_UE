@@ -9956,3 +9956,655 @@ Would you like to regenerate the Skeleton from this mesh? This may invalidate or
 [2025.10.23-21.34.57:232][782]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_385
 [2025.10.23-21.34.57:249][782]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_386
 [2025.10.23-21.34.57:835][782]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_387
+[2025.10.23-21.35.49:255][839]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_386:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.23-21.36.37:545][684]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2025.10.23-21.36.56:761][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.10.23-21.36.58:147][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.36.58:268][481]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/animationBlueprints/ABP_cow] ([2] browsable assets)...
+[2025.10.23-21.36.58:268][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/animationBlueprints/ABP_cow]
+[2025.10.23-21.36.58:298][481]LogSavePackage: Moving output files for package: /Game/blueprints/animationBlueprints/ABP_cow
+[2025.10.23-21.36.58:299][481]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/ABP_cow5A2CAB5A4F75C73CAE3394B6C417213C.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/animationBlueprints/ABP_cow.uasset'
+[2025.10.23-21.36.58:316][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.681 ms (total: 7.51 sec)
+[2025.10.23-21.36.58:405][481]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.36.58:405][481]LogContentValidation: Enabled validators:
+[2025.10.23-21.36.58:405][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.36.58:405][481]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.36.58:405][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.36.58:405][481]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.36.58:405][481]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.36.58:405][481]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.36.58:405][481]AssetCheck: /Game/blueprints/animationBlueprints/ABP_cow Validating asset
+[2025.10.23-21.37.01:082][583]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.23-21.37.01:102][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-21.37.01:102][583]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.37.01:121][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018573s)
+[2025.10.23-21.37.01:121][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.018638s)
+[2025.10.23-21.37.01:162][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.23-21.37.01:170][583]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.23-21.37.01:173][583]LogPlayLevel: PIE: World Init took: (0.002899s)
+[2025.10.23-21.37.01:174][583]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.10.23-21.37.01:174][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-21.37.01:174][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-21.37.01:174][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-21.37.01:174][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-21.37.01:174][583]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-21.37.01:174][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-21.37.01:174][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-21.37.01:174][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-21.37.01:174][583]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-21.37.01:174][583]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-21.37.01:174][583]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-21.37.01:178][583]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-21.37.01:251][583]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.23-21.37.01:252][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-21.37.01:252][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-21.37.01:252][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-21.37.01:253][583]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.10.23-21.37.01:253][583]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.10.23-21.37.01:257][583]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.10.23-21.37.01:257][583]LogInit: FAudioDevice initialized with ID 8.
+[2025.10.23-21.37.01:257][583]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.10.23-21.37.01:257][583]LogAudio: Display: Audio Device (ID: 8) registered with world 'testLevel'.
+[2025.10.23-21.37.01:257][583]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.23-21.37.01:319][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.37.01:319][583]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.23-21.37.01:319][583]LogStreaming: Display: FlushAsyncLoading(1276): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-21.37.01:319][583]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.23-21.37.01:319][583]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.23-21.37.01:320][583]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.23-21.37.01:327][583]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.23-21.37.01
+[2025.10.23-21.37.01:328][583]LogWorld: Bringing up level for play took: 0.008619
+[2025.10.23-21.37.01:334][583]LogOnline: OSS: Created online subsystem instance for: :Context_395
+[2025.10.23-21.37.01:334][583]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.23-21.37.01:337][583]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.23-21.37.01:337][583]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.23-21.37.01:337][583]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.23-21.37.01:337][583]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.23-21.37.01:337][583]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.23-21.37.01:337][583]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.23-21.37.01:337][583]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.23-21.37.01:338][583]LogTemp: Display:  number of found objects: 7
+[2025.10.23-21.37.01:348][583]PIE: Server logged in
+[2025.10.23-21.37.01:356][583]PIE: Play in editor total start time 0.254 seconds.
+[2025.10.23-21.37.01:360][583]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] flying is false
+[2025.10.23-21.37.01:494][587]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is true
+[2025.10.23-21.37.02:566][627]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is false
+[2025.10.23-21.37.03:302][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.37.03:302][655]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.37.03:302][655]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-21.37.03:353][655]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.37.03:354][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.37.03:356][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-21.37.03:364][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.37.03:405][655]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-21.37.03:405][655]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.23-21.37.03:405][655]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.10.23-21.37.03:409][655]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.10.23-21.37.03:425][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.10.23-21.37.03:974][662]LogPlayLevel: Display: Destroying online subsystem :Context_395
+[2025.10.23-21.37.04:816][695]Cmd: DELETE
+[2025.10.23-21.37.04:816][695]Cmd: ACTOR DELETE
+[2025.10.23-21.37.04:823][695]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.10.23-21.37.04:872][695]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2025.10.23-21.37.04:881][695]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2025.10.23-21.37.12:095][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.10.23-21.37.12:715][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.37.12:818][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/grabbableObject_cow_BP] ([2] browsable assets)...
+[2025.10.23-21.37.12:840][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/grabbableObject_cow_BP.grabbableObject_cow_BP]
+[2025.10.23-21.37.12:840][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_cow_BP]
+[2025.10.23-21.37.12:864][979]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_cow_BP
+[2025.10.23-21.37.12:865][979]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_cow_BP528A9FE145810F53C2014C95E5493371.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_cow_BP.uasset'
+[2025.10.23-21.37.12:878][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 163.477 ms (total: 7.67 sec)
+[2025.10.23-21.37.12:963][979]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.37.12:963][979]LogContentValidation: Enabled validators:
+[2025.10.23-21.37.12:963][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.37.12:964][979]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.37.12:964][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.37.12:964][979]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.37.12:964][979]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.37.12:964][979]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.37.12:964][979]AssetCheck: /Game/blueprints/grabbableObject_cow_BP Validating asset
+[2025.10.23-21.37.24:740][407]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.23-21.37.24:764][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-21.37.24:765][407]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.37.24:784][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019428s)
+[2025.10.23-21.37.24:784][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.019496s)
+[2025.10.23-21.37.24:833][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.10.23-21.37.24:845][407]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.23-21.37.24:848][407]LogPlayLevel: PIE: World Init took: (0.003271s)
+[2025.10.23-21.37.24:850][407]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.10.23-21.37.24:850][407]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-21.37.24:850][407]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-21.37.24:850][407]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-21.37.24:850][407]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-21.37.24:850][407]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-21.37.24:850][407]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-21.37.24:850][407]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-21.37.24:850][407]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-21.37.24:850][407]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-21.37.24:850][407]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-21.37.24:850][407]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-21.37.24:854][407]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-21.37.24:943][407]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.23-21.37.24:943][407]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-21.37.24:944][407]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-21.37.24:944][407]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-21.37.24:944][407]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.10.23-21.37.24:944][407]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.10.23-21.37.24:949][407]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.10.23-21.37.24:949][407]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.10.23-21.37.24:949][407]LogInit: FAudioDevice initialized with ID 9.
+[2025.10.23-21.37.24:949][407]LogAudio: Display: Audio Device (ID: 9) registered with world 'testLevel'.
+[2025.10.23-21.37.24:949][407]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.23-21.37.25:041][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.37.25:041][407]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.23-21.37.25:041][407]LogStreaming: Display: FlushAsyncLoading(1277): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-21.37.25:042][407]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.23-21.37.25:042][407]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.23-21.37.25:042][407]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.23-21.37.25:048][407]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.23-21.37.25
+[2025.10.23-21.37.25:048][407]LogWorld: Bringing up level for play took: 0.006498
+[2025.10.23-21.37.25:052][407]LogOnline: OSS: Created online subsystem instance for: :Context_396
+[2025.10.23-21.37.25:052][407]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.23-21.37.25:054][407]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.23-21.37.25:054][407]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.23-21.37.25:054][407]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.23-21.37.25:054][407]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.23-21.37.25:054][407]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.23-21.37.25:054][407]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.23-21.37.25:054][407]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.23-21.37.25:055][407]LogTemp: Display:  number of found objects: 7
+[2025.10.23-21.37.25:066][407]PIE: Server logged in
+[2025.10.23-21.37.25:076][407]PIE: Play in editor total start time 0.315 seconds.
+[2025.10.23-21.37.25:080][407]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] flying is false
+[2025.10.23-21.37.25:229][411]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is true
+[2025.10.23-21.37.26:298][451]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is false
+[2025.10.23-21.37.27:195][485]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.37.28:525][535]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.37.29:898][589]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.37.30:934][629]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.37.38:008][905]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.37.39:931][977]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.37.39:931][977]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.37.39:931][977]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.37.39:952][978]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.37.39:952][978]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.37.39:952][978]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.37.41:253][ 28]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.37.41:932][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.37.41:932][ 51]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.37.41:932][ 51]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-21.37.41:952][ 51]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.37.41:953][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.37.41:958][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-21.37.41:967][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.37.42:009][ 51]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.23-21.37.42:009][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.10.23-21.37.42:013][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.10.23-21.37.42:027][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.10.23-21.37.42:383][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_396
+[2025.10.23-21.37.50:952][370]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.37.51:074][370]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/animationBlueprints/ABP_cow] ([2] browsable assets)...
+[2025.10.23-21.37.51:074][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/animationBlueprints/ABP_cow]
+[2025.10.23-21.37.51:110][370]LogSavePackage: Moving output files for package: /Game/blueprints/animationBlueprints/ABP_cow
+[2025.10.23-21.37.51:111][370]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/ABP_cowFD7039A141AF6E57BBEE628B2923BFCE.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/animationBlueprints/ABP_cow.uasset'
+[2025.10.23-21.37.51:128][370]LogFileHelpers: InternalPromptForCheckoutAndSave took 176.304 ms (total: 7.85 sec)
+[2025.10.23-21.37.51:228][370]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.37.51:228][370]LogContentValidation: Enabled validators:
+[2025.10.23-21.37.51:228][370]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.37.51:228][370]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.37.51:228][370]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.37.51:228][370]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.37.51:228][370]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.37.51:228][370]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.37.51:228][370]AssetCheck: /Game/blueprints/animationBlueprints/ABP_cow Validating asset
+[2025.10.23-21.37.52:133][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.10.23-21.37.57:795][600]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch.Cow_Animations_Anim_Rig_Munch
+[2025.10.23-21.37.57:795][600]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_388
+[2025.10.23-21.37.57:825][600]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_388:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.23-21.37.58:473][600]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_389
+[2025.10.23-21.37.59:330][600]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_390
+[2025.10.23-21.38.11:421][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.38.11:546][969]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch] ([1] browsable assets)...
+[2025.10.23-21.38.11:572][969]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch.Cow_Animations_Anim_Rig_Munch]
+[2025.10.23-21.38.11:572][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch]
+[2025.10.23-21.38.11:591][969]LogSavePackage: Moving output files for package: /Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch
+[2025.10.23-21.38.11:592][969]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Cow_Animations_Anim_Rig_Munch548B29E440C446C8A7730CB9E432EDBC.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch.uasset'
+[2025.10.23-21.38.11:608][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.019 ms (total: 8.04 sec)
+[2025.10.23-21.38.11:687][969]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.38.11:687][969]LogContentValidation: Enabled validators:
+[2025.10.23-21.38.11:687][969]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.38.11:687][969]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.38.11:687][969]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.38.11:687][969]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.38.11:687][969]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.38.11:687][969]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.38.11:688][969]AssetCheck: /Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch Validating asset
+[2025.10.23-21.38.14:103][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.38.14:192][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch] ([1] browsable assets)...
+[2025.10.23-21.38.14:214][ 42]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch.Cow_Animations_Anim_Rig_Munch]
+[2025.10.23-21.38.14:214][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch]
+[2025.10.23-21.38.14:233][ 42]LogSavePackage: Moving output files for package: /Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch
+[2025.10.23-21.38.14:234][ 42]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/Cow_Animations_Anim_Rig_Munch7DC4E7A94B43D5B9495256B5C97799C3.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch.uasset'
+[2025.10.23-21.38.14:248][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.417 ms (total: 8.18 sec)
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: Enabled validators:
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.38.14:346][ 42]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.38.14:346][ 42]AssetCheck: /Game/newAssets/farmAnimals_ANIMS/farmAnimals_Cow/FBX/Animations/Cow_Animations_Anim_Rig_Munch Validating asset
+[2025.10.23-21.38.14:840][ 55]LogSlate: Window 'Cow_Animations_Anim_Rig_Munch' being destroyed
+[2025.10.23-21.38.14:927][ 55]LogWorld: UWorld::CleanupWorld for World_390, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.38.14:927][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.38.14:942][ 55]LogWorld: UWorld::CleanupWorld for World_388, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.38.14:942][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.38.15:018][ 55]LogWorld: UWorld::CleanupWorld for World_389, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.38.15:018][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.38.15:103][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.10.23-21.38.16:310][ 99]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.23-21.38.16:340][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-21.38.16:340][ 99]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.38.16:363][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022983s)
+[2025.10.23-21.38.16:364][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.023055s)
+[2025.10.23-21.38.16:416][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2025.10.23-21.38.16:422][ 99]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.23-21.38.16:426][ 99]LogPlayLevel: PIE: World Init took: (0.003581s)
+[2025.10.23-21.38.16:427][ 99]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.10.23-21.38.16:428][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-21.38.16:428][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-21.38.16:428][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-21.38.16:428][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-21.38.16:428][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-21.38.16:428][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-21.38.16:428][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-21.38.16:428][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-21.38.16:428][ 99]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-21.38.16:429][ 99]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-21.38.16:429][ 99]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-21.38.16:433][ 99]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-21.38.16:538][ 99]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.23-21.38.16:538][ 99]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-21.38.16:538][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-21.38.16:538][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-21.38.16:538][ 99]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.10.23-21.38.16:539][ 99]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.10.23-21.38.16:543][ 99]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.10.23-21.38.16:543][ 99]LogInit: FAudioDevice initialized with ID 10.
+[2025.10.23-21.38.16:543][ 99]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.10.23-21.38.16:543][ 99]LogAudio: Display: Audio Device (ID: 10) registered with world 'testLevel'.
+[2025.10.23-21.38.16:543][ 99]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.23-21.38.16:607][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.38.16:608][ 99]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.23-21.38.16:608][ 99]LogStreaming: Display: FlushAsyncLoading(1278): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-21.38.16:608][ 99]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.23-21.38.16:608][ 99]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.23-21.38.16:608][ 99]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.23-21.38.16:613][ 99]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.23-21.38.16
+[2025.10.23-21.38.16:614][ 99]LogWorld: Bringing up level for play took: 0.006188
+[2025.10.23-21.38.16:617][ 99]LogOnline: OSS: Created online subsystem instance for: :Context_400
+[2025.10.23-21.38.16:617][ 99]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.23-21.38.16:618][ 99]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.23-21.38.16:618][ 99]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.23-21.38.16:618][ 99]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.23-21.38.16:618][ 99]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.23-21.38.16:618][ 99]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.23-21.38.16:618][ 99]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.23-21.38.16:618][ 99]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.23-21.38.16:620][ 99]LogTemp: Display:  number of found objects: 7
+[2025.10.23-21.38.16:630][ 99]PIE: Server logged in
+[2025.10.23-21.38.16:638][ 99]PIE: Play in editor total start time 0.299 seconds.
+[2025.10.23-21.38.16:643][ 99]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] flying is false
+[2025.10.23-21.38.16:782][103]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is true
+[2025.10.23-21.38.17:502][129]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10053.845703
+[2025.10.23-21.38.17:706][137]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-21.38.17:706][137]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10054.029297, Update Interval: 325.875427
+[2025.10.23-21.38.17:850][143]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is false
+[2025.10.23-21.38.27:416][502]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.38.30:836][629]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.38.30:836][629]LogTemp: Display: setIsEvenFull Called
+[2025.10.23-21.38.30:836][629]LogTemp: Display: even requirement NOT met
+[2025.10.23-21.38.30:857][630]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.38.30:857][630]LogTemp: Display: setIsEvenFull Called
+[2025.10.23-21.38.30:857][630]LogTemp: Display: even requirement NOT met
+[2025.10.23-21.38.31:603][658]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.38.31:603][658]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.38.31:603][658]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.38.35:493][804]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.38.35:565][806]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.38.35:565][806]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.38.35:565][806]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.38.40:912][  5]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.38.45:662][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.38.45:662][179]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.38.45:662][179]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-21.38.45:713][179]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.38.45:715][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.38.45:719][179]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-21.38.45:729][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.38.45:771][179]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.23-21.38.45:772][179]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.10.23-21.38.45:776][179]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.10.23-21.38.45:796][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.10.23-21.38.46:216][186]LogPlayLevel: Display: Destroying online subsystem :Context_400
+[2025.10.23-21.38.55:906][525]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.38.56:023][525]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/animationBlueprints/ABP_cow] ([2] browsable assets)...
+[2025.10.23-21.38.56:023][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/animationBlueprints/ABP_cow]
+[2025.10.23-21.38.56:054][525]LogSavePackage: Moving output files for package: /Game/blueprints/animationBlueprints/ABP_cow
+[2025.10.23-21.38.56:055][525]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/ABP_cow830AC6354DEA21D07CA8249E78A6A5F1.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/animationBlueprints/ABP_cow.uasset'
+[2025.10.23-21.38.56:070][525]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.640 ms (total: 8.35 sec)
+[2025.10.23-21.38.56:160][525]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.38.56:160][525]LogContentValidation: Enabled validators:
+[2025.10.23-21.38.56:160][525]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.38.56:160][525]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.38.56:160][525]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.38.56:160][525]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.38.56:160][525]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.38.56:160][525]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.38.56:160][525]AssetCheck: /Game/blueprints/animationBlueprints/ABP_cow Validating asset
+[2025.10.23-21.38.56:995][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.10.23-21.38.58:370][593]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.23-21.38.58:390][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-21.38.58:391][593]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.38.58:411][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020567s)
+[2025.10.23-21.38.58:411][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.020637s)
+[2025.10.23-21.38.58:457][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.10.23-21.38.58:466][593]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.23-21.38.58:470][593]LogPlayLevel: PIE: World Init took: (0.003130s)
+[2025.10.23-21.38.58:472][593]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.23-21.38.58:472][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-21.38.58:472][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-21.38.58:472][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-21.38.58:472][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-21.38.58:472][593]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-21.38.58:472][593]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-21.38.58:472][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-21.38.58:472][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-21.38.58:472][593]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-21.38.58:472][593]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-21.38.58:472][593]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-21.38.58:476][593]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-21.38.58:574][593]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.23-21.38.58:575][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-21.38.58:575][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-21.38.58:575][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-21.38.58:576][593]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.23-21.38.58:576][593]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.23-21.38.58:582][593]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.23-21.38.58:582][593]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.23-21.38.58:582][593]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.23-21.38.58:582][593]LogAudio: Display: Audio Device (ID: 11) registered with world 'testLevel'.
+[2025.10.23-21.38.58:582][593]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.23-21.38.58:658][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.38.58:658][593]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.23-21.38.58:659][593]LogStreaming: Display: FlushAsyncLoading(1279): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-21.38.58:659][593]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.23-21.38.58:659][593]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.23-21.38.58:660][593]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.23-21.38.58:668][593]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.23-21.38.58
+[2025.10.23-21.38.58:669][593]LogWorld: Bringing up level for play took: 0.009244
+[2025.10.23-21.38.58:673][593]LogOnline: OSS: Created online subsystem instance for: :Context_401
+[2025.10.23-21.38.58:673][593]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.23-21.38.58:675][593]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.23-21.38.58:675][593]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.23-21.38.58:675][593]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.23-21.38.58:675][593]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.23-21.38.58:675][593]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.23-21.38.58:675][593]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.23-21.38.58:675][593]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.23-21.38.58:675][593]LogTemp: Display:  number of found objects: 7
+[2025.10.23-21.38.58:685][593]PIE: Server logged in
+[2025.10.23-21.38.58:693][593]PIE: Play in editor total start time 0.302 seconds.
+[2025.10.23-21.38.58:697][593]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] flying is false
+[2025.10.23-21.38.58:844][597]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is true
+[2025.10.23-21.38.59:811][631]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.38.59:978][637]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is false
+[2025.10.23-21.39.01:107][679]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.39.01:107][679]LogTemp: Display: setIsEvenFull Called
+[2025.10.23-21.39.01:107][679]LogTemp: Display: even requirement NOT met
+[2025.10.23-21.39.01:136][680]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.39.01:136][680]LogTemp: Display: setIsEvenFull Called
+[2025.10.23-21.39.01:136][680]LogTemp: Display: even requirement NOT met
+[2025.10.23-21.39.04:913][818]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.39.04:983][820]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.39.04:983][820]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.39.04:983][820]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.39.05:955][857]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.39.07:476][912]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.39.07:530][914]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.39.07:530][914]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.39.07:530][914]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.39.10:892][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.39.10:892][ 35]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.39.10:892][ 35]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-21.39.10:940][ 35]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.39.10:942][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.39.10:947][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-21.39.10:956][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.39.10:998][ 35]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-21.39.10:998][ 35]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.23-21.39.10:998][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.10.23-21.39.11:003][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.10.23-21.39.11:024][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.10.23-21.39.11:456][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_401
+[2025.10.23-21.39.52:723][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.39.52:843][470]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/animationBlueprints/ABP_cow] ([2] browsable assets)...
+[2025.10.23-21.39.52:843][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/animationBlueprints/ABP_cow]
+[2025.10.23-21.39.52:877][470]LogSavePackage: Moving output files for package: /Game/blueprints/animationBlueprints/ABP_cow
+[2025.10.23-21.39.52:878][470]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/ABP_cow907242F1466EC52D3E2318843C7FE81B.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/animationBlueprints/ABP_cow.uasset'
+[2025.10.23-21.39.52:896][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 173.731 ms (total: 8.52 sec)
+[2025.10.23-21.39.52:994][470]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.39.52:995][470]LogContentValidation: Enabled validators:
+[2025.10.23-21.39.52:995][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.39.52:995][470]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.39.52:995][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.39.52:995][470]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.39.52:995][470]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.39.52:995][470]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.39.52:995][470]AssetCheck: /Game/blueprints/animationBlueprints/ABP_cow Validating asset
+[2025.10.23-21.39.54:081][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2025.10.23-21.39.55:289][544]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.23-21.39.55:308][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-21.39.55:308][544]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.39.55:332][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023533s)
+[2025.10.23-21.39.55:332][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.023610s)
+[2025.10.23-21.39.55:376][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.10.23-21.39.55:386][544]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.23-21.39.55:389][544]LogPlayLevel: PIE: World Init took: (0.003211s)
+[2025.10.23-21.39.55:391][544]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.10.23-21.39.55:391][544]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-21.39.55:391][544]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-21.39.55:391][544]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-21.39.55:391][544]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-21.39.55:391][544]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-21.39.55:391][544]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-21.39.55:391][544]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-21.39.55:391][544]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-21.39.55:391][544]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-21.39.55:391][544]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-21.39.55:391][544]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-21.39.55:395][544]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-21.39.55:480][544]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.23-21.39.55:480][544]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-21.39.55:480][544]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-21.39.55:481][544]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-21.39.55:481][544]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.10.23-21.39.55:481][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.10.23-21.39.55:485][544]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.10.23-21.39.55:485][544]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.10.23-21.39.55:485][544]LogInit: FAudioDevice initialized with ID 12.
+[2025.10.23-21.39.55:485][544]LogAudio: Display: Audio Device (ID: 12) registered with world 'testLevel'.
+[2025.10.23-21.39.55:486][544]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.23-21.39.55:552][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.39.55:552][544]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.23-21.39.55:553][544]LogStreaming: Display: FlushAsyncLoading(1280): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-21.39.55:553][544]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.23-21.39.55:553][544]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.23-21.39.55:553][544]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.23-21.39.55:559][544]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.23-21.39.55
+[2025.10.23-21.39.55:560][544]LogWorld: Bringing up level for play took: 0.007032
+[2025.10.23-21.39.55:564][544]LogOnline: OSS: Created online subsystem instance for: :Context_402
+[2025.10.23-21.39.55:564][544]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.23-21.39.55:565][544]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.23-21.39.55:566][544]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.23-21.39.55:566][544]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.23-21.39.55:566][544]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.23-21.39.55:566][544]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.23-21.39.55:566][544]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.23-21.39.55:566][544]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.23-21.39.55:566][544]LogTemp: Display:  number of found objects: 7
+[2025.10.23-21.39.55:577][544]PIE: Server logged in
+[2025.10.23-21.39.55:585][544]PIE: Play in editor total start time 0.278 seconds.
+[2025.10.23-21.39.55:590][544]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] flying is false
+[2025.10.23-21.39.55:729][548]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is true
+[2025.10.23-21.39.56:850][588]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is false
+[2025.10.23-21.39.59:816][697]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.01:652][767]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.01:736][769]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.01:736][769]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.40.01:736][769]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.40.03:303][829]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.04:111][858]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.04:156][860]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.04:156][860]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.40.04:156][860]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.40.05:538][911]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.06:707][955]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.06:768][957]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.06:768][957]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.40.06:768][957]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.40.09:189][ 44]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.09:504][ 57]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.09:557][ 59]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.09:557][ 59]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.40.09:557][ 59]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.40.10:036][ 77]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.10:036][ 77]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.40.10:036][ 77]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.40.10:749][103]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.10:833][106]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.10:833][106]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.40.10:833][106]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.40.10:907][108]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.10:907][108]LogTemp: Display: setIsOddFull Called
+[2025.10.23-21.40.10:907][108]LogTemp: Display: odd requirement NOT met
+[2025.10.23-21.40.13:424][200]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.13:744][211]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.14:092][224]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.14:773][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.40.14:773][248]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.40.14:773][248]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-21.40.14:853][248]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.40.14:854][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.40.14:859][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-21.40.14:869][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.40.14:911][248]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-21.40.14:912][248]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.23-21.40.14:912][248]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.10.23-21.40.14:917][248]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.10.23-21.40.14:938][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.10.23-21.40.15:368][255]LogPlayLevel: Display: Destroying online subsystem :Context_402
+[2025.10.23-21.40.15:893][274]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.23-21.40.15:914][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-21.40.15:914][274]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.40.15:933][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018754s)
+[2025.10.23-21.40.15:933][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.018820s)
+[2025.10.23-21.40.15:979][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2025.10.23-21.40.15:986][274]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.23-21.40.15:989][274]LogPlayLevel: PIE: World Init took: (0.003174s)
+[2025.10.23-21.40.15:990][274]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.10.23-21.40.15:990][274]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-21.40.15:990][274]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-21.40.15:990][274]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-21.40.15:990][274]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-21.40.15:990][274]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-21.40.15:990][274]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-21.40.15:990][274]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-21.40.15:990][274]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-21.40.15:990][274]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-21.40.15:990][274]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-21.40.15:990][274]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-21.40.15:995][274]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-21.40.16:104][274]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.23-21.40.16:104][274]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-21.40.16:104][274]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-21.40.16:104][274]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-21.40.16:104][274]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.10.23-21.40.16:105][274]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.10.23-21.40.16:111][274]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.10.23-21.40.16:111][274]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.10.23-21.40.16:111][274]LogInit: FAudioDevice initialized with ID 13.
+[2025.10.23-21.40.16:111][274]LogAudio: Display: Audio Device (ID: 13) registered with world 'testLevel'.
+[2025.10.23-21.40.16:111][274]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.23-21.40.16:181][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.40.16:182][274]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.23-21.40.16:182][274]LogStreaming: Display: FlushAsyncLoading(1281): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-21.40.16:182][274]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.23-21.40.16:182][274]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.23-21.40.16:182][274]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.23-21.40.16:188][274]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.23-21.40.16
+[2025.10.23-21.40.16:189][274]LogWorld: Bringing up level for play took: 0.006636
+[2025.10.23-21.40.16:193][274]LogOnline: OSS: Created online subsystem instance for: :Context_403
+[2025.10.23-21.40.16:194][274]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.23-21.40.16:195][274]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.23-21.40.16:195][274]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.23-21.40.16:195][274]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.23-21.40.16:195][274]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.23-21.40.16:195][274]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.23-21.40.16:195][274]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.23-21.40.16:195][274]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.23-21.40.16:196][274]LogTemp: Display:  number of found objects: 7
+[2025.10.23-21.40.16:206][274]PIE: Server logged in
+[2025.10.23-21.40.16:216][274]PIE: Play in editor total start time 0.302 seconds.
+[2025.10.23-21.40.16:220][274]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] flying is false
+[2025.10.23-21.40.16:370][278]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is true
+[2025.10.23-21.40.17:470][318]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] flying is false
+[2025.10.23-21.40.18:249][347]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.19:518][390]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.19:571][392]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.19:572][392]LogTemp: Display: setIsEvenFull Called
+[2025.10.23-21.40.19:572][392]LogTemp: Display: even requirement NOT met
+[2025.10.23-21.40.21:080][446]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is true
+[2025.10.23-21.40.21:337][456]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] flying is false
+[2025.10.23-21.40.21:358][457]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.21:358][457]LogTemp: Display: setIsEvenFull Called
+[2025.10.23-21.40.21:358][457]LogTemp: Display: even requirement NOT met
+[2025.10.23-21.40.22:169][486]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.23-21.40.22:169][486]LogTemp: Display: setIsEvenFull Called
+[2025.10.23-21.40.22:169][486]LogTemp: Display: even requirement NOT met
+[2025.10.23-21.40.25:303][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-21.40.25:303][597]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.23-21.40.25:303][597]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-21.40.25:344][597]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-21.40.25:345][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.40.25:351][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-21.40.25:359][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-21.40.25:406][597]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.23-21.40.25:406][597]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.10.23-21.40.25:411][597]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.10.23-21.40.25:432][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.10.23-21.40.25:872][604]LogPlayLevel: Display: Destroying online subsystem :Context_403
+[2025.10.23-21.41.16:236][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.10.23-21.41.16:256][290]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-21.41.16:439][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.10.23-21.41.16:534][290]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.23-21.41.16:536][290]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel318CABCA4E5B288B23B69BABEB8E1A6E.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.23-21.41.16:571][290]LogFileHelpers: Saving map 'testLevel' took 0.223
+[2025.10.23-21.41.16:585][290]LogFileHelpers: InternalPromptForCheckoutAndSave took 329.647 ms (total: 8.85 sec)
+[2025.10.23-21.41.16:679][290]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-21.41.16:679][290]LogContentValidation: Enabled validators:
+[2025.10.23-21.41.16:679][290]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-21.41.16:679][290]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-21.41.16:679][290]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-21.41.16:679][290]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-21.41.16:679][290]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-21.41.16:679][290]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-21.41.16:679][290]AssetCheck: /Game/levels/testLevel Validating asset
