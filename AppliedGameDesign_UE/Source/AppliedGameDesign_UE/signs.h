@@ -28,6 +28,10 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
 	class UTextRenderComponent* textRender;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
+	class UTextRenderComponent* textRenderBackDrop;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
 	class UBoxComponent* boxCollider;
 

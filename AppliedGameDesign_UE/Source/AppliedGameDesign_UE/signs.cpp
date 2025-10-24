@@ -24,6 +24,9 @@ Asigns::Asigns()
 	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
 	textRender->SetupAttachment(sceneRoot);
 
+	textRenderBackDrop = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRenderBackDrop"));
+	textRenderBackDrop->SetupAttachment(sceneRoot);
+
 	boxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("boxCollision"));
 	boxCollider->SetupAttachment(sceneRoot);
 
@@ -134,6 +137,7 @@ void Asigns::Tick(float DeltaTime)
 void Asigns::setText(FText text)
 {
 	textRender->SetText(text);
+	textRenderBackDrop->SetText(text);
 }
 
 void Asigns::setIsOdd(bool _isOdd)
