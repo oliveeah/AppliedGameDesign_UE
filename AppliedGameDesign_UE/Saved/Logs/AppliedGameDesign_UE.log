@@ -5775,3 +5775,883 @@ FPackageName: Skipped package /Game/assets/FarmAnimals_v1/Material_008 has a val
 [2025.10.24-10.19.03:420][898]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
 [2025.10.24-10.19.03:437][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
 [2025.10.24-10.19.03:777][905]LogPlayLevel: Display: Destroying online subsystem :Context_146
+[2025.10.24-10.19.31:466][365]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2732.418945
+[2025.10.24-10.19.31:623][372]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.24-10.19.31:623][372]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2732.557373, Update Interval: 344.237793
+[2025.10.24-10.19.39:640][727]LogContentBrowser: Deferred new asset file creation: ABP_henV3
+[2025.10.24-10.19.39:654][727]LogContentBrowser: Creating deferred item: ABP_henV3
+[2025.10.24-10.19.39:703][728]LogContentBrowser: Renaming the item being created (Deferred Item: ABP_henV3).
+[2025.10.24-10.19.43:848][890]LogContentBrowser: Attempting asset rename: ABP_henV3 -> ABP_donkeyV2
+[2025.10.24-10.19.43:918][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2025.10.24-10.19.43:953][890]LogContentBrowser: End creating deferred item ABP_henV3
+[2025.10.24-10.19.45:216][939]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/blueprints/animationBlueprints/ABP_donkeyV2.ABP_donkeyV2
+[2025.10.24-10.19.45:217][939]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_113
+[2025.10.24-10.19.45:226][939]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_114
+[2025.10.24-10.19.45:759][939]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_115
+[2025.10.24-10.19.52:011][165]LogStreaming: Display: FlushAsyncLoading(662): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.19.52:030][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_114:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.19.52:447][180]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_116
+[2025.10.24-10.20.04:184][704]LogStreaming: Display: FlushAsyncLoading(663): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.20.07:144][830]LogStreaming: Display: FlushAsyncLoading(664): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.20.11:639][  3]LogStreaming: Display: FlushAsyncLoading(665): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.20.17:325][195]LogStreaming: Display: FlushAsyncLoading(666): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.20.26:543][589]LogStreaming: Display: FlushAsyncLoading(667): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.20.27:190][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.20.27:291][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/animationBlueprints/ABP_donkeyV2] ([2] browsable assets)...
+[2025.10.24-10.20.27:291][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/animationBlueprints/ABP_donkeyV2]
+[2025.10.24-10.20.27:322][617]LogSavePackage: Moving output files for package: /Game/blueprints/animationBlueprints/ABP_donkeyV2
+[2025.10.24-10.20.27:322][617]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/ABP_donkeyV2C7E5060541B55ABED72868961460B807.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/animationBlueprints/ABP_donkeyV2.uasset'
+[2025.10.24-10.20.27:345][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.326 ms (total: 8.08 sec)
+[2025.10.24-10.20.27:433][617]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.20.27:433][617]LogContentValidation: Enabled validators:
+[2025.10.24-10.20.27:433][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.20.27:433][617]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.20.27:433][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.20.27:433][617]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.20.27:433][617]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.20.27:433][617]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.20.27:433][617]AssetCheck: /Game/blueprints/animationBlueprints/ABP_donkeyV2 Validating asset
+[2025.10.24-10.20.27:473][617]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.24-10.20.35:613][969]LogStreaming: Display: FlushAsyncLoading(668): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.20.36:026][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.20.36:114][987]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/animationBlueprints/ABP_donkeyV2] ([2] browsable assets)...
+[2025.10.24-10.20.36:114][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/animationBlueprints/ABP_donkeyV2]
+[2025.10.24-10.20.36:145][987]LogSavePackage: Moving output files for package: /Game/blueprints/animationBlueprints/ABP_donkeyV2
+[2025.10.24-10.20.36:146][987]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/ABP_donkeyV2A583935248228C4CA8777FAD6D442E40.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/animationBlueprints/ABP_donkeyV2.uasset'
+[2025.10.24-10.20.36:161][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.609 ms (total: 8.21 sec)
+[2025.10.24-10.20.36:254][987]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.20.36:255][987]LogContentValidation: Enabled validators:
+[2025.10.24-10.20.36:255][987]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.20.36:255][987]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.20.36:255][987]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.20.36:255][987]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.20.36:255][987]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.20.36:255][987]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.20.36:255][987]AssetCheck: /Game/blueprints/animationBlueprints/ABP_donkeyV2 Validating asset
+[2025.10.24-10.20.37:303][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.24-10.20.37:790][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.20.37:884][ 45]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/animationBlueprints/ABP_donkeyV2] ([2] browsable assets)...
+[2025.10.24-10.20.37:885][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/animationBlueprints/ABP_donkeyV2]
+[2025.10.24-10.20.37:914][ 45]LogSavePackage: Moving output files for package: /Game/blueprints/animationBlueprints/ABP_donkeyV2
+[2025.10.24-10.20.37:915][ 45]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/ABP_donkeyV2BED4FD114DBD032EBD5A7A82A9425975.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/animationBlueprints/ABP_donkeyV2.uasset'
+[2025.10.24-10.20.37:929][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.576 ms (total: 8.35 sec)
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: Enabled validators:
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.20.38:009][ 45]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.20.38:009][ 45]AssetCheck: /Game/blueprints/animationBlueprints/ABP_donkeyV2 Validating asset
+[2025.10.24-10.20.47:537][414]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/grabbableObject_chicken_BP_pig_Child.grabbableObject_chicken_BP_pig_Child
+[2025.10.24-10.20.47:538][414]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_117
+[2025.10.24-10.21.01:433][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.21.01:533][ 23]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/grabbableObject_chicken_BP_pig_Child] ([2] browsable assets)...
+[2025.10.24-10.21.01:554][ 23]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/grabbableObject_chicken_BP_pig_Child.grabbableObject_chicken_BP_pig_Child]
+[2025.10.24-10.21.01:554][ 23]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_chicken_BP_pig_Child]
+[2025.10.24-10.21.01:575][ 23]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_chicken_BP_pig_Child
+[2025.10.24-10.21.01:576][ 23]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_chicken_BP_pig_C4ED70D1D43E6E63E563DC89BCD6A9FAB.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_chicken_BP_pig_Child.uasset'
+[2025.10.24-10.21.01:590][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.405 ms (total: 8.51 sec)
+[2025.10.24-10.21.01:670][ 23]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.21.01:671][ 23]LogContentValidation: Enabled validators:
+[2025.10.24-10.21.01:671][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.21.01:671][ 23]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.21.01:671][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.21.01:671][ 23]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.21.01:671][ 23]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.21.01:671][ 23]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.21.01:671][ 23]AssetCheck: /Game/blueprints/grabbableObject_chicken_BP_pig_Child Validating asset
+[2025.10.24-10.21.21:570][983]LogEditorTransaction: Undo Add Node
+[2025.10.24-10.21.24:691][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:694][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:696][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_83:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:698][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_86:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:701][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_90:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:702][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:773][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_100:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:774][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_104:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:777][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_106:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:778][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_109:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:786][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_112:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:796][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_114:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.24:810][983]LogEditorTransaction: Undo Create Pin Link
+[2025.10.24-10.21.27:907][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:910][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:912][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_83:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:914][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_86:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:917][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_90:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:918][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:993][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_100:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:995][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_104:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:997][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_106:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.27:998][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_109:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.28:006][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_112:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.28:016][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_114:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.21.38:011][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.21.38:098][486]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/grabbableObject_chicken_BP_pig_Child] ([2] browsable assets)...
+[2025.10.24-10.21.38:118][486]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/grabbableObject_chicken_BP_pig_Child.grabbableObject_chicken_BP_pig_Child]
+[2025.10.24-10.21.38:118][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_chicken_BP_pig_Child]
+[2025.10.24-10.21.38:139][486]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_chicken_BP_pig_Child
+[2025.10.24-10.21.38:140][486]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_chicken_BP_pig_C04CA8C604634BE36C9F31597885DD7ED.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_chicken_BP_pig_Child.uasset'
+[2025.10.24-10.21.38:157][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.373 ms (total: 8.65 sec)
+[2025.10.24-10.21.38:236][486]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.21.38:236][486]LogContentValidation: Enabled validators:
+[2025.10.24-10.21.38:236][486]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.21.38:236][486]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.21.38:236][486]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.21.38:236][486]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.21.38:236][486]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.21.38:236][486]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.21.38:236][486]AssetCheck: /Game/blueprints/grabbableObject_chicken_BP_pig_Child Validating asset
+[2025.10.24-10.21.38:626][506]LogBlueprint: Error: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\blueprints\grabbableObject_chicken_BP_pig_Child.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To ABP_donkeyV2  to imply a specific type.
+[2025.10.24-10.21.38:627][506]LogBlueprint: Error: [AssetLog] C:\Users\linda\Documents\GitHub\AppliedGameDesign_UE\AppliedGameDesign_UE\Content\blueprints\grabbableObject_chicken_BP_pig_Child.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2025.10.24-10.21.38:786][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.10.24-10.21.42:391][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.24-10.21.46:255][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.21.46:333][867]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/grabbableObject_chicken_BP_pig_Child] ([2] browsable assets)...
+[2025.10.24-10.21.46:354][867]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/grabbableObject_chicken_BP_pig_Child.grabbableObject_chicken_BP_pig_Child]
+[2025.10.24-10.21.46:354][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_chicken_BP_pig_Child]
+[2025.10.24-10.21.46:377][867]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_chicken_BP_pig_Child
+[2025.10.24-10.21.46:378][867]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_chicken_BP_pig_C6D5C87D24324D7D39BA454B74E84756E.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_chicken_BP_pig_Child.uasset'
+[2025.10.24-10.21.46:392][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.641 ms (total: 8.79 sec)
+[2025.10.24-10.21.46:472][867]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.21.46:472][867]LogContentValidation: Enabled validators:
+[2025.10.24-10.21.46:472][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.21.46:472][867]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.21.46:472][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.21.46:472][867]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.21.46:472][867]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.21.46:472][867]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.21.46:472][867]AssetCheck: /Game/blueprints/grabbableObject_chicken_BP_pig_Child Validating asset
+[2025.10.24-10.21.49:157][987]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.24-10.21.49:174][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.24-10.21.49:174][987]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.24-10.21.49:189][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015316s)
+[2025.10.24-10.21.49:189][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.015365s)
+[2025.10.24-10.21.49:227][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.10.24-10.21.49:237][987]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.24-10.21.49:239][987]LogPlayLevel: PIE: World Init took: (0.002509s)
+[2025.10.24-10.21.49:241][987]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2025.10.24-10.21.49:241][987]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.24-10.21.49:241][987]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.24-10.21.49:241][987]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.24-10.21.49:242][987]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.24-10.21.49:242][987]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.24-10.21.49:242][987]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.24-10.21.49:242][987]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.24-10.21.49:242][987]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.24-10.21.49:242][987]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.24-10.21.49:242][987]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.24-10.21.49:242][987]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.24-10.21.49:245][987]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.24-10.21.49:318][987]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.24-10.21.49:319][987]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.24-10.21.49:319][987]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.24-10.21.49:319][987]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.24-10.21.49:319][987]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2025.10.24-10.21.49:319][987]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2025.10.24-10.21.49:323][987]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2025.10.24-10.21.49:323][987]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2025.10.24-10.21.49:323][987]LogInit: FAudioDevice initialized with ID 35.
+[2025.10.24-10.21.49:323][987]LogAudio: Display: Audio Device (ID: 35) registered with world 'testLevel'.
+[2025.10.24-10.21.49:323][987]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2025.10.24-10.21.49:383][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-10.21.49:383][987]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.24-10.21.49:383][987]LogStreaming: Display: FlushAsyncLoading(669): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.21.49:383][987]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.24-10.21.49:383][987]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.24-10.21.49:384][987]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.24-10.21.49:392][987]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.24-10.21.49
+[2025.10.24-10.21.49:392][987]LogWorld: Bringing up level for play took: 0.008165
+[2025.10.24-10.21.49:396][987]LogOnline: OSS: Created online subsystem instance for: :Context_152
+[2025.10.24-10.21.49:396][987]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.24-10.21.49:397][987]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.24-10.21.49:397][987]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.24-10.21.49:397][987]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.24-10.21.49:397][987]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.24-10.21.49:398][987]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.24-10.21.49:398][987]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.24-10.21.49:398][987]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.24-10.21.49:398][987]LogTemp: Display:  number of found objects: 7
+[2025.10.24-10.21.49:406][987]PIE: Server logged in
+[2025.10.24-10.21.49:413][987]PIE: Play in editor total start time 0.24 seconds.
+[2025.10.24-10.21.52:313][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-10.21.52:313][128]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.24-10.21.52:313][128]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.24-10.21.52:322][128]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.21.52:324][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.21.52:328][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.24-10.21.52:336][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.21.52:376][128]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2025.10.24-10.21.52:376][128]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=4
+[2025.10.24-10.21.52:379][128]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=2
+[2025.10.24-10.21.52:394][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.10.24-10.21.52:857][135]LogPlayLevel: Display: Destroying online subsystem :Context_152
+[2025.10.24-10.22.04:269][620]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_118
+[2025.10.24-10.22.09:800][859]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.10.24-10.22.09:824][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.24-10.22.09:824][859]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_testLevel
+[2025.10.24-10.22.09:841][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016903s)
+[2025.10.24-10.22.09:841][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/testLevel.testLevel to /Game/levels/UEDPIE_0_testLevel.testLevel (0.016959s)
+[2025.10.24-10.22.09:885][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.24-10.22.09:894][859]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel
+[2025.10.24-10.22.09:897][859]LogPlayLevel: PIE: World Init took: (0.002509s)
+[2025.10.24-10.22.09:898][859]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2025.10.24-10.22.09:898][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.24-10.22.09:898][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.24-10.22.09:898][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.24-10.22.09:898][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.24-10.22.09:898][859]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.24-10.22.09:898][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.24-10.22.09:898][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.24-10.22.09:898][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.24-10.22.09:898][859]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.24-10.22.09:898][859]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.24-10.22.09:898][859]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.24-10.22.09:902][859]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.24-10.22.09:989][859]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.24-10.22.09:989][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.24-10.22.09:989][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.24-10.22.09:989][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.24-10.22.09:990][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2025.10.24-10.22.09:990][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2025.10.24-10.22.09:995][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2025.10.24-10.22.09:995][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2025.10.24-10.22.09:995][859]LogInit: FAudioDevice initialized with ID 36.
+[2025.10.24-10.22.09:995][859]LogAudio: Display: Audio Device (ID: 36) registered with world 'testLevel'.
+[2025.10.24-10.22.09:995][859]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2025.10.24-10.22.10:075][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-10.22.10:075][859]LogLoad: Game class is 'TouchGameMode_BP_C'
+[2025.10.24-10.22.10:075][859]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.22.10:075][859]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/blueprints/playerPawn_BP.playerPawn_BP'
+[2025.10.24-10.22.10:075][859]LogUObjectGlobals: Error: CDO Constructor (TouchGameMode_BP_C): Failed to find /Game/blueprints/playerPawn_BP.playerPawn_BP
+
+[2025.10.24-10.22.10:076][859]LogPhysics: Warning: Scale for /Game/levels/UEDPIE_0_testLevel.testLevel:PersistentLevel.StaticMeshActor_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=76.878 Y=76.878 Z=0.000
+[2025.10.24-10.22.10:081][859]LogWorld: Bringing World /Game/levels/UEDPIE_0_testLevel.testLevel up for play (max tick rate 60) at 2025.10.24-10.22.10
+[2025.10.24-10.22.10:082][859]LogWorld: Bringing up level for play took: 0.006228
+[2025.10.24-10.22.10:085][859]LogOnline: OSS: Created online subsystem instance for: :Context_154
+[2025.10.24-10.22.10:085][859]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.10.24-10.22.10:087][859]LogBlueprintUserMessages: [grabbableObject_2_BP_C_1] delegate bound
+[2025.10.24-10.22.10:087][859]LogBlueprintUserMessages: [grabbableObject_2_BP_C_4] delegate bound
+[2025.10.24-10.22.10:087][859]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_0] delegate bound
+[2025.10.24-10.22.10:087][859]LogBlueprintUserMessages: [grabbableObject_chicken_BP_sheep_Child_C_1] delegate bound
+[2025.10.24-10.22.10:087][859]LogBlueprintUserMessages: [grabbableObject_3_BP_C_1] delegate bound
+[2025.10.24-10.22.10:087][859]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_1] delegate bound
+[2025.10.24-10.22.10:087][859]LogBlueprintUserMessages: [grabbableObject_chicken_BP_pig_Child_C_2] delegate bound
+[2025.10.24-10.22.10:087][859]LogTemp: Display:  number of found objects: 7
+[2025.10.24-10.22.10:095][859]PIE: Server logged in
+[2025.10.24-10.22.10:103][859]PIE: Play in editor total start time 0.284 seconds.
+[2025.10.24-10.22.15:115][111]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.24-10.22.15:116][111]LogTemp: Display: setIsEvenFull Called
+[2025.10.24-10.22.15:116][111]LogTemp: Display: even requirement NOT met
+[2025.10.24-10.22.15:116][111]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.24-10.22.15:116][111]LogTemp: Display: setIsEvenFull Called
+[2025.10.24-10.22.15:116][111]LogTemp: Display: even requirement NOT met
+[2025.10.24-10.22.18:186][273]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.24-10.22.18:186][273]LogTemp: Display: setIsOddFull Called
+[2025.10.24-10.22.18:186][273]LogTemp: Display: odd requirement NOT met
+[2025.10.24-10.22.18:186][273]LogTemp: Display: checkIFLevelIsComplete CALLED
+[2025.10.24-10.22.18:186][273]LogTemp: Display: setIsOddFull Called
+[2025.10.24-10.22.18:186][273]LogTemp: Display: odd requirement NOT met
+[2025.10.24-10.22.19:643][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-10.22.19:643][349]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_testLevel
+[2025.10.24-10.22.19:643][349]LogSlate: Window 'AppliedGameDesign_UE Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.24-10.22.19:665][349]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.22.19:667][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.22.19:673][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.24-10.22.19:681][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.22.19:726][349]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2025.10.24-10.22.19:726][349]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=4
+[2025.10.24-10.22.19:729][349]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=2
+[2025.10.24-10.22.19:745][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.24-10.22.20:062][356]LogPlayLevel: Display: Destroying online subsystem :Context_154
+[2025.10.24-10.22.23:166][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.10.24-10.22.23:178][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.22.23:355][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.10.24-10.22.23:427][500]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.24-10.22.23:428][500]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel98665EBF4FB065C769560EA570A1B72E.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.24-10.22.23:455][500]LogFileHelpers: Saving map 'testLevel' took 0.187
+[2025.10.24-10.22.23:456][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/grabbableObject_chicken_BP] ([2] browsable assets)...
+[2025.10.24-10.22.23:487][500]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/grabbableObject_chicken_BP.grabbableObject_chicken_BP]
+[2025.10.24-10.22.23:487][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/grabbableObject_chicken_BP]
+[2025.10.24-10.22.23:512][500]LogSavePackage: Moving output files for package: /Game/blueprints/grabbableObject_chicken_BP
+[2025.10.24-10.22.23:513][500]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/grabbableObject_chicken_BPA15348B54E1C9C566F830294B041CCA6.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/grabbableObject_chicken_BP.uasset'
+[2025.10.24-10.22.23:529][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 351.393 ms (total: 9.14 sec)
+[2025.10.24-10.22.23:599][500]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.24-10.22.23:599][500]LogContentValidation: Enabled validators:
+[2025.10.24-10.22.23:599][500]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.22.23:599][500]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.22.23:599][500]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.22.23:599][500]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.22.23:600][500]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.22.23:600][500]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.22.23:600][500]AssetCheck: /Game/levels/testLevel Validating asset
+[2025.10.24-10.22.23:600][500]AssetCheck: /Game/blueprints/grabbableObject_chicken_BP Validating asset
+[2025.10.24-10.22.26:736][623]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_sign.BP_sign
+[2025.10.24-10.22.26:737][623]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_119
+[2025.10.24-10.22.29:855][708]LogWorld: UWorld::CleanupWorld for World_119, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.22.29:855][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.22.29:911][708]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_sign.BP_sign
+[2025.10.24-10.22.29:911][708]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_120
+[2025.10.24-10.22.31:411][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.10.24-10.23.17:698][468]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.23.27:499][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.23.27:588][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/BP_sign] ([2] browsable assets)...
+[2025.10.24-10.23.27:609][879]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/BP_sign.BP_sign]
+[2025.10.24-10.23.27:609][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/BP_sign]
+[2025.10.24-10.23.27:610][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_sign" FILE="../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/BP_sign.uasset" SILENT=true
+[2025.10.24-10.23.27:625][879]LogSavePackage: Moving output files for package: /Game/blueprints/BP_sign
+[2025.10.24-10.23.27:625][879]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/BP_signADC0CF7F439FFC87730968BB9F6ED3A2.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/BP_sign.uasset'
+[2025.10.24-10.23.27:639][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.102 ms (total: 9.28 sec)
+[2025.10.24-10.23.27:733][879]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.23.27:733][879]LogContentValidation: Enabled validators:
+[2025.10.24-10.23.27:733][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.23.27:733][879]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.23.27:733][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.23.27:733][879]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.23.27:733][879]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.23.27:733][879]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.23.27:734][879]AssetCheck: /Game/blueprints/BP_sign Validating asset
+[2025.10.24-10.23.28:775][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.24-10.23.30:630][999]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.23.30:720][999]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/BP_sign] ([2] browsable assets)...
+[2025.10.24-10.23.30:742][999]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/BP_sign.BP_sign]
+[2025.10.24-10.23.30:742][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/BP_sign]
+[2025.10.24-10.23.30:742][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_sign" FILE="../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/BP_sign.uasset" SILENT=true
+[2025.10.24-10.23.30:756][999]LogSavePackage: Moving output files for package: /Game/blueprints/BP_sign
+[2025.10.24-10.23.30:757][999]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/BP_sign2AED7A3D48753F2E6C2407B9D06EF2E1.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/blueprints/BP_sign.uasset'
+[2025.10.24-10.23.30:769][999]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.567 ms (total: 9.42 sec)
+[2025.10.24-10.23.30:846][999]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.23.30:846][999]LogContentValidation: Enabled validators:
+[2025.10.24-10.23.30:846][999]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.23.30:846][999]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.23.30:846][999]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.23.30:846][999]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.23.30:846][999]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.23.30:846][999]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.23.30:847][999]AssetCheck: /Game/blueprints/BP_sign Validating asset
+[2025.10.24-10.23.46:223][680]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.10.24-10.23.46:253][680]LogContentBrowser: Creating deferred item: NewWorld
+[2025.10.24-10.23.46:315][681]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.10.24-10.23.50:489][878]LogContentBrowser: Attempting asset rename: NewWorld -> testLevel2
+[2025.10.24-10.23.50:493][878]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel2
+[2025.10.24-10.23.50:502][878]LogContentBrowser: End creating deferred item NewWorld
+[2025.10.24-10.23.52:942][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.10.24-10.23.53:980][979]LogSlate: Window 'Save Content' being destroyed
+[2025.10.24-10.23.53:994][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.23.54:165][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.10.24-10.23.54:230][979]LogSavePackage: Moving output files for package: /Game/levels/testLevel
+[2025.10.24-10.23.54:231][979]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel5E6296A74BBA21CB826E38B1F862B3BE.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel.umap'
+[2025.10.24-10.23.54:255][979]LogFileHelpers: Saving map 'testLevel' took 0.184
+[2025.10.24-10.23.54:289][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.10.24-10.23.54:311][979]LogSavePackage: Moving output files for package: /Game/levels/testLevel2
+[2025.10.24-10.23.54:311][979]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel2466C9CD4467DBC64BA75449E43E361B1.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel2.umap'
+[2025.10.24-10.23.54:323][979]LogFileHelpers: Saving map 'testLevel2' took 0.068
+[2025.10.24-10.23.54:417][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 423.726 ms (total: 9.85 sec)
+[2025.10.24-10.23.54:447][979]LogAssetEditorSubsystem: Opening Asset editor for World /Game/levels/testLevel2.testLevel2
+[2025.10.24-10.23.54:448][979]Cmd: MAP LOAD FILE="../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.24-10.23.54:499][979]LogWorld: UWorld::CleanupWorld for testLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.23.54:499][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.23.54:539][979]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.24-10.23.54:548][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.10.24-10.23.54:554][979]LogWorld: UWorld::CleanupWorld for testLevel2, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.23.54:554][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.23.54:599][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.24-10.23.54:648][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.24-10.23.54:655][979]LogStreaming: Display: FlushAsyncLoading(672): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.23.54:657][979]LogAudio: Display: Audio Device (ID: 1) registered with world 'testLevel2'.
+[2025.10.24-10.23.54:658][979]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel2
+[2025.10.24-10.23.54:705][979]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.24-10.23.54:753][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.10.24-10.23.54:780][979]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.24-10.23.54:780][979]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2025.10.24-10.23.54:904][979]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.24-10.23.54:904][979]LogContentValidation: Enabled validators:
+[2025.10.24-10.23.54:904][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.23.54:904][979]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.23.54:904][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.23.54:904][979]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.23.54:904][979]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.23.54:904][979]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.23.54:904][979]AssetCheck: /Game/levels/testLevel2 Validating asset
+[2025.10.24-10.23.54:957][979]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.24-10.23.56:428][ 21]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_121
+[2025.10.24-10.23.57:177][ 21]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_122
+[2025.10.24-10.24.00:321][123]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.24-10.24.08:717][547]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2025.10.24-10.24.08:718][547]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2025.10.24-10.24.08:721][547]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/levels/testLevel2.testLevel2:PersistentLevel.ExponentialHeightFog_0
+[2025.10.24-10.24.08:723][547]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/levels/testLevel2.testLevel2:PersistentLevel.ExponentialHeightFog_0
+[2025.10.24-10.24.14:160][809]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2025.10.24-10.24.14:160][809]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2025.10.24-10.24.14:165][809]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/levels/testLevel2.testLevel2:PersistentLevel.SkyLight_0
+[2025.10.24-10.24.14:167][809]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/levels/testLevel2.testLevel2:PersistentLevel.SkyLight_0
+[2025.10.24-10.24.19:820][ 48]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2025.10.24-10.24.19:820][ 48]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2025.10.24-10.24.19:825][ 48]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/levels/testLevel2.testLevel2:PersistentLevel.SkyAtmosphere_0
+[2025.10.24-10.24.19:827][ 48]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/levels/testLevel2.testLevel2:PersistentLevel.SkyAtmosphere_0
+[2025.10.24-10.24.41:828][195]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2025.10.24-10.24.41:828][195]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2025.10.24-10.24.41:829][195]LogStreaming: Display: FlushAsyncLoading(673): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.24.41:951][195]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/levels/testLevel2.testLevel2:PersistentLevel.VolumetricCloud_0
+[2025.10.24-10.24.41:953][195]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/levels/testLevel2.testLevel2:PersistentLevel.VolumetricCloud_0
+[2025.10.24-10.24.46:483][371]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2025.10.24-10.24.46:483][371]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2025.10.24-10.24.46:489][371]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/levels/testLevel2.testLevel2:PersistentLevel.DirectionalLight_0
+[2025.10.24-10.24.46:491][371]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/levels/testLevel2.testLevel2:PersistentLevel.DirectionalLight_0
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: ================================================
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Total job queries 844, among them cache hits 297 (35.19%), DDC hits 466 (55.21%), Duplicates 71 (8.41%)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Tracking 476 distinct input hashes that result in 345 distinct outputs (72.48%)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: RAM used: 3.92 MiB of 1.60 GiB budget. Usage: 0.24%
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Time job spent in pending queue: average 0.24 s, longest 0.37 s
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Job execution time: average 2.49 s, max 3.52 s
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Job life time (pending + execution): average 2.73 s, max 3.82
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Shader code size: total 110.228 KiB, numShaders 10, average 11.022 KiB, min 5.883 KiB, max 28.704 KiB
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.89 s
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 2.00 jobs/batch
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Average processing rate: 2.57 jobs/sec
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Total thread time: 10.076 s
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Total thread preprocess time: 22.176 s
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Percentage time preprocessing: 220.09%
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Effective parallelization: 2.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.324183
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 1.55 sec, max 1.55 sec, min 1.55 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 1.47 sec, max 1.47 sec, min 1.47 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.18 sec, max 1.18 sec, min 1.18 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    1 times, average 1.18 sec, max 1.18 sec, min 1.18 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial - 15.37% of total time (compiled    1 times, average 1.55 sec, max 1.55 sec, min 1.55 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS - 14.55% of total time (compiled    1 times, average 1.47 sec, max 1.47 sec, min 1.47 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 11.94% of total time (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.71% of total time (compiled    1 times, average 1.18 sec, max 1.18 sec, min 1.18 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight - 11.69% of total time (compiled    1 times, average 1.18 sec, max 1.18 sec, min 1.18 sec)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: === Material stats ===
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Materials Translated:    183
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Material Total Translate Time: 0.19 s
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Material Translation Only: 0.07 s (36%)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: Material Cache Hits: 37 (20%)
+[2025.10.24-10.25.04:445][197]LogShaderCompilers: Display: ================================================
+[2025.10.24-10.25.05:730][253]LogWindows: LaunchURL https://docs.unrealengine.com/5.6/en/BuildingWorlds/LevelEditor?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2025.10.24-10.25.09:755][418]LogWindows: LaunchURL https://docs.unrealengine.com/5.6/en/BuildingWorlds/LevelEditor?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2025.10.24-10.26.06:442][ 16]LogInteractiveToolsContext: Display: Select a mesh. Switch tools to paint vertex colors, blend between textures, or paint directly onto a texture file.
+[2025.10.24-10.26.09:425][155]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3130.373535
+[2025.10.24-10.26.09:589][162]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.24-10.26.09:589][162]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3130.523193, Update Interval: 339.345062
+[2025.10.24-10.26.22:088][784]LogStreaming: Display: FlushAsyncLoading(674): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.26.22:811][784]LogTexture: Display: Building textures: /Engine/Transient.Texture2D_6 (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 1.515617 MB), EncodeSpeed: Fast
+[2025.10.24-10.26.37:285][131]LogStreaming: Display: FlushAsyncLoading(683): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.26.37:606][133]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.26.37:607][133]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.26.37:612][133]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01 as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_0
+[2025.10.24-10.26.38:676][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.10.24-10.26.38:712][153]LogEditorActor: Deleted 0 Actors (0.352 secs)
+[2025.10.24-10.26.38:717][153]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.26.38:717][153]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.26.38:723][153]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01 as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_1
+[2025.10.24-10.26.55:305][655]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.26.55:535][661]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_GrassLand_Plain.SM_Env_GrassLand_Plain
+[2025.10.24-10.26.55:536][661]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_GrassLand_Plain.SM_Env_GrassLand_Plain
+[2025.10.24-10.26.55:538][661]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_GrassLand_Plain.SM_Env_GrassLand_Plain as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_2
+[2025.10.24-10.26.56:763][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.10.24-10.26.56:777][725]LogEditorActor: Deleted 0 Actors (0.062 secs)
+[2025.10.24-10.26.56:783][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_GrassLand_Plain.SM_Env_GrassLand_Plain
+[2025.10.24-10.26.56:783][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_GrassLand_Plain.SM_Env_GrassLand_Plain
+[2025.10.24-10.26.56:787][725]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_GrassLand_Plain.SM_Env_GrassLand_Plain as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_3
+[2025.10.24-10.26.58:382][788]Cmd: DELETE
+[2025.10.24-10.26.58:382][788]Cmd: ACTOR DELETE
+[2025.10.24-10.26.58:385][788]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.24-10.26.58:430][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.24-10.26.58:440][788]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2025.10.24-10.27.16:905][528]Cmd: DELETE
+[2025.10.24-10.27.16:905][528]Cmd: ACTOR DELETE
+[2025.10.24-10.27.16:908][528]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.24-10.27.16:957][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.24-10.27.16:978][528]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2025.10.24-10.27.26:042][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.24-10.27.27:279][946]LogSlate: Window 'Save Content' being destroyed
+[2025.10.24-10.27.27:297][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.27.27:467][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.24-10.27.27:491][946]LogSavePackage: Moving output files for package: /Game/levels/testLevel2
+[2025.10.24-10.27.27:493][946]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel29BB27A8F47A7D31DEFA764AC747E6AE2.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel2.umap'
+[2025.10.24-10.27.27:519][946]LogFileHelpers: Saving map 'testLevel2' took 0.134
+[2025.10.24-10.27.27:611][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 315.007 ms (total: 10.1 sec)
+[2025.10.24-10.27.27:611][946]LogStreaming: Display: FlushAsyncLoading(685): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.27.27:820][946]LogChaosDD: Creating Chaos Debug Draw Scene for world DemoMap
+[2025.10.24-10.27.27:906][946]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Pandazole_Farm_Ranch_Pack/Maps/DemoMap.DemoMap
+[2025.10.24-10.27.27:906][946]Cmd: MAP LOAD FILE="../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Pandazole_Farm_Ranch_Pack/Maps/DemoMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.24-10.27.27:961][946]LogWorld: UWorld::CleanupWorld for testLevel2, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.27:961][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.28:001][946]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.24-10.27.28:005][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.10.24-10.27.28:207][946]LogWorld: UWorld::CleanupWorld for DemoMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.28:208][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.28:250][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.24-10.27.28:298][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.24-10.27.28:322][946]LogAudio: Display: Audio Device (ID: 1) registered with world 'DemoMap'.
+[2025.10.24-10.27.28:322][946]LogChaosDD: Creating Chaos Debug Draw Scene for world DemoMap
+[2025.10.24-10.27.28:484][946]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.24-10.27.28:529][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.24-10.27.28:557][946]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.24-10.27.28:558][946]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2025.10.24-10.27.28:675][946]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.27.28:675][946]LogContentValidation: Enabled validators:
+[2025.10.24-10.27.28:675][946]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.27.28:675][946]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.27.28:675][946]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.27.28:675][946]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.27.28:675][946]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.27.28:675][946]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.27.29:058][948]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.10.24-10.27.30:940][988]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_123
+[2025.10.24-10.27.32:097][988]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_124
+[2025.10.24-10.27.32:511][989]LogWorld: UWorld::CleanupWorld for World_121, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.32:511][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.32:568][989]LogWorld: UWorld::CleanupWorld for World_122, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.32:568][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.32:763][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.10.24-10.27.46:552][592]Cmd: EDIT COPY
+[2025.10.24-10.27.51:788][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.10.24-10.27.51:800][821]LogStreaming: Display: FlushAsyncLoading(687): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-10.27.51:803][821]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel2
+[2025.10.24-10.27.51:843][821]LogAssetEditorSubsystem: Opening Asset editor for World /Game/levels/testLevel2.testLevel2
+[2025.10.24-10.27.51:843][821]Cmd: MAP LOAD FILE="../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.24-10.27.51:897][821]LogWorld: UWorld::CleanupWorld for DemoMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.51:898][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.51:933][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.24-10.27.51:938][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.10.24-10.27.51:945][821]LogWorld: UWorld::CleanupWorld for testLevel2, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.51:945][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.51:983][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.10.24-10.27.52:112][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.10.24-10.27.52:121][821]LogAudio: Display: Audio Device (ID: 1) registered with world 'testLevel2'.
+[2025.10.24-10.27.52:121][821]LogChaosDD: Creating Chaos Debug Draw Scene for world testLevel2
+[2025.10.24-10.27.52:170][821]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.24-10.27.52:220][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.10.24-10.27.52:248][821]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.24-10.27.52:248][821]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.086ms to complete.
+[2025.10.24-10.27.53:222][842]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_125
+[2025.10.24-10.27.54:150][842]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_126
+[2025.10.24-10.27.54:499][843]Cmd: EDIT PASTE
+[2025.10.24-10.27.54:606][843]LogWorld: UWorld::CleanupWorld for World_124, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.54:606][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.54:645][843]LogWorld: UWorld::CleanupWorld for World_123, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.27.54:645][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.27.54:785][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.24-10.28.04:474][315]LogShaderCompilers: Display: ================================================
+[2025.10.24-10.28.04:474][315]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Total job queries 1,135, among them cache hits 302 (26.61%), DDC hits 472 (41.59%), Duplicates 200 (17.62%)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Tracking 633 distinct input hashes that result in 419 distinct outputs (66.19%)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: RAM used: 4.73 MiB of 1.60 GiB budget. Usage: 0.29%
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Shaders Compiled: 161
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Jobs assigned 161, completed 161 (100%)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Average time worker was idle: 18.83 s
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Time job spent in pending queue: average 7.22 s, longest 26.59 s
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Job execution time: average 10.59 s, max 15.68 s
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Job life time (pending + execution): average 17.81 s, max 28.70
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Shader code size: total 1.577 MiB, numShaders 161, average 10.032 KiB, min 2.105 KiB, max 28.704 KiB
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 32.81 s
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Jobs were issued in 34 batches (only local compilation was used), average 4.74 jobs/batch
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Average processing rate: 4.91 jobs/sec
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Total thread time: 222.775 s
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Total thread preprocess time: 30.226 s
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Percentage time preprocessing: 13.57%
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Effective parallelization: 6.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.848664
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   14 times, average 3.07 sec, max 3.54 sec, min 2.57 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   14 times, average 2.87 sec, max 3.22 sec, min 2.10 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   14 times, average 2.39 sec, max 3.31 sec, min 1.72 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 1.55 sec, max 1.55 sec, min 1.55 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 1.47 sec, max 1.47 sec, min 1.47 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 19.29% of total time (compiled   14 times, average 3.07 sec, max 3.54 sec, min 2.57 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 18.05% of total time (compiled   14 times, average 2.87 sec, max 3.22 sec, min 2.10 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                                             FDebugViewModePS - 15.01% of total time (compiled   14 times, average 2.39 sec, max 3.31 sec, min 1.72 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.89% of total time (compiled   13 times, average 1.18 sec, max 1.49 sec, min 0.94 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS - 5.83% of total time (compiled   14 times, average 0.93 sec, max 1.18 sec, min 0.62 sec)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: === Material stats ===
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Materials Translated:    200
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Material Total Translate Time: 0.23 s
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Material Translation Only: 0.09 s (39%)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: Material Cache Hits: 37 (19%)
+[2025.10.24-10.28.04:475][315]LogShaderCompilers: Display: ================================================
+[2025.10.24-10.28.53:015][259]Cmd: DUPLICATE
+[2025.10.24-10.28.53:016][259]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.29.23:780][360]Cmd: TRANSACTION UNDO
+[2025.10.24-10.29.23:780][360]LogEditorTransaction: Undo Edit Static Mesh
+[2025.10.24-10.29.27:635][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:641][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:643][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_83:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:646][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_86:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:650][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_90:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:650][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:734][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_100:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:736][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_104:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:739][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_106:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:739][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_109:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:749][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_112:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.27:759][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_114:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.29.55:605][371]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.29.55:605][371]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.29.55:607][371]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01 as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_0
+[2025.10.24-10.29.56:227][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.24-10.29.56:246][403]LogEditorActor: Deleted 0 Actors (0.063 secs)
+[2025.10.24-10.29.56:251][403]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.29.56:251][403]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01
+[2025.10.24-10.29.56:255][403]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_01.SM_Env_FarmLand_01 as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_1
+[2025.10.24-10.29.56:434][405]Cmd: TRANSACTION UNDO
+[2025.10.24-10.29.56:434][405]LogEditorTransaction: Undo Place Objects
+[2025.10.24-10.30.00:315][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:319][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:322][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_83:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:324][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_86:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:329][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_90:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:329][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:411][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_100:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:413][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_104:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:416][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_106:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:417][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_109:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:426][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_112:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:436][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_114:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.00:850][406]Cmd: TRANSACTION UNDO
+[2025.10.24-10.30.00:850][406]LogEditorTransaction: Undo Set Rotation
+[2025.10.24-10.30.04:428][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:432][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:435][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_83:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:437][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_86:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:441][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_90:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:442][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:516][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_100:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:519][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_104:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:521][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_106:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:522][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_109:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:530][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_112:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.04:541][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_114:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.24-10.30.08:947][584]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.08:947][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.09:041][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.24-10.30.09:662][610]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.09:662][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.09:669][610]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2025.10.24-10.30.09:669][610]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/.
+[2025.10.24-10.30.09:760][610]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.09:760][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.09:936][610]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.09:936][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.10:011][610]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.10.24-10.30.11:337][672]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.11:337][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.11:548][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.10.24-10.30.12:494][717]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.12:494][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.12:581][717]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.12:581][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.12:775][717]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.12:776][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.12:869][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2025.10.24-10.30.13:514][747]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.24-10.30.13:514][747]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.13:514][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.13:688][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.10.24-10.30.21:883][203]LogWorld: UWorld::CleanupWorld for World_125, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.21:883][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.21:894][203]LogWorld: UWorld::CleanupWorld for World_88, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.21:894][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.21:907][203]LogWorld: UWorld::CleanupWorld for World_86, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.21:907][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.21:992][203]LogWorld: UWorld::CleanupWorld for World_87, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.21:992][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:043][203]LogWorld: UWorld::CleanupWorld for World_89, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:043][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:096][203]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:096][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:212][203]LogWorld: UWorld::CleanupWorld for World_91, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:212][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:253][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.24-10.30.22:253][203]LogWorld: UWorld::CleanupWorld for World_95, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:253][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:419][203]LogWorld: UWorld::CleanupWorld for World_98, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:419][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:580][203]LogWorld: UWorld::CleanupWorld for World_126, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:580][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:590][203]LogWorld: UWorld::CleanupWorld for World_102, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:590][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:602][203]LogWorld: UWorld::CleanupWorld for World_100, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:602][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:681][203]LogWorld: UWorld::CleanupWorld for World_101, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:681][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:766][203]LogWorld: UWorld::CleanupWorld for World_104, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:766][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:849][203]LogWorld: UWorld::CleanupWorld for World_105, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:849][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.22:999][203]LogWorld: UWorld::CleanupWorld for World_106, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.22:999][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:094][203]LogWorld: UWorld::CleanupWorld for World_109, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.23:094][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:260][203]LogWorld: UWorld::CleanupWorld for World_112, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.23:260][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:415][203]LogWorld: UWorld::CleanupWorld for World_113, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.23:415][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:458][203]LogWorld: UWorld::CleanupWorld for World_114, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.23:458][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:553][203]LogWorld: UWorld::CleanupWorld for World_115, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.23:553][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:595][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.24-10.30.23:595][203]LogWorld: UWorld::CleanupWorld for World_117, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.23:595][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:689][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.24-10.30.23:689][203]LogWorld: UWorld::CleanupWorld for World_120, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.23:689][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.23:842][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.10.24-10.30.25:737][301]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.25:737][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.25:795][301]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.25:796][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.25:914][301]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-10.30.25:914][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-10.30.25:968][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.24-10.30.33:116][708]Cmd: DUPLICATE
+[2025.10.24-10.30.33:116][708]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.31.23:247][507]Cmd: DUPLICATE
+[2025.10.24-10.31.23:247][507]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.31.27:222][737]Cmd: TRANSACTION UNDO
+[2025.10.24-10.31.27:222][737]LogEditorTransaction: Undo Move Elements
+[2025.10.24-10.31.35:525][215]Cmd: TRANSACTION UNDO
+[2025.10.24-10.31.35:525][215]LogEditorTransaction: Undo Rotate Elements
+[2025.10.24-10.32.03:624][699]Cmd: DUPLICATE
+[2025.10.24-10.32.03:624][699]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.32.23:966][758]Cmd: DUPLICATE
+[2025.10.24-10.32.23:966][758]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.32.36:699][436]Cmd: DUPLICATE
+[2025.10.24-10.32.36:699][436]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.32.47:821][ 54]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3528.795410
+[2025.10.24-10.32.47:973][ 63]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.24-10.32.47:973][ 63]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3528.929443, Update Interval: 331.136200
+[2025.10.24-10.33.28:139][164]Cmd: DUPLICATE
+[2025.10.24-10.33.28:139][164]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.33.46:768][169]Cmd: TRANSACTION UNDO
+[2025.10.24-10.33.46:768][169]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.24-10.33.49:048][282]Cmd: DUPLICATE
+[2025.10.24-10.33.49:048][282]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.34.49:661][422]Cmd: DUPLICATE
+[2025.10.24-10.34.49:661][422]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.35.50:264][813]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_WaterLand_01.SM_Env_WaterLand_01
+[2025.10.24-10.35.50:264][813]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_WaterLand_01.SM_Env_WaterLand_01
+[2025.10.24-10.35.50:266][813]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_WaterLand_01.SM_Env_WaterLand_01 as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_2
+[2025.10.24-10.35.51:307][867]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2025.10.24-10.35.51:385][867]LogEditorActor: Deleted 0 Actors (0.149 secs)
+[2025.10.24-10.35.53:475][989]LogDerivedDataCache: C:/Users/linda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.24-10.37.07:368][ 70]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_WaterLand_09.SM_Env_WaterLand_09
+[2025.10.24-10.37.07:368][ 70]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_WaterLand_09.SM_Env_WaterLand_09
+[2025.10.24-10.37.07:370][ 70]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_WaterLand_09.SM_Env_WaterLand_09 as actor: StaticMeshActor /Game/levels/testLevel2.testLevel2:PersistentLevel.StaticMeshActor_3
+[2025.10.24-10.37.07:661][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.24-10.37.07:677][ 85]LogEditorActor: Deleted 0 Actors (0.055 secs)
+[2025.10.24-10.38.06:033][974]Cmd: DUPLICATE
+[2025.10.24-10.38.06:033][974]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.38.35:113][499]Cmd: DUPLICATE
+[2025.10.24-10.38.35:113][499]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.38.41:687][878]Cmd: TRANSACTION UNDO
+[2025.10.24-10.38.41:688][878]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.24-10.38.47:350][160]Cmd: DUPLICATE
+[2025.10.24-10.38.47:350][160]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.39.12:701][465]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3913.681152
+[2025.10.24-10.39.12:837][469]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.24-10.39.12:837][469]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3913.803223, Update Interval: 309.459503
+[2025.10.24-10.39.14:022][531]Cmd: DUPLICATE
+[2025.10.24-10.39.14:022][531]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.40.04:679][992]Cmd: DUPLICATE
+[2025.10.24-10.40.04:679][992]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.40.16:808][629]Cmd: DUPLICATE
+[2025.10.24-10.40.16:809][629]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.40.32:692][548]Cmd: TRANSACTION UNDO
+[2025.10.24-10.40.32:692][548]LogEditorTransaction: Undo Clicking Background
+[2025.10.24-10.40.33:230][559]Cmd: TRANSACTION UNDO
+[2025.10.24-10.40.33:230][559]LogEditorTransaction: Undo Set Rotation
+[2025.10.24-10.40.34:473][629]Cmd: TRANSACTION UNDO
+[2025.10.24-10.40.34:473][629]LogEditorTransaction: Undo Set Rotation
+[2025.10.24-10.40.35:259][673]Cmd: TRANSACTION UNDO
+[2025.10.24-10.40.35:259][673]LogEditorTransaction: Undo Rotate Elements
+[2025.10.24-10.40.59:158][ 63]Cmd: TRANSACTION UNDO
+[2025.10.24-10.40.59:159][ 63]LogEditorTransaction: Undo Move Elements
+[2025.10.24-10.40.59:562][ 73]Cmd: TRANSACTION UNDO
+[2025.10.24-10.40.59:562][ 73]LogEditorTransaction: Undo Move Elements
+[2025.10.24-10.41.00:059][ 97]Cmd: TRANSACTION UNDO
+[2025.10.24-10.41.00:059][ 97]LogEditorTransaction: Undo Set Rotation
+[2025.10.24-10.41.00:558][124]Cmd: TRANSACTION UNDO
+[2025.10.24-10.41.00:558][124]LogEditorTransaction: Undo Rotate Elements
+[2025.10.24-10.41.02:704][249]Cmd: TRANSACTION UNDO
+[2025.10.24-10.41.02:704][249]LogEditorTransaction: Undo Duplicate Elements
+[2025.10.24-10.41.21:622][216]LogContentBrowser: Deferred new asset file creation: SM_Env_FarmLand_11
+[2025.10.24-10.41.21:631][216]LogContentBrowser: Creating deferred item: SM_Env_FarmLand_11
+[2025.10.24-10.41.21:684][217]LogContentBrowser: Renaming the item being created (Deferred Item: SM_Env_FarmLand_11).
+[2025.10.24-10.41.22:300][250]LogContentBrowser: Attempting asset rename: SM_Env_FarmLand_11 -> SM_Env_FarmLand_11
+[2025.10.24-10.41.22:309][250]LogContentBrowser: End creating deferred item SM_Env_FarmLand_11
+[2025.10.24-10.41.23:039][287]Cmd: TRANSACTION UNDO
+[2025.10.24-10.41.23:039][287]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.24-10.41.24:183][332]Cmd: TRANSACTION UNDO
+[2025.10.24-10.41.24:183][332]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.24-10.41.27:628][498]Cmd: DUPLICATE
+[2025.10.24-10.41.27:628][498]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.41.49:339][524]Cmd: DUPLICATE
+[2025.10.24-10.41.49:339][524]Cmd: ACTOR DUPLICATE
+[2025.10.24-10.43.44:760][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.43.44:936][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.10.24-10.43.45:114][455]LogSavePackage: Moving output files for package: /Game/levels/testLevel2
+[2025.10.24-10.43.45:115][455]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel25631DCA543B10F4A84EAD48B900C371D.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel2.umap'
+[2025.10.24-10.43.45:140][455]LogFileHelpers: Saving map 'testLevel2' took 0.301
+[2025.10.24-10.43.45:159][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 399.192 ms (total: 10.5 sec)
+[2025.10.24-10.43.45:232][455]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.43.45:232][455]LogContentValidation: Enabled validators:
+[2025.10.24-10.43.45:232][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.43.45:232][455]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.43.45:232][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.43.45:232][455]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.43.45:232][455]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.43.45:232][455]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.43.45:232][455]AssetCheck: /Game/levels/testLevel2 Validating asset
+[2025.10.24-10.44.07:322][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.44.07:491][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.10.24-10.44.07:588][553]LogSavePackage: Moving output files for package: /Game/levels/testLevel2
+[2025.10.24-10.44.07:590][553]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/testLevel2653F56CE424A2F3797106495D52BFDF3.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/levels/testLevel2.umap'
+[2025.10.24-10.44.07:615][553]LogFileHelpers: Saving map 'testLevel2' took 0.219
+[2025.10.24-10.44.07:630][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 307.360 ms (total: 10.8 sec)
+[2025.10.24-10.44.07:717][553]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.44.07:717][553]LogContentValidation: Enabled validators:
+[2025.10.24-10.44.07:717][553]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.44.07:717][553]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.44.07:717][553]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.44.07:717][553]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.44.07:717][553]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.44.07:717][553]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.44.07:717][553]AssetCheck: /Game/levels/testLevel2 Validating asset
+[2025.10.24-10.44.09:540][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.24-10.44.09:551][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-10.44.09:639][640]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_11] ([1] browsable assets)...
+[2025.10.24-10.44.09:674][640]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_11.SM_Env_FarmLand_11]
+[2025.10.24-10.44.09:674][640]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_11]
+[2025.10.24-10.44.09:689][640]LogSavePackage: Moving output files for package: /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_11
+[2025.10.24-10.44.09:689][640]LogSavePackage: Moving '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SM_Env_FarmLand_1140FA513245E4345181AC6E980C080D23.tmp' to '../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Content/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_11.uasset'
+[2025.10.24-10.44.09:708][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.500 ms (total: 11.0 sec)
+[2025.10.24-10.44.09:781][640]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-10.44.09:781][640]LogContentValidation: Enabled validators:
+[2025.10.24-10.44.09:781][640]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-10.44.09:781][640]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-10.44.09:781][640]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-10.44.09:781][640]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-10.44.09:781][640]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-10.44.09:781][640]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-10.44.09:781][640]AssetCheck: /Game/Pandazole_Farm_Ranch_Pack/Meshs/SM_Env_FarmLand_11 Validating asset
+[2025.10.24-10.44.09:813][640]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/linda/Documents/GitHub/AppliedGameDesign_UE/AppliedGameDesign_UE/Saved/SourceControl/UncontrolledChangelists.json
