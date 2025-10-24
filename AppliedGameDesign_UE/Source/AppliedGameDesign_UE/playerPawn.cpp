@@ -90,7 +90,7 @@ void AplayerPawn::Tick(float DeltaTime)
 		FVector TargetLocation;
 		if (FMath::SegmentPlaneIntersection(worldLocation, worldLocation + worldDirection * 10000.f, GrabPlane, TargetLocation))
 		{
-			const float LiftOffset = 75.0f;  // Raise 150 units upwards
+			const float LiftOffset = 150.0f;  // Raise 150 units upwards
 			TargetLocation.Z += LiftOffset;
 
 
