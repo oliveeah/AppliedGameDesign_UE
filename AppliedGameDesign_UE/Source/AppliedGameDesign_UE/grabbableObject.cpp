@@ -22,8 +22,8 @@ AgrabbableObject::AgrabbableObject()
 	capsuleCollison = CreateDefaultSubobject<UCapsuleComponent>(TEXT("box collider"));
 	SetRootComponent(capsuleCollison);
 	capsuleCollison->SetSimulatePhysics(true);
-	capsuleCollison->SetLinearDamping(0.f);
-	capsuleCollison->SetAngularDamping(10.f);
+	//capsuleCollison->SetLinearDamping(0.f);
+	//capsuleCollison->SetAngularDamping(10.f);
 
 
 	mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
