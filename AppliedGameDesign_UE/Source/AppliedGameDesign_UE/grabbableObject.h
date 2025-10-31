@@ -9,6 +9,9 @@
 
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnIsFlyingChangedDelegate, bool, bisFlying);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPlaySFX_Delegate, USoundBase*, uniqueCry);
+
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API AgrabbableObject : public AActor
 {
@@ -65,12 +68,17 @@ public:
 	UPROPERTY(BlueprintAssignable, BlueprintCallable) FOnIsFlyingChangedDelegate onMyEvent;
 
 
+	UPROPERTY(BlueprintAssignable, BlueprintCallable) FOnPlaySFX_Delegate playSFX_Event;
+
+
 	UFUNCTION(BlueprintCallable) void getIsFlyingCallback();
+
+	UFUNCTION(BlueprintCallable) void playSFXCallback();
 
 	UPROPERTY(EditAnywhere, Category = "Audio") class USoundBase* uniqueCry;
 
 	UPROPERTY(VisibleAnywhere) bool grabbableIsOdd;
 
 	void set_grabbableIsOdd(bool _isOdd);
-	bool get_grabbableIsOdd();
+	bool get_grabbableIsOdd(); 
 };

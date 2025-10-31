@@ -41,7 +41,6 @@ AgrabbableObject::AgrabbableObject()
 	floorBox = CreateDefaultSubobject<UBoxComponent>(TEXT("FLOORBOX"));
 	floorBox->SetupAttachment(capsuleCollison);
 
-	
 }
 
 
@@ -100,6 +99,7 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 
 
 		getIsFlyingCallback();
+		playSFXCallback();
 
 		}
 	}
@@ -109,6 +109,15 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 void AgrabbableObject::getIsFlyingCallback()
 {
 	onMyEvent.Broadcast(isFlying);
+}
+
+void AgrabbableObject::playSFXCallback()
+{
+	if (uniqueCry)
+	{
+		playSFX_Event.Broadcast(uniqueCry);
+
+	}
 }
 
 void AgrabbableObject::set_grabbableIsOdd(bool _isOdd)
