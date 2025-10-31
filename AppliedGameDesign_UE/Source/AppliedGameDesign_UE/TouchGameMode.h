@@ -41,6 +41,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	bool checkIfLevelIsComplete();
 
+	UFUNCTION(BlueprintCallable)
+	bool checkIfOddIsFull();
+
+	UFUNCTION(BlueprintCallable)
+	bool checkIfEvenIsFull();
+
 	UPROPERTY(VisibleAnywhere)
 
 	bool levelIsComplete = false;

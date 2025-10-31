@@ -45,6 +45,16 @@ bool ATouchGameMode::checkIfLevelIsComplete()
 	return (oddIsFull && evenIsFull);
 }
 
+bool ATouchGameMode::checkIfOddIsFull()
+{
+	return oddIsFull;
+}
+
+bool ATouchGameMode::checkIfEvenIsFull()
+{
+	return evenIsFull;
+}
+
 void ATouchGameMode::BeginPlay()
 {
 	Super::BeginPlay();
