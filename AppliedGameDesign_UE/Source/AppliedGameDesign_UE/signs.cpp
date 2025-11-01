@@ -44,45 +44,45 @@ void Asigns::BeginPlay()
 void Asigns::signs_OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 
-	if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
-	{
-		//UE_LOG(LogTemp, Display, TEXT("is child"));
-		AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
-		
-		bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
+	//if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
+	//{
+	//	//UE_LOG(LogTemp, Display, TEXT("is child"));
+	//	AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
+	//	
+	//	bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
 
-		if (grabbable)
-		{	
-			if (isOdd && grabbableIsOdd || !isOdd && !grabbableIsOdd)
-			{
-				numberOfOverlappedActors++;
+	//	if (grabbable)
+	//	{	
+	//		if (isOdd && grabbableIsOdd || !isOdd && !grabbableIsOdd)
+	//		{
+	//			numberOfOverlappedActors++;
 
 
-			}
-		
-		}
-	}
-	if (numberOfOverlappedActors == numberOfActorsInSceneNeeded)
-	{
+	//		}
+	//	
+	//	}
+	//}
+	//if (numberOfOverlappedActors == numberOfActorsInSceneNeeded)
+	//{
 
-		ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
-		if (gameMode)
-		{
-			if (isOdd)
-			{
-				UE_LOG(LogTemp, Display, TEXT("odd requirement met"));
+	//	ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
+	//	if (gameMode)
+	//	{
+	//		if (isOdd)
+	//		{
+	//			UE_LOG(LogTemp, Display, TEXT("odd requirement met"));
 
-				gameMode->setIsOddFull(true);
-			}
-			else
-			{
-				UE_LOG(LogTemp, Display, TEXT("even requirement met"));
+	//			gameMode->setIsOddFull(true);
+	//		}
+	//		else
+	//		{
+	//			UE_LOG(LogTemp, Display, TEXT("even requirement met"));
 
-				gameMode->setIsEvenFull(true);
+	//			gameMode->setIsEvenFull(true);
 
-			}
-		}
-	}
+	//		}
+	//	}
+	//}
 
 
 }
@@ -91,40 +91,40 @@ void Asigns::signs_OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* 
 {
 
 
-	if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
-	{
-		AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
+	//if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
+	//{
+	//	AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
 
-		bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
+	//	bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
 
-		if (grabbable)
-		{
-			if (isOdd && grabbableIsOdd || !isOdd && !grabbableIsOdd)
-			{
-				numberOfOverlappedActors--;
-			}
+	//	if (grabbable)
+	//	{
+	//		if (isOdd && grabbableIsOdd || !isOdd && !grabbableIsOdd)
+	//		{
+	//			numberOfOverlappedActors--;
+	//		}
 
-		}
-	}
-	if (numberOfOverlappedActors != numberOfActorsInSceneNeeded)
-	{
-		ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
-		if (gameMode)
-		{
-			if (isOdd)
-			{
-				gameMode->setIsOddFull(false);
-				UE_LOG(LogTemp, Display, TEXT("odd requirement NOT met"));
+	//	}
+	//}
+	//if (numberOfOverlappedActors != numberOfActorsInSceneNeeded)
+	//{
+	//	ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
+	//	if (gameMode)
+	//	{
+	//		if (isOdd)
+	//		{
+	//			gameMode->setIsOddFull(false);
+	//			UE_LOG(LogTemp, Display, TEXT("odd requirement NOT met"));
 
-			}
-			else
-			{
-				gameMode->setIsEvenFull(false);
-				UE_LOG(LogTemp, Display, TEXT("even requirement NOT met"));
+	//		}
+	//		else
+	//		{
+	//			gameMode->setIsEvenFull(false);
+	//			UE_LOG(LogTemp, Display, TEXT("even requirement NOT met"));
 
-			}
-		}
-	}
+	//		}
+	//	}
+	//}
 }
 
 // Called every frame
@@ -145,6 +145,11 @@ void Asigns::setIsOdd(bool _isOdd)
 	isOdd = _isOdd;
 }
 
+bool Asigns::getIsOdd()
+{
+	return isOdd;
+}
+
 bool Asigns::checkIfBoxHasAllGrabbables()
 {
 	return false;
@@ -153,5 +158,54 @@ bool Asigns::checkIfBoxHasAllGrabbables()
 void Asigns::setNumberOfActorsNeeded(int numberNeeded)
 {
 	numberOfActorsInSceneNeeded = numberNeeded;
+}
+
+void Asigns::newCollision()
+{
+	numberOfOverlappedActors++;
+	if (numberOfOverlappedActors == numberOfActorsInSceneNeeded)
+	{
+		ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
+		if (gameMode)
+		{
+			if (isOdd)
+			{
+				UE_LOG(LogTemp, Display, TEXT("odd requirement met"));
+
+				gameMode->setIsOddFull(true);
+			}
+			else
+			{
+				UE_LOG(LogTemp, Display, TEXT("even requirement met"));
+
+				gameMode->setIsEvenFull(true);
+
+			}
+		}
+	}
+
+}
+
+void Asigns::removedCollision()
+{
+	numberOfOverlappedActors--;
+
+	ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
+	if (gameMode)
+	{
+		if (isOdd)
+		{
+			UE_LOG(LogTemp, Display, TEXT("odd requirement NOT met"));
+
+			gameMode->setIsOddFull(false);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Display, TEXT("even requirement NOT met"));
+
+			gameMode->setIsEvenFull(false);
+
+		}
+	}
 }
 

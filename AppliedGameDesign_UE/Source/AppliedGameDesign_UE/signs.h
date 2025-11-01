@@ -49,6 +49,8 @@ public:
 
 	virtual void setIsOdd(bool _isOdd);
 
+	virtual bool getIsOdd();
+
 	virtual bool checkIfBoxHasAllGrabbables();
 
 	UPROPERTY(VisibleAnywhere)
@@ -62,4 +64,7 @@ public:
 	int numberOfActorsInSceneNeeded;
 
 	virtual void setNumberOfActorsNeeded(int numberNeeded);
+
+	void newCollision();
+	void removedCollision();
 };

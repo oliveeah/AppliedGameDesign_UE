@@ -50,8 +50,8 @@ void AgrabbableObject::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	floorBox->OnComponentBeginOverlap.AddDynamic(this, &AgrabbableObject::OverlapBegin);
-	floorBox->OnComponentEndOverlap.AddDynamic(this, &AgrabbableObject::OverlapEnd);
+	capsuleCollison->OnComponentBeginOverlap.AddDynamic(this, &AgrabbableObject::OverlapBegin);
+	capsuleCollison->OnComponentEndOverlap.AddDynamic(this, &AgrabbableObject::OverlapEnd);
 
 
 }
@@ -78,13 +78,20 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 {
 	if (OtherActor)
 	{
-		if (OtherActor->ActorHasTag("floor"))
+		if (OtherActor->ActorHasTag("sign_box"))
 		{
-			isFlying = false;
-			UE_LOG(LogTemp, Warning, TEXT("NOT flying"));
+			UE_LOG(LogTemp, Warning, TEXT("collision"));
 
-
-			getIsFlyingCallback();
+			Asigns* overlappingSign = Cast<Asigns>(OtherActor);
+			if (overlappingSign)
+			{
+				bool isOverlappingSign_Odd = overlappingSign->getIsOdd();
+				if (isOverlappingSign_Odd == grabbableIsOdd)
+				{
+					overlappingSign->newCollision();
+				}
+			}
+			
 		}
 	}
 }
@@ -94,13 +101,20 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 {
 	if (OtherActor)
 	{
-		if (OtherActor->ActorHasTag("floor"))
+		if (OtherActor->ActorHasTag("sign_box"))
 		{
-			isFlying = true;
-			UE_LOG(LogTemp, Warning, TEXT("flying"));
 
-		getIsFlyingCallback();
-		playSFXCallback();
+			UE_LOG(LogTemp, Warning, TEXT("collision"));
+
+			Asigns* overlappingSign = Cast<Asigns>(OtherActor);
+			if (overlappingSign)
+			{
+				bool isOverlappingSign_Odd = overlappingSign->getIsOdd();
+				if (isOverlappingSign_Odd == grabbableIsOdd)
+				{
+					overlappingSign->removedCollision();
+				}
+			}
 
 		}
 	}
@@ -141,7 +155,7 @@ void AgrabbableObject::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPr
 
 			if (!groundedDoOnce) { //if not grounded
 				groundedDoOnce = true; //grounded now true, do once
-
+				
 				//isFlying = false;
 
 
