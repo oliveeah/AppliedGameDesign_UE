@@ -158,6 +158,14 @@ void AplayerPawn::interactCallbackHolding()
 
 				isHolding = true;
 
+				currentlyGrabbedObject = Cast<AgrabbableObject>(hitActor);
+				if (currentlyGrabbedObject)
+				{
+					currentlyGrabbedObject->setIsFlying(true);					
+					currentlyGrabbedObject->SetActorEnableCollision(false);
+
+				}
+
 		
 			
 			}
@@ -177,6 +185,17 @@ void AplayerPawn::interactCallbackRelease()
 	{
 		physicsHandle->ReleaseComponent();
 	}
+
+	if (currentlyGrabbedObject)
+	{
+		//currentlyGrabbedObject->setIsFlying(false);
+		currentlyGrabbedObject->SetActorEnableCollision(true);
+
+		currentlyGrabbedObject = nullptr;
+
+	}
+
+
 
 
 }

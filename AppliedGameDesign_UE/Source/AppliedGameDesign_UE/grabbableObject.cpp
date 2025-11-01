@@ -78,9 +78,10 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 {
 	if (OtherActor)
 	{
-		if (OtherActor->ActorHasTag(FName("floor")))
+		if (OtherActor->ActorHasTag("floor"))
 		{
 			isFlying = false;
+			UE_LOG(LogTemp, Warning, TEXT("NOT flying"));
 
 
 			getIsFlyingCallback();
@@ -93,10 +94,10 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 {
 	if (OtherActor)
 	{
-		if (OtherActor->ActorHasTag(FName("floor")))
+		if (OtherActor->ActorHasTag("floor"))
 		{
 			isFlying = true;
-
+			UE_LOG(LogTemp, Warning, TEXT("flying"));
 
 		getIsFlyingCallback();
 		playSFXCallback();
@@ -110,6 +111,7 @@ void AgrabbableObject::getIsFlyingCallback()
 {
 	onMyEvent.Broadcast(isFlying);
 }
+
 
 void AgrabbableObject::playSFXCallback()
 {
@@ -130,8 +132,62 @@ bool AgrabbableObject::get_grabbableIsOdd()
 	return grabbableIsOdd;
 }
 
+void AgrabbableObject::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
+{
+	Super::NotifyHit(MyComp, Other, OtherComp, bSelfMoved, HitLocation, HitNormal, NormalImpulse, Hit);
+
+		if (Other && Other->ActorHasTag("floor"))
+		{	
+
+			if (!groundedDoOnce) { //if not grounded
+				groundedDoOnce = true; //grounded now true, do once
+
+				//isFlying = false;
 
 
+				if(isFlying){
+					setIsFlying(false);
+				}
+
+			}
+		}
+	
+		//GetWorldTimerManager().ClearTimer(groundedTimerHandle);
+		GetWorldTimerManager().SetTimer(groundedTimerHandle, this, &AgrabbableObject::clearTimer, 0.35f, false);
+}
+
+void AgrabbableObject::clearTimer()
+{
+	
+
+	//UE_LOG(LogTemp, Warning, TEXT("reset grounded doonce"));
+	groundedDoOnce = false;
+	//UE_LOG(LogTemp, Warning, TEXT("///////////////////////////////////////////////////"));
+
+
+
+
+}
+
+
+
+void AgrabbableObject::setIsFlying(bool _isFlying)
+{
+	isFlying = _isFlying;
+
+	if (isFlying)
+	{
+		UE_LOG(LogTemp, Display, TEXT("is flying "));
+		getIsFlyingCallback();
+		playSFXCallback();
+
+	}
+	else
+	{
+		UE_LOG(LogTemp, Display, TEXT("not flying"));
+		getIsFlyingCallback();
+	}
+}
 
 
 

@@ -14,6 +14,7 @@ class USpringArmComponent;
 class UCameraComponent;
 class UInputAction;
 struct FInputActionValue;
+class AgrabbableObject;
 
 
 UCLASS()
@@ -82,5 +83,7 @@ public:
 	UPROPERTY()
 	 AActor* objGrabbed;
 
+
+	 AgrabbableObject* currentlyGrabbedObject;
 	
 };

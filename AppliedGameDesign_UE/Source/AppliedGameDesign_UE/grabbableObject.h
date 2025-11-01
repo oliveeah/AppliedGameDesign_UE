@@ -73,6 +73,7 @@ public:
 
 	UFUNCTION(BlueprintCallable) void getIsFlyingCallback();
 
+
 	UFUNCTION(BlueprintCallable) void playSFXCallback();
 
 	UPROPERTY(EditAnywhere, Category = "Audio") class USoundBase* uniqueCry;
@@ -81,4 +82,25 @@ public:
 
 	void set_grabbableIsOdd(bool _isOdd);
 	bool get_grabbableIsOdd(); 
+
+	virtual void NotifyHit(
+		UPrimitiveComponent* MyComp,
+		AActor* Other,
+		UPrimitiveComponent* OtherComp,
+		bool bSelfMoved,
+		FVector HitLocation,
+		FVector HitNormal,
+		FVector NormalImpulse,
+		const FHitResult& Hit
+	) override;
+
+	bool groundedDoOnce = false;
+
+	FTimerHandle groundedTimerHandle;
+
+	void clearTimer();
+
+	void setIsFlying(bool _isFlying);
+
+	//bool isGrounded = false;
 };
