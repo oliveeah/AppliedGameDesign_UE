@@ -9,6 +9,8 @@
 /**
  * 
  */
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnSignEvent, AActor*, SignActor);
+
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API ATouchGameMode : public AGameModeBase
 {
@@ -50,6 +52,12 @@ public:
 	UPROPERTY(VisibleAnywhere)
 
 	bool levelIsComplete = false;
+
+	UPROPERTY(BlueprintAssignable, Category = "Sign")
+	FOnSignEvent OnSignAdded;
+
+	UPROPERTY(BlueprintAssignable, Category = "Sign")
+	FOnSignEvent OnSignRemoved;
 
 //	ACameraActor* cameraActor;
 };

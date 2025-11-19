@@ -164,6 +164,8 @@ void Asigns::removedCollision(bool grabbableIsOdd, bool isAdding)
 
 void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
 {
+    ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
+
     if (_isGrabbableOdd == isOdd)
     {
         if (isAdding)
@@ -172,7 +174,8 @@ void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
             {
                 GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("broadcasting added collision"));
             }
-            onNewCollision.Broadcast();
+			gameMode->OnSignAdded.Broadcast(this);
+            //onNewCollision.Broadcast();
         }
         else
         {
@@ -180,7 +183,9 @@ void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
             {
                 GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("broadcasting removed collision"));
             }
-            onRemovedCollision.Broadcast();
+            gameMode->OnSignRemoved.Broadcast(this);
+
+           // onRemovedCollision.Broadcast();
         }
     }
 }
