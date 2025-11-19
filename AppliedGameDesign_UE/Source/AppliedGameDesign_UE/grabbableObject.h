@@ -102,5 +102,9 @@ public:
 
 	void setIsFlying(bool _isFlying);
 
+	FVector startLocation;
+	FRotator startRotation;
+
+
 	//bool isGrounded = false;
 };

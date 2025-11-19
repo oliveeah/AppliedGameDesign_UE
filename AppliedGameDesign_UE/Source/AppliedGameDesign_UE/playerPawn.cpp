@@ -161,7 +161,7 @@ void AplayerPawn::interactCallbackHolding()
 				currentlyGrabbedObject = Cast<AgrabbableObject>(hitActor);
 				if (currentlyGrabbedObject)
 				{
-					currentlyGrabbedObject->setIsFlying(true);					
+					currentlyGrabbedObject->setIsFlying(true);	
 					currentlyGrabbedObject->SetActorEnableCollision(false);
 
 				}

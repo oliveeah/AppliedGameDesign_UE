@@ -53,7 +53,8 @@ void AgrabbableObject::BeginPlay()
 	capsuleCollison->OnComponentBeginOverlap.AddDynamic(this, &AgrabbableObject::OverlapBegin);
 	capsuleCollison->OnComponentEndOverlap.AddDynamic(this, &AgrabbableObject::OverlapEnd);
 
-
+	startLocation = GetActorLocation();
+	startRotation = GetActorRotation();
 }
 
 // Called every frame
@@ -92,6 +93,11 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 				}
 			}
 			
+		}
+		else if (OtherActor->ActorHasTag("outerBounds"))
+		{
+			SetActorLocationAndRotation(startLocation, startRotation, /*bSweep=*/false, /*OutSweep=*/nullptr, ETeleportType::ResetPhysics);
+			capsuleCollison->SetPhysicsLinearVelocity(FVector::ZeroVector);
 		}
 	}
 }
