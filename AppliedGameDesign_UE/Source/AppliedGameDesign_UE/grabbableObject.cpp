@@ -89,7 +89,7 @@ void AgrabbableObject::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 				bool isOverlappingSign_Odd = overlappingSign->getIsOdd();
 				if (isOverlappingSign_Odd == grabbableIsOdd)
 				{
-					overlappingSign->newCollision();
+					overlappingSign->newCollision(grabbableIsOdd, true);
 				}
 			}
 			
@@ -118,7 +118,7 @@ void AgrabbableObject::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 				bool isOverlappingSign_Odd = overlappingSign->getIsOdd();
 				if (isOverlappingSign_Odd == grabbableIsOdd)
 				{
-					overlappingSign->removedCollision();
+					overlappingSign->removedCollision(grabbableIsOdd, false);
 				}
 			}
 

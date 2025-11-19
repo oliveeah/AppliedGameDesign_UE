@@ -1,70 +1,92 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "signs.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnNewCollision);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnRemovedCollision);
+
+// Forward declarations for engine component classes so this header compiles cleanly
+class USceneComponent;
+class UStaticMeshComponent;
+class UTextRenderComponent;
+class UBoxComponent;
+
 UCLASS()
 class APPLIEDGAMEDESIGN_UE_API Asigns : public AActor
 {
-	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	Asigns();
+    GENERATED_BODY()
+
+public:
+    Asigns();
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+    virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere, Category = "Components")
-	USceneComponent* sceneRoot;
+    // Components
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    USceneComponent* sceneRoot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components")
-	UStaticMeshComponent* staticMesh;
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    UStaticMeshComponent* staticMesh;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
-	class UTextRenderComponent* textRender;
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    UTextRenderComponent* textRender;
 
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    UTextRenderComponent* textRenderBackDrop;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
-	class UTextRenderComponent* textRenderBackDrop;
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    UBoxComponent* boxCollider;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Math")
-	class UBoxComponent* boxCollider;
+    UFUNCTION()
+    void signs_OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+        UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
+        const FHitResult& SweepResult);
 
-	UFUNCTION()
-	 void signs_OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+    UFUNCTION()
+    void signs_OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+        UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	UFUNCTION()
-	 void signs_OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+public:
+    virtual void Tick(float DeltaTime) override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+    // Public API
+    UFUNCTION(BlueprintCallable, Category = "Sign")
+    void setText(FText text);
 
-	virtual void setText(FText text);
+    UFUNCTION(BlueprintCallable, Category = "Sign")
+    void setIsOdd(bool _isOdd);
 
-	virtual void setIsOdd(bool _isOdd);
+    UFUNCTION(BlueprintCallable, Category = "Sign")
+    bool getIsOdd() const;
 
-	virtual bool getIsOdd();
+    UFUNCTION(BlueprintCallable, Category = "Sign")
+    void setNumberOfActorsNeeded(int numberNeeded);
 
-	virtual bool checkIfBoxHasAllGrabbables();
+    void newCollision(bool isGrabbableOdd, bool isAdding);
+    void removedCollision(bool isGrabbableOdd, bool isAdding);
 
-	UPROPERTY(VisibleAnywhere)
-	bool isOdd;
+    UPROPERTY(BlueprintAssignable, Category = "Delegates")
+    FOnNewCollision onNewCollision;
 
+    UPROPERTY(BlueprintAssignable, Category = "Delegates")
+    FOnRemovedCollision onRemovedCollision;
 
-	UPROPERTY(VisibleAnywhere)
-	int numberOfOverlappedActors;
+    // Optional: let listeners sync current state
+    UFUNCTION(BlueprintCallable, Category = "Sign")
+    bool GetIsFull() const;
 
-	UPROPERTY(VisibleAnywhere)
-	int numberOfActorsInSceneNeeded;
+private:
+    void checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding);
 
-	virtual void setNumberOfActorsNeeded(int numberNeeded);
+    // State (single declarations only — avoids duplicate-definition errors)
+    // Order here matches the constructor initializer order to avoid warnings.
+    int32 numberOfOverlappedActors;
+    int32 numberOfActorsInSceneNeeded;
+    bool isOdd;
 
-	void newCollision();
-	void removedCollision();
+    // Tracks whether the sign currently meets the required amount (true = "full")
+    bool bIsFull;
 };

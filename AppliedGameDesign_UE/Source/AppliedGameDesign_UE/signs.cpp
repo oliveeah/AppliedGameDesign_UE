@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "signs.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/TextRenderComponent.h"
@@ -8,204 +5,182 @@
 #include "grabbableObject.h"
 #include "TouchGameMode.h"
 #include <Kismet/GameplayStatics.h>
+#include "Engine/Engine.h"
 
 // Sets default values
 Asigns::Asigns()
+    : numberOfOverlappedActors(0)
+    , numberOfActorsInSceneNeeded(0)
+    , isOdd(false)
+    , bIsFull(false)
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+    PrimaryActorTick.bCanEverTick = true;
 
-	sceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("rootComponent"));
-	SetRootComponent(sceneRoot);
+    sceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("rootComponent"));
+    SetRootComponent(sceneRoot);
 
-	staticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("staticMesh"));
-	staticMesh->SetupAttachment(sceneRoot);
+    staticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("staticMesh"));
+    staticMesh->SetupAttachment(sceneRoot);
 
-	textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
-	textRender->SetupAttachment(sceneRoot);
+    textRender = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRender"));
+    textRender->SetupAttachment(sceneRoot);
 
-	textRenderBackDrop = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRenderBackDrop"));
-	textRenderBackDrop->SetupAttachment(sceneRoot);
+    textRenderBackDrop = CreateDefaultSubobject<UTextRenderComponent>(TEXT("textRenderBackDrop"));
+    textRenderBackDrop->SetupAttachment(sceneRoot);
 
-	boxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("boxCollision"));
-	boxCollider->SetupAttachment(sceneRoot);
-
+    boxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("boxCollision"));
+    boxCollider->SetupAttachment(sceneRoot);
 }
 
-// Called when the game starts or when spawned
 void Asigns::BeginPlay()
 {
-	Super::BeginPlay();
-	
-	boxCollider->OnComponentBeginOverlap.AddDynamic(this, &Asigns::signs_OverlapBegin);
-	boxCollider->OnComponentEndOverlap.AddDynamic(this, &Asigns::signs_OverlapEnd);
+    Super::BeginPlay();
+
+    boxCollider->OnComponentBeginOverlap.AddDynamic(this, &Asigns::signs_OverlapBegin);
+    boxCollider->OnComponentEndOverlap.AddDynamic(this, &Asigns::signs_OverlapEnd);
+
+    UE_LOG(LogTemp, Display, TEXT("Asigns::BeginPlay: initial count=%d needed=%d isOdd=%d bIsFull=%d"),
+        numberOfOverlappedActors, numberOfActorsInSceneNeeded, (int)isOdd, (int)bIsFull);
 }
 
-void Asigns::signs_OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void Asigns::signs_OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+    UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
+    const FHitResult& SweepResult)
 {
-
-	//if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
-	//{
-	//	//UE_LOG(LogTemp, Display, TEXT("is child"));
-	//	AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
-	//	
-	//	bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
-
-	//	if (grabbable)
-	//	{	
-	//		if (isOdd && grabbableIsOdd || !isOdd && !grabbableIsOdd)
-	//		{
-	//			numberOfOverlappedActors++;
-
-
-	//		}
-	//	
-	//	}
-	//}
-	//if (numberOfOverlappedActors == numberOfActorsInSceneNeeded)
-	//{
-
-	//	ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
-	//	if (gameMode)
-	//	{
-	//		if (isOdd)
-	//		{
-	//			UE_LOG(LogTemp, Display, TEXT("odd requirement met"));
-
-	//			gameMode->setIsOddFull(true);
-	//		}
-	//		else
-	//		{
-	//			UE_LOG(LogTemp, Display, TEXT("even requirement met"));
-
-	//			gameMode->setIsEvenFull(true);
-
-	//		}
-	//	}
-	//}
-
-
+    // Kept empty because AgrabbableObject calls newCollision directly.
 }
 
-void Asigns::signs_OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+void Asigns::signs_OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+    UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-
-
-	//if (OtherActor->GetClass()->IsChildOf(AgrabbableObject::StaticClass()))
-	//{
-	//	AgrabbableObject* grabbable = Cast<AgrabbableObject>(OtherActor);
-
-	//	bool grabbableIsOdd = grabbable->get_grabbableIsOdd();
-
-	//	if (grabbable)
-	//	{
-	//		if (isOdd && grabbableIsOdd || !isOdd && !grabbableIsOdd)
-	//		{
-	//			numberOfOverlappedActors--;
-	//		}
-
-	//	}
-	//}
-	//if (numberOfOverlappedActors != numberOfActorsInSceneNeeded)
-	//{
-	//	ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
-	//	if (gameMode)
-	//	{
-	//		if (isOdd)
-	//		{
-	//			gameMode->setIsOddFull(false);
-	//			UE_LOG(LogTemp, Display, TEXT("odd requirement NOT met"));
-
-	//		}
-	//		else
-	//		{
-	//			gameMode->setIsEvenFull(false);
-	//			UE_LOG(LogTemp, Display, TEXT("even requirement NOT met"));
-
-	//		}
-	//	}
-	//}
+    // Kept empty because AgrabbableObject calls removedCollision directly.
 }
 
-// Called every frame
 void Asigns::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
-
+    Super::Tick(DeltaTime);
 }
 
 void Asigns::setText(FText text)
 {
-	textRender->SetText(text);
-	textRenderBackDrop->SetText(text);
+    textRender->SetText(text);
+    textRenderBackDrop->SetText(text);
 }
 
 void Asigns::setIsOdd(bool _isOdd)
 {
-	isOdd = _isOdd;
+    isOdd = _isOdd;
 }
 
-bool Asigns::getIsOdd()
+bool Asigns::getIsOdd() const
 {
-	return isOdd;
+    return isOdd;
 }
 
-bool Asigns::checkIfBoxHasAllGrabbables()
+bool Asigns::GetIsFull() const
 {
-	return false;
+    return bIsFull;
 }
 
 void Asigns::setNumberOfActorsNeeded(int numberNeeded)
 {
-	numberOfActorsInSceneNeeded = numberNeeded;
+    numberOfActorsInSceneNeeded = numberNeeded;
+    UE_LOG(LogTemp, Display, TEXT("Asigns::setNumberOfActorsNeeded: sign=%s needed=%d"), *GetName(), numberOfActorsInSceneNeeded);
 }
 
-void Asigns::newCollision()
+void Asigns::newCollision(bool grabbableIsOdd, bool isAdding)
 {
-	numberOfOverlappedActors++;
-	if (numberOfOverlappedActors == numberOfActorsInSceneNeeded)
-	{
-		ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
-		if (gameMode)
-		{
-			if (isOdd)
-			{
-				UE_LOG(LogTemp, Display, TEXT("odd requirement met"));
+    // increment and clamp
+    numberOfOverlappedActors = FMath::Max(0, numberOfOverlappedActors + 1);
 
-				gameMode->setIsOddFull(true);
-			}
-			else
-			{
-				UE_LOG(LogTemp, Display, TEXT("even requirement met"));
+    UE_LOG(LogTemp, Display, TEXT("Asigns::newCollision: sign=%s isOdd=%d grabbableIsOdd=%d count=%d needed=%d"),
+        *GetName(), (int)isOdd, (int)grabbableIsOdd, numberOfOverlappedActors, numberOfActorsInSceneNeeded);
 
-				gameMode->setIsEvenFull(true);
+    // Broadcast every time a matching grabbable is added
+    // checkIfProgressShouldBeUpdated already checks the parity (_isGrabbableOdd == isOdd)
+    checkIfProgressShouldBeUpdated(grabbableIsOdd, true);
 
-			}
-		}
-	}
+    // Keep the existing "full" tracking for GameMode and one-time full transition
+    if (numberOfActorsInSceneNeeded > 0 && numberOfOverlappedActors >= numberOfActorsInSceneNeeded && !bIsFull)
+    {
+        bIsFull = true;
+        UE_LOG(LogTemp, Display, TEXT("Asigns::newCollision: sign=%s reached full"), *GetName());
 
+        ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
+        if (gameMode)
+        {
+            if (isOdd)
+            {
+                gameMode->setIsOddFull(true);
+            }
+            else
+            {
+                gameMode->setIsEvenFull(true);
+            }
+        }
+    }
+    else
+    {
+        UE_LOG(LogTemp, Verbose, TEXT("Asigns::newCollision: not yet full or already full (bIsFull=%d)"), (int)bIsFull);
+    }
 }
 
-void Asigns::removedCollision()
+void Asigns::removedCollision(bool grabbableIsOdd, bool isAdding)
 {
-	numberOfOverlappedActors--;
+    // decrement and clamp to >= 0
+    numberOfOverlappedActors = FMath::Max(0, numberOfOverlappedActors - 1);
 
-	ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
-	if (gameMode)
-	{
-		if (isOdd)
-		{
-			UE_LOG(LogTemp, Display, TEXT("odd requirement NOT met"));
+    UE_LOG(LogTemp, Display, TEXT("Asigns::removedCollision: sign=%s isOdd=%d grabbableIsOdd=%d count=%d needed=%d"),
+        *GetName(), (int)isOdd, (int)grabbableIsOdd, numberOfOverlappedActors, numberOfActorsInSceneNeeded);
 
-			gameMode->setIsOddFull(false);
-		}
-		else
-		{
-			UE_LOG(LogTemp, Display, TEXT("even requirement NOT met"));
+    // Broadcast every time a matching grabbable is removed
+    // Again, checkIfProgressShouldBeUpdated will only actually broadcast when parity matches.
+    checkIfProgressShouldBeUpdated(grabbableIsOdd, false);
 
-			gameMode->setIsEvenFull(false);
-
-		}
-	}
+    // If we were full and fell below the threshold, clear the full state and update GameMode
+    if (bIsFull && numberOfOverlappedActors < numberOfActorsInSceneNeeded)
+    {
+        bIsFull = false;
+        ATouchGameMode* gameMode = Cast<ATouchGameMode>(UGameplayStatics::GetGameMode(this));
+        if (gameMode)
+        {
+            if (isOdd)
+            {
+                UE_LOG(LogTemp, Display, TEXT("Asigns::removedCollision: odd requirement NOT met"));
+                gameMode->setIsOddFull(false);
+            }
+            else
+            {
+                UE_LOG(LogTemp, Display, TEXT("Asigns::removedCollision: even requirement NOT met"));
+                gameMode->setIsEvenFull(false);
+            }
+        }
+    }
+    else
+    {
+        UE_LOG(LogTemp, Verbose, TEXT("Asigns::removedCollision: still not below threshold or wasn't full (bIsFull=%d)"), (int)bIsFull);
+    }
 }
 
+void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
+{
+    if (_isGrabbableOdd == isOdd)
+    {
+        if (isAdding)
+        {
+            if (GEngine)
+            {
+                GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("broadcasting added collision"));
+            }
+            onNewCollision.Broadcast();
+        }
+        else
+        {
+            if (GEngine)
+            {
+                GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("broadcasting removed collision"));
+            }
+            onRemovedCollision.Broadcast();
+        }
+    }
+}
