@@ -59,5 +59,7 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Sign")
 	FOnSignEvent OnSignRemoved;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	 int32 numberOfGrabbableObjects;
 //	ACameraActor* cameraActor;
 };

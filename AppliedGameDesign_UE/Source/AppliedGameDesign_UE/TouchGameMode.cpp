@@ -72,7 +72,7 @@ void ATouchGameMode::calculateRandomNumbers()
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AgrabbableObject::StaticClass(), FoundObjects);
 
 	UE_LOG(LogTemp, Display, TEXT(" number of found objects: %d"), FoundObjects.Num());
-
+	numberOfGrabbableObjects = FoundObjects.Num();
 	int32 numOfGrabbableObjectsInScene = FoundObjects.Num();
 
 	TSet<int32> randomNumberTSet;
