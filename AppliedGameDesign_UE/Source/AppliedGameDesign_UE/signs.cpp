@@ -174,6 +174,8 @@ void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
             {
                 GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("broadcasting added collision"));
             }
+            UE_LOG(LogTemp, Display, TEXT("Asigns::checkIfProgressShouldBeUpdated sign=%s grabbableIsOdd=%d isAdding=%d count=%d needed=%d"),
+                *GetName(), (int)_isGrabbableOdd, (int)isAdding, numberOfOverlappedActors, numberOfActorsInSceneNeeded);
 			gameMode->OnSignAdded.Broadcast(this);
             //onNewCollision.Broadcast();
         }
@@ -183,6 +185,8 @@ void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
             {
                 GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("broadcasting removed collision"));
             }
+            UE_LOG(LogTemp, Display, TEXT("Asigns::checkIfProgressShouldBeUpdated sign=%s grabbableIsOdd=%d isAdding=%d count=%d needed=%d"),
+                *GetName(), (int)_isGrabbableOdd, (int)isAdding, numberOfOverlappedActors, numberOfActorsInSceneNeeded);
             gameMode->OnSignRemoved.Broadcast(this);
 
            // onRemovedCollision.Broadcast();
