@@ -5,6 +5,7 @@
 			"AppliedGameDesign_UE.init.gen.cpp.obj",
 			"grabbableObject.gen.cpp.obj",
 			"grabbableObject_AC.gen.cpp.obj",
+			"MyGameStateBase.gen.cpp.obj",
 			"MyPlayerController.gen.cpp.obj",
 			"placementSlot.gen.cpp.obj",
 			"playerPawn.gen.cpp.obj",
