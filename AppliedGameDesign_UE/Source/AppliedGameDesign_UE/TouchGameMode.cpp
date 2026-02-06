@@ -41,8 +41,19 @@ void ATouchGameMode::setIsEvenFull(bool _isEvenFull)
 bool ATouchGameMode::checkIfLevelIsComplete()
 {
 	UE_LOG(LogTemp, Display, TEXT("checkIFLevelIsComplete CALLED"));
-	levelIsComplete = true;
-	return (oddIsFull && evenIsFull);
+	if (oddIsFull && evenIsFull)
+		
+	{
+		UE_LOG(LogTemp, Display, TEXT("LEVEL IS COMPLETE"));
+		levelIsComplete = true;
+
+	}
+	else
+	{
+		levelIsComplete = false;
+	}
+	return levelIsComplete;
+	//return (oddIsFull && evenIsFull);
 }
 
 bool ATouchGameMode::checkIfOddIsFull()

@@ -177,6 +177,33 @@ void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
             UE_LOG(LogTemp, Display, TEXT("Asigns::checkIfProgressShouldBeUpdated sign=%s grabbableIsOdd=%d isAdding=%d count=%d needed=%d"),
                 *GetName(), (int)_isGrabbableOdd, (int)isAdding, numberOfOverlappedActors, numberOfActorsInSceneNeeded);
 			gameMode->OnSignAdded.Broadcast(this);
+
+            if (numberOfActorsInSceneNeeded > 0 && numberOfOverlappedActors >= numberOfActorsInSceneNeeded)
+            {
+                if (isOdd)
+                {
+                    gameMode->setIsOddFull(true);
+                    UE_LOG(LogTemp, Display, TEXT("odd is full from sign"));
+                }
+                else
+                {
+                    gameMode->setIsEvenFull(true);
+                    UE_LOG(LogTemp, Display, TEXT("even is full from sign"));
+                }
+            }
+            else
+            {
+                if (isOdd)
+                {
+                    gameMode->setIsOddFull(false);
+                    UE_LOG(LogTemp, Display, TEXT("odd is NOT full from sign"));
+                }
+                else
+                {
+                    gameMode->setIsEvenFull(false);
+                    UE_LOG(LogTemp, Display, TEXT("even is NOT full from sign"));
+                }
+            }
             //onNewCollision.Broadcast();
         }
         else
@@ -190,6 +217,8 @@ void Asigns::checkIfProgressShouldBeUpdated(bool _isGrabbableOdd, bool isAdding)
             gameMode->OnSignRemoved.Broadcast(this);
 
            // onRemovedCollision.Broadcast();
+
         }
+
     }
 }
